@@ -18,27 +18,6 @@ Getting started
 Sections
 ========
 
-.. toctree::
-   :maxdepth: 2
-
-   userinterface/index
-
-.. toctree::
-   :maxdepth: 2
-
-   observation/index
-
-.. toctree::
-   :maxdepth: 2
-
-   comparison/index
-
-
-
-
-Manual toc
-==========
-
 - User interface
     - User interface basics (explorer panels, browser panel, full screen)
     - Changing the language of the user interface.
@@ -46,7 +25,6 @@ Manual toc
     - Command line options.
     - Workspaces.
     - Keyboard shortcuts.
-    - Control from other applications. (WM_COPYDATA).
 
 - Observation 
     - Loading videos (videos, images, image sequences)
@@ -65,7 +43,7 @@ Manual toc
     - Synchronization mechanisms (time origin, time independent).
     - Joint controls (navigation).
     - Superposition.
-    - Linked speed
+    - Linked speed sliders.
 
 - Annotation
     - Time origin
@@ -101,6 +79,7 @@ Manual toc
     - Recording (compressed/uncompressed, display fps). 
     - Recording modes (+ fps replacement).
     - Output file naming.
+    - External trigger (audio & WM_COPYDATA)
     - Recording automation. (duration + command line)
     - Replay folder observer.
 
