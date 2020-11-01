@@ -19,7 +19,7 @@ This project is an effort to update the documentation to integrate all the chang
 
 Contact
 -------
-Get in touch here: asso@kinovea.org
+Get in touch here: joan@kinovea.org
 
 Plans
 -----
