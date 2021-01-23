@@ -1,5 +1,5 @@
 
-Capture frame rate
+Capture framerate
 ==================
 
 test

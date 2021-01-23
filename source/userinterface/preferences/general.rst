@@ -15,7 +15,7 @@ The following languages are supported: Arabic, Bulgarian, Catalan, Chinese, Czec
 Italian, Japanese, Korean, Lithuanian, Macedonian, 
 Norwegian, Polish, Portuguese, Romanian, Russian, Serbian Latin, Serbian Cyrillic, Spanish, Swedish, Turkish.
 
-The translations are community contributed. If you would like to contribute a translation please contact the project.
+The translations are contributed by the community. If you would like to contribute a translation please get in touch with the project.
 
 Number of files in history
 **************************
@@ -26,8 +26,12 @@ Allow multiple instances of Kinovea
 When this checkbox is checked it is possible to run multiple Kinovea at the same time. This can be used to record more than two cameras or play more than two videos at the same time. 
 Each instance is identified by a name or a number. 
 
-*See also Running multiple instances of Kinovea.*
+.. note:: Synchronization options do not work across different instances.
+
 
 Instances have their own preferences
 ************************************
-When this checkbox is checked each instance of Kinovea will maintain its own preferences. This option is only available in the first instance started.
+When this checkbox is checked each instance of Kinovea will maintain its own preferences, independently of all other instances. 
+This option is only available in the first instance started.
+
+.. seealso:: :doc:`../instances`
