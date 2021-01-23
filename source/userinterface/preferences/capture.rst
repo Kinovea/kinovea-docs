@@ -2,10 +2,91 @@
 Capture
 =======
 
-The Kinovea preferences contain settings to control how Kinovea behaves. 
+General
+-------
+.. image:: /images/preferences/capture_general.png
 
-The various sections are available by clicking on the buttons at the top of the dialog. Each section may contain multiple tabs with.
+Record uncompressed Video
+*************************
 
-.. image:: /images/preferences/general_general.png
+Display framerate
+*****************
+
+Image format
+************
+
+Video format
+************
+
+Uncompressed video format
+*************************
+
+Default annotations file
+************************
+
+Memory
+------
+.. image:: /images/preferences/capture_memory.png
+
+Memory allocated for delay buffers
+**********************************
+
+Recording
+---------
+.. image:: /images/preferences/capture_recording.png
+
+Recording mode and delay
+************************
+
+Camera
+^^^^^^
+
+Delayed
+^^^^^^^
+
+Retroactive
+^^^^^^^^^^^
+
+High speed cameras
+******************
+
+Framerate replacement threshold
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Replacement framerate
+^^^^^^^^^^^^^^^^^^^^^
+
+
+Image naming
+------------
+.. image:: /images/preferences/capture_imagenaming.png
+
+.. image:: /images/preferences/capture_contextvariables.png
+
+Video naming
+------------
+.. image:: /images/preferences/capture_videonaming.png
+
+Automation
+----------
+.. image:: /images/preferences/capture_automation.png
+
+Enable audio trigger
+********************
+
+Input device
+************
+
+Trigger threshold
+*****************
+
+Stop recording by duration
+**************************
+
+Post recording command
+**********************
+
+Ignore file overwrite warning
+*****************************
 
 

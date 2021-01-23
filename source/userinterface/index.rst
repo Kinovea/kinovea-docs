@@ -6,7 +6,6 @@ User interface
    :maxdepth: 1
 
    basics
-   language
    instances
    workspaces
    preferences

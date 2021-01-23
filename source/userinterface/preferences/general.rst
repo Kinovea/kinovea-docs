@@ -2,10 +2,9 @@
 General
 =======
 
-.. image:: /images/preferences/general_general.png
-
 General 
 -------
+.. image:: /images/preferences/general_general.png
 
 Language
 ********

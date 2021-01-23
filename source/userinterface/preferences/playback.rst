@@ -51,7 +51,7 @@ The other options will change the height of the video to match a 4:3 or 16:9 asp
 Always deinterlace when opening a new video
 *******************************************
 
-This options forces the deinterlacing mechanism to be enabled for all opened files. It is the same as manually configuring the menu Image > Deinterlace.
+This option forces the deinterlacing mechanism to be enabled for all opened files. It is the same as manually configuring the menu Image > Deinterlace.
 
 
 Default annotations file
@@ -61,7 +61,7 @@ This option lets you point to a .KVA file containing video annotations that will
 
 Other annotations files can still be loaded on top of the video by using the sidecar file method or through the menu File > Load annotations. They will be merged with each others.
 
-See also: Annotation > KVA file format.
+See also: Annotation > KVA files.
 
 
 Memory
@@ -88,7 +88,7 @@ Units
 
 Time
 ****
-This option controls the format of all time related information displayed in the program [#f1]_. It is used in the timeline position and duration, in chronometers and clocks, and in exported files.
+This option controls the format of all time-related information displayed in the program [#f1]_. It is used in the timeline position and duration, in chronometers and clocks, and in exported files.
 
 The following options are available:
 
@@ -104,7 +104,7 @@ Hundredth of a minute               542               Hundredths of a minute
 [h:][mm:]ss.xx[x] + Frame number    1:10.48 (1762)    
 ================================    ==============   =========================
 
-When using textual timecode if the real time framerate is higher than 100 fps, thousandths of seconds are displayed. Hours and minutes are only displayed if necessary.
+When using textual timecode if the real time framerate is higher than 100 fps, thousandths of seconds are displayed. Hours and minutes are only displayed when necessary.
 
 .. note:: The time starts at the **time origin**. The time origin can be configured to be anywhere in the video.
    Video locations that are before the time origin are displayed as negative numbers.
@@ -200,6 +200,11 @@ The built-in length units are: millimeters, centimeters, meters, inches, feet an
 This custom length unit will appear at the end of the length unit drop down in the spatial calibration dialogs.
 
 The scale factor between pixels and this unit is defined during the calibration process in the same manner as for other length units.
+
+.. figure:: /images/preferences/playback_units_custom.png
+   :align: center
+   
+   Using the custom length unit to add micrometers to the list of built-in length units.
 
 
 .. rubric:: Footnotes
