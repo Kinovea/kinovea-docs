@@ -43,9 +43,9 @@ Manual toc
     - User interface basics (explorer panels, browser panel, full screen)
     - Changing the language of the user interface.
     - Running multiple instances of Kinovea (+ preferences)
-    - Command line options.
     - Workspaces.
-    - Keyboard shortcuts.
+    - Preferences.
+    - Command line options.
     - Control from other applications. (WM_COPYDATA).
 
 - Observation 

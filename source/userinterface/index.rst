@@ -8,8 +8,8 @@ User interface
    basics
    language
    instances
-   command_line
    workspaces
-   keyboard
+   preferences
+   command_line
    copydata
 
