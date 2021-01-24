@@ -4,7 +4,7 @@ Preferences
 
 The Kinovea preferences contain settings to control how Kinovea behaves. 
 
-The various sections are available by clicking on the buttons at the top of the dialog. Each section may contain multiple tabs.
+The various sections are reached by clicking on the buttons at the top of the dialog. Each section may contain multiple tabs.
 
 .. image:: /images/preferences/sections.png
 

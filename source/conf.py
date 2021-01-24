@@ -32,6 +32,7 @@ release = '0.9.4'
 # ones.
 extensions = [
     "sphinx_rtd_theme",
+    'rst2pdf.pdfbuilder',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -56,3 +57,4 @@ html_theme = "sphinx_rtd_theme"
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+pdf_documents = [('index', u'kinoveadoc', u'Kinovea documentation', u'Kinovea community'),]

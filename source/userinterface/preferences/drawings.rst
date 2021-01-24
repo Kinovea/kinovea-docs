@@ -14,8 +14,8 @@ This option controls whether drawings are visible or not when the video is in co
 Enable coordinates filtering
 ****************************
 
-This option controls the filtering of spatial coordinates in image space for trajectories and tracked drawings. 
-Due to the digitization process the raw position coordinates are noisy and the resulting quantities, especially derivatives, are less accurate than they could be. 
+This option controls the filtering of spatial coordinates for trajectories and tracked drawings. 
+Due to the digitization process the raw coordinates are noisy and the resulting quantities, especially derivatives like speed and acceleration, are less accurate than they could be. 
 Carefully filtering the coordinates remove a lot of this noise and provide more accurate measurements.
 
 You can uncheck this option if you would rather export the raw coordinates and perform the filtering yourself.

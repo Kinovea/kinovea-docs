@@ -43,7 +43,11 @@ Default aspect ratio
 
 This option defines the default image aspect ratio configured any time a video file is opened. It is the same as manually configuring the menu Image > Image format.
 
-The options are *Auto detection*, *Force 4:3* and *Force 16:9*.
+The options are:
+
+- Auto detection
+- Force 4:3
+- Force 16:9
 
 The *Auto detection* option uses the image size and the pixel aspect ratio found in the video file metadata to calculate the image height. 
 The other options will change the height of the video to match a 4:3 or 16:9 aspect ratio.
@@ -72,7 +76,7 @@ Cache memory allocated to each playback screen
 **********************************************
 
 The cache memory is used to load the video content in system memory and speed up navigation.
-When the active video section (working zone) fits in the cache memory it will be automatically loaded into this cache.
+When the active video section (working zone) fits in the cache memory it will be automatically loaded into this cache. If the video section does not fit in the cache the memory will not be consumed.
 
 When using side by side comparison each playback screen can use at most half the memory amount configured.
 
@@ -197,7 +201,7 @@ Custom length unit
 This option defines the name and symbol for an additional length unit. 
 The built-in length units are: millimeters, centimeters, meters, inches, feet and yards.
 
-This custom length unit will appear at the end of the length unit drop down in the spatial calibration dialogs.
+This custom length unit will appear at the bottom of the length unit drop down in the spatial calibration dialogs.
 
 The scale factor between pixels and this unit is defined during the calibration process in the same manner as for other length units.
 
