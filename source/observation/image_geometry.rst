@@ -1,5 +1,13 @@
 
-Image geometry
-==============
+Image transformation
+====================
 
-test
+TODO:
+
+- image rotation.
+- image aspect ratio.
+- image mirroring.
+- deinterlacing.
+- debayering.
+- zoom.
+- magnification tool.

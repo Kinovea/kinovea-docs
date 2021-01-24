@@ -1,5 +1,0 @@
-
-Zoom and magnification
-======================
-
-test

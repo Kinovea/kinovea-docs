@@ -2,4 +2,8 @@
 Reverse function
 ================
 
-test
+TODO:
+
+- menu Video > Reverse.
+- Condition for usage.
+- How to return to normal playback.
