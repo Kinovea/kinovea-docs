@@ -20,7 +20,7 @@ Carefully filtering the coordinates remove a lot of this noise and provide more 
 
 You can uncheck this option if you would rather export the raw coordinates and perform the filtering yourself.
 
-.. tip:: For more in depth information on the exact filtering approach and algorithms used, refer to the About page of the Linear kinematics window.
+.. tip:: For more in-depth information on the exact filtering approach and algorithms used, refer to the About page of the Linear kinematics window.
 
 
 Enable custom tools debug mode
