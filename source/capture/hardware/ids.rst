@@ -2,4 +2,5 @@
 IDS cameras
 ===========
 
-todo
+- Reference web site.
+- Configuration dialog.

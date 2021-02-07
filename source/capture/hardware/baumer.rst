@@ -2,4 +2,5 @@
 Baumer cameras
 ==============
 
-todo
+- Reference web site.
+- Configuration dialog.

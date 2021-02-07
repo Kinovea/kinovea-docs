@@ -2,4 +2,5 @@
 Daheng Imaging cameras
 ======================
 
-todo
+- Reference web site.
+- Configuration dialog.

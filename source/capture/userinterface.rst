@@ -1,9 +1,7 @@
 Capture screen user interface
 =============================
 
-- general description of the interface: name each area and describe what each button does.
-
-The capture screen is divided in several areas with information and controls.
+The capture screen is divided in the following areas:
 
 .. image:: /images/capture/ui.png
 
@@ -23,15 +21,14 @@ The infobar contains information about the connected camera and streaming perfor
 
 .. image:: /images/capture/infobar1.png
 
-The first part of the infobar displays the alias of the camera and the current image size, framerate configuration and image format. 
-
-The framerate indicated here is the configured framerate, the actual framerate sent by the camera might be different for various reasons like low light levels or incompatible image size.
-
+The first part of the infobar displays the alias of the camera and the current configuration for image size, frame rate and image format.
 Clicking in this area of the infobar will bring up the camera configuration dialog.
+
+The frame rate indicated is the one configured, the actual frame rate sent by the camera might be different for various reasons like low light levels or hardware limitations.
 
 .. image:: /images/capture/infobar2.png
 
-The second part of the infobar displays the following live capture statistics:
+The second part of the infobar displays the following live statistics:
 
 Signal (fps) 
 ************
@@ -46,7 +43,9 @@ This is the amount of data that passes through Kinovea as it processes the strea
 
 This value is related to the the image size, frame rate and format, possible on-camera image compression, link bandwidth and possible post-processing done at the driver level.
 
-In the case of a non-compressed stream in RGB24 format, the following formula can be applied:
+You can use this value to estimate the necessary speed for your storage medium to write the uncompressed stream.
+
+In the case of a non-compressed stream in RGB24 format, the value is calculated as follows:
 
 Throughput = (width × height × 3 × frame rate) / (1024*1024)
 
@@ -81,7 +80,7 @@ The style profile dialog is not currently accessible in the capture screen, in o
 
 This area displays thumbnails of the recently captured files.
 
-Double clicking on the thumbnail opens the file in a playback screen. The close button removes the thumbnail from the list without deleting the file.
+Double clicking on a thumbnail opens the file in a playback screen. The close button removes the thumbnail from the list without deleting the file.
 
 Right-clicking on a thumbnails brings a context menu with the following options:
 
@@ -126,7 +125,7 @@ The available options depend on the specific camera brand and model.
 .. |Pause| image:: /images/capture/icons/grab_pause.png
 
 Pauses or restarts the camera stream. This disconnects the camera. 
-When the camera is disconnected it is possible to review the last action seen by the camera by adjusting the delay.
+When the camera is disconnected it is possible to review the last few seconds of action seen by the camera by adjusting the delay.
 
 |Disarm| *Disarm capture trigger*
 
@@ -154,9 +153,9 @@ Starts or stops recording the video. The video is recorded based on the compress
 
 .. image:: /images/capture/delaycontrols.png
 
-The delay controls let you adjust the amount of delay, in seconds, that the displayed images have with regards to the real time action.
+The delay controls let you adjust the amount of delay, in seconds, of the displayed camera stream with regards to the real time action.
 
-The maximum amount of delay depends on the camera configuration (hardware compression, image format, image size, frame rate) and the memory allocated in the delay cache under Options > Preferences > Capture > Memory.
+The maximum amount of delay depends on the camera configuration — hardware compression, image format, image size, frame rate — and the memory allocated in the delay cache under Options > Preferences > Capture > Memory.
 
 
 7. Output file names
@@ -164,7 +163,7 @@ The maximum amount of delay depends on the camera configuration (hardware compre
 
 .. image:: /images/capture/filenames.png
 
-The image file name and the video file name are the names of the next files that will be saved by the image export or recording. 
+These fields define the names of the next files that will be saved when exporting an image export or capturing a video.
 They are automatically updated after each recording but can also be modified manually.
 
 The file names can use macros like the current date or the name of the camera.

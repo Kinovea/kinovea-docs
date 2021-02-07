@@ -1,5 +1,7 @@
 
-Simulator camera
+Camera simulator
 ================
 
-todo
+- Describe the concept.
+- How to add the first time.
+- Configuration dialog.

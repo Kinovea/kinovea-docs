@@ -1,6 +1,7 @@
 
-
 Network cameras and smartphones
 ===============================
 
-todo
+- How to configure the first time.
+- Configuration dialog.
+
