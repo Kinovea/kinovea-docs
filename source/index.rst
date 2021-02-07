@@ -4,7 +4,7 @@
 
 Welcome to the official user guide for Kinovea.
 
-(Intro paragraph about the program.)
+(TODO:Intro paragraph about the program.)
 
 
 Getting started
@@ -13,59 +13,25 @@ Getting started
     - Features overview
     - Frequently asked questions
     - Terms of use
-    - Installation (.zip vs .exe, .NET compat, min. requirements)
 
 Sections
 ========
 
 .. toctree::
-   :maxdepth: 2
+    :maxdepth: 2
 
-   userinterface/index
-
-.. toctree::
-   :maxdepth: 2
-
-   observation/index
+    userinterface/index
 
 .. toctree::
-   :maxdepth: 2
+    :maxdepth: 2
 
-   comparison/index
+    observation/index
 
-
-
-
-Manual toc
-==========
-
-- User interface
-    - User interface basics (explorer panels, browser panel, full screen)
-    - Changing the language of the user interface.
-    - Running multiple instances of Kinovea (+ preferences)
-    - Workspaces.
-    - Preferences.
-    - Command line options.
-    - Control from other applications. (WM_COPYDATA).
-
-- Observation 
-    - Loading videos (videos, images, image sequences)
-    - Playback screen user interface. (toolbar)
-    - Navigating the video (speed control, frame by frame, pagination)
-    - Establishing a working zone (memory buffer)
-    - Image geometry (rotation, aspect ratio, mirroring, deinterlacing, debayering).
-    - Zoom and magnification.
-    - Time display.
-    - Capture framerate.
-    - Broken framerate.
-    - Overview function.
-    - Reverse function.
-    
 - Comparison
-    - Synchronization mechanisms (time origin, time independent).
-    - Joint controls (navigation).
-    - Superposition.
-    - Linked speed
+    - Synchronization mechanism
+    - Joint controls
+    - Superposition
+    - Linked speed controls
 
 - Annotation
     - Time origin
@@ -75,6 +41,11 @@ Manual toc
     - Importing images and vector drawings (copy & paste between screens, from explorer)
     - KVA file format (saving & loading.)
     - Importing subtitles, openPose.
+
+.. toctree::
+    :maxdepth: 2
+
+    capture/index
 
 - Measurement
     - The coordinate system.
@@ -91,18 +62,6 @@ Manual toc
     - Angle-angle diagram.
     - Coordinates filtering.
     - Exporting data.
-
-- Live capture
-    - Listing cameras.
-    - Supported hardware. (Webcams, IP cameras + smartphones, Machine vision cameras.)
-    - Configuring cameras (+ forgetting camera configuration).
-    - Capture screen user interface.
-    - Live delay mechanism. (memory buffer)
-    - Recording (compressed/uncompressed, display fps). 
-    - Recording modes (+ fps replacement).
-    - Output file naming.
-    - Recording automation. (duration + command line)
-    - Replay folder observer.
 
 - Export 
     - Exporting data (KVA, measurement, spreadsheet).
