@@ -4,12 +4,9 @@ Supported cameras and configuration options
 Kinovea supports various capture hardware as described in the following sections:
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     hardware/webcam
     hardware/network
-    hardware/basler
-    hardware/ids
-    hardware/daheng
-    hardware/baumer
+    hardware/industrial
     hardware/simulator

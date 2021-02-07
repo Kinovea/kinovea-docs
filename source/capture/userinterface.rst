@@ -9,11 +9,11 @@ The capture screen is divided in the following areas:
 ------------------
 The camera viewport is the main area where the camera image is visible. 
 
-The image area itself can be moved around by dragging with the mouse and resized by using the manipulators at the corners of the image or using CTRL+Mouse wheel. Drawings on the capture screen can go outside the image area.
+The image itself can be moved around by dragging with the mouse and resized using the manipulators at the corners of the image or using CTRL+Mouse wheel. Drawings on the capture screen can go outside the image area.
 
-If the image area is not visible, the camera did not connect correctly, for example the camera might be in use in another application at the same time. 
+If the image is not visible, the camera did not connect correctly, for example the camera might be in use in another application at the same time. 
 
-If the image area is visible but the image stays black, there might be a problem with the available USB bandwidth or current, or the exposure duration might be too short.
+If the image is visible but the image stays black, there might be a problem with the available USB bandwidth or current, or the exposure duration might be too short.
 
 2. Infobar
 ----------
@@ -26,16 +26,16 @@ Clicking in this area of the infobar will bring up the camera configuration dial
 
 The frame rate indicated is the one configured, the actual frame rate sent by the camera might be different for various reasons like low light levels or hardware limitations.
 
-.. image:: /images/capture/infobar2.png
-
 The second part of the infobar displays the following live statistics:
+
+.. image:: /images/capture/infobar2.png
 
 Signal (fps) 
 ************
 This is the frequency at which Kinovea is receiving images from the camera. The value is in frames per second.
 
 Many cameras will reduce their frame rate based on various external factors. 
-For example when a camera uses auto-exposure and the exposure duration computed by the device is incompatible with the selected frame rate, it will generally give priority to the exposure and lower the frame rate.
+For example when a camera uses auto-exposure and the exposure duration computed by the device is incompatible with the selected frame rate.
 
 Throughput (MB/s)
 *****************
@@ -51,7 +51,8 @@ Throughput = (width × height × 3 × frame rate) / (1024*1024)
 
 Load (%)
 ********
-This value is computed as the time taken to process one frame divided by the interval between frames.
+This value describes how much Kinovea is struggling to keep up with the camera framerate. 
+It is computed as the time taken to process one frame divided by the interval between frames.
 
 When this value is near 100% it means it takes Kinovea the same amount of time to process one frame as the time budget it has for that frame, if it goes over 100% dropped frames may occur.
 
