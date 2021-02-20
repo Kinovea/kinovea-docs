@@ -11,5 +11,4 @@ Live capture
    hardware
    livedelay
    recording
-   automation
    replay

@@ -18,6 +18,8 @@ Installation
 The machine vision cameras are supported via plugins that are distributed separately from Kinovea. 
 Each plugin must be installed under the application data folder in the sub-folder: Plugins\\Camera.
 
+The runtime for the specific camera brand, provided by the manufacturer, must also be installed separately. 
+Consult the section for each brand below to check if any extra customization is needed during the installation of the vendor's runtime to make it work with Kinovea.
 
 Configuration
 -------------
