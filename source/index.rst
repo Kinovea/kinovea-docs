@@ -27,12 +27,6 @@ Sections
 
     observation/index
 
-- Comparison
-    - Synchronization mechanism
-    - Joint controls
-    - Superposition
-    - Linked speed controls
-
 - Annotation
     - Time origin
     - Annotation tools (labels, numbers, pencil, arrows, lines, markers, etc. = any tool that can be used to annotate.)
@@ -41,11 +35,6 @@ Sections
     - Importing images and vector drawings (copy & paste between screens, from explorer)
     - KVA file format (saving & loading.)
     - Importing subtitles, openPose.
-
-.. toctree::
-    :maxdepth: 2
-
-    capture/index
 
 - Measurement
     - The coordinate system.
@@ -62,6 +51,17 @@ Sections
     - Angle-angle diagram.
     - Coordinates filtering.
     - Exporting data.
+
+- Comparison
+    - Synchronization mechanism
+    - Joint controls
+    - Superposition
+    - Linked speed controls
+    
+.. toctree::
+    :maxdepth: 2
+
+    capture/index
 
 - Export 
     - Exporting data (KVA, measurement, spreadsheet).

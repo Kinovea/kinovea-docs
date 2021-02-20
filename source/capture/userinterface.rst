@@ -11,9 +11,10 @@ The camera viewport is the main area where the camera image is visible.
 
 The image itself can be moved around by dragging with the mouse and resized using the manipulators at the corners of the image or using CTRL+Mouse wheel. Drawings on the capture screen can go outside the image area.
 
-If the image is not visible, the camera did not connect correctly, for example the camera might be in use in another application at the same time. 
+If the image stays black, there might be a problem with the available USB bandwidth or power, or the exposure duration might be too short.
 
-If the image is visible but the image stays black, there might be a problem with the available USB bandwidth or current, or the exposure duration might be too short.
+If nothing is visible at all, not even the black image rectangle, the camera did not connect correctly, for example the camera might be in use in another application at the same time. 
+
 
 2. Infobar
 ----------

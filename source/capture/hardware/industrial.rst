@@ -12,6 +12,13 @@ The following camera brands are supported:
 - Daheng imaging: https://www.dahengimaging.com/
 - Baumer: https://www.baumer.com
 
+Installation
+------------
+
+The machine vision cameras are supported via plugins that are distributed separately from Kinovea. 
+Each plugin must be installed under the application data folder in the sub-folder: Plugins\\Camera.
+
+
 Configuration
 -------------
 
@@ -56,17 +63,18 @@ If the framerate cannot be sustain the *Resulting framerate* value will be displ
 
 If the "Auto" checkbox is checked, the camera will ignore the value and always send the maximum framerate possible based on the rest of the configuration and the camera hardware.
 If the "Auto" checkbox is not checked, the camera will use at most the configured value, if it is possible for the hardware to do so. 
-The manual option can be interesting if you want to use a specific framerate that is less than the maximum possible.
+The manual configuration can be interesting if you want to use a specific framerate that is less than the maximum possible.
 
-.. note:: After changing the image size you must click on Reconnect for the maximum framerate information to be updated.
+.. note:: After changing the image size or stream format you must click on Reconnect for the maximum framerate information to be updated.
 
 Exposure (µs)
 ***********************
 This is the amount of time the sensor is exposed, in microseconds. 
 Changing the exposure duration lets you find a tradeoff between motion blur and light requirements.
-Lowering this value reduces motion blur and increase the amount of light required to capture the scene.
+Lowering this value reduces motion blur but increase the amount of light required to capture the scene.
 
-This value is a limiting factor for the framerate. For example a value of 2 milliseconds implies that there cannot be more than 500 images per second.
+This value is a limiting factor for the framerate. 
+For example a value of 20 milliseconds implies that there cannot be more than 50 images per second captured.
 
 Gain
 ***********************
