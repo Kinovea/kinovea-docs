@@ -15,12 +15,12 @@ Sections
 ========
 
 .. toctree::
-    :maxdepth: 2
+    :titlesonly:
 
     userinterface/index
 
 .. toctree::
-    :maxdepth: 2
+    :titlesonly:
 
     observation/index
 
@@ -50,12 +50,12 @@ Sections
     - Exporting data.
     
 .. toctree::
-    :maxdepth: 2
+    :titlesonly:
 
     capture/index
 
 .. toctree::
-    :maxdepth: 2
+    :titlesonly:
     
     export/index
     
