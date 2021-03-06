@@ -51,13 +51,13 @@ Sections
     
 .. toctree::
     :maxdepth: 2
-    
+
     capture/index
 
-- Export 
-    - Exporting data (KVA, measurement, spreadsheet, citation).
-    - Exporting video and images.
-    - Exporting slideshow and paused video.
+.. toctree::
+    :maxdepth: 2
+    
+    export/index
     
 - Other topics
     - Checking for updates.
