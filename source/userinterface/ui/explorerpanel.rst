@@ -6,7 +6,7 @@ It provides access to the file system and connected cameras.
 
 To show or hide the explorer panel use the menu View > Explorer panel, or the shortcut F4.
 
-The explorer panel contains the following tabs: 
+The explorer panel contains the following tabs:
 
 =========================    ========================
 |FileExplorer|               File explorer

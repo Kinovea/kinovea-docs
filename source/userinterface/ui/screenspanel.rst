@@ -10,4 +10,7 @@ Adding and removing screens can be done by using the main toolbar, the menu View
 
 To swap the screens use the menu View > Swap screens or the swap button in the joint controls.
 
+More details about the playback screen user interface can be found under Observation > Playback screen user interface.
+
+More details about the capture screen user interface can be found under Live capture > Capture screen user interface.
 

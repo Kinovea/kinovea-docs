@@ -4,10 +4,10 @@
 
 Welcome to the official user guide for Kinovea.
 
-Kinovea is a video player dedicated to motion analysis.
-It provides a set of tools to capture, slow down, compare, annotate and measure motion in videos.
+Kinovea is a video annotation tool dedicated to motion analysis.
+It features utilities to capture, slow down, compare, annotate and measure motion in videos.
 
-For a general overview of the main features of Kinovea you may consult the following page on the website: https://www.kinovea.org/features.html
+For a general overview of the features of Kinovea you may consult the following page on the website: https://www.kinovea.org/features.html
 
 The table of contents below and in the sidebar should let you access the documentation for your topic of interest. You can also use the search function in the top left corner.
 

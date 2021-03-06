@@ -16,7 +16,7 @@ Installation
 ------------
 
 The machine vision cameras are supported via plugins that are distributed separately from Kinovea. 
-Each plugin must be installed under the application data folder in the sub-folder: Plugins\\Camera.
+Each plugin must be installed under the application data folder, inside the "Plugins\\Camera" sub-folder.
 
 The runtime for the specific camera brand, provided by the manufacturer, must also be installed separately. 
 Consult the section for each brand below to check if any extra customization is needed during the installation of the vendor's runtime to make it work with Kinovea.
@@ -24,11 +24,10 @@ Consult the section for each brand below to check if any extra customization is 
 Configuration
 -------------
 
-
-.. image:: /images/capture/config-basler.png
-
 This section describes the common options for the configuration of machine vision cameras. 
 Settings or installation information specific to each camera vendor are described afterwards.
+
+.. image:: /images/capture/config-basler.png
 
 Stream format
 *************

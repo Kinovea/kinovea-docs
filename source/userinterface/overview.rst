@@ -1,5 +1,5 @@
 
-Overview of the user interface
+Main window user interface
 ==============================
 
 The Kinovea main window comprises the following areas:

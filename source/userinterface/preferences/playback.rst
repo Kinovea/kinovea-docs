@@ -43,7 +43,7 @@ Default aspect ratio
 
 This option defines the default image aspect ratio configured any time a video file is opened. It is the same as manually configuring the menu Image > Image format.
 
-The options are:
+The following options are available:
 
 - Auto detection
 - Force 4:3
