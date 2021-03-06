@@ -1,11 +1,12 @@
 
-Webcams
-=======
+Webcams, Mini DV, HDMI capture cards
+====================================================
 
 General
 -------
 
-Kinovea supports USB video class (UVC) compliant devices. These devices include webcams, digital camcorders and analog video converters.
+Kinovea supports devices with a DirectShow driver. 
+These devices include USB video class (UVC) webcams, Mini DV camcorders and analog video converters.
 
 Configuration
 -------------

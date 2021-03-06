@@ -1,10 +1,9 @@
 
-Live capture
+Capture
 ============
 
 .. toctree::
    :maxdepth: 1
-   :caption: Live capture
 
    listing
    userinterface

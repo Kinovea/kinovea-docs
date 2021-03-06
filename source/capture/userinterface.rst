@@ -172,12 +172,3 @@ The file names can use macros like the current date or the name of the camera.
 The list of available macros and configuration options can be found under Options > Preferences > Capture > Image naming and Options > Preferences > Capture > Video naming.
 
 Clicking on the folder buttons will open the main preferences dialog on the relevant page.
-
-
-
-
-
-
-
-
-

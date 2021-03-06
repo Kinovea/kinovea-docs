@@ -1,6 +1,6 @@
 
-Machine vision cameras
-======================
+Machine vision and industrial cameras
+=====================================
 
 General
 --------------

@@ -1,6 +1,6 @@
 
-Network cameras
-===============
+Network cameras and smartphones
+===============================
 
 General
 -------

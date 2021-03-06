@@ -48,31 +48,20 @@ Sections
     - Angle-angle diagram.
     - Coordinates filtering.
     - Exporting data.
-
-- Comparison
-    - Synchronization mechanism
-    - Joint controls
-    - Superposition
-    - Linked speed controls
     
 .. toctree::
     :maxdepth: 2
-
+    
     capture/index
 
 - Export 
-    - Exporting data (KVA, measurement, spreadsheet).
-    - Exporting video.
-    - Exporting images.
+    - Exporting data (KVA, measurement, spreadsheet, citation).
+    - Exporting video and images.
     - Exporting slideshow and paused video.
-    - Citation.
     
-- Maintenance
+- Other topics
     - Checking for updates.
-    - Logs.
-    - Reporting bugs.
+    - Logs and reporting bugs.
     - Getting more help + communication channels.
-
-- Advanced
     - Command line options.
     - Control from other applications.

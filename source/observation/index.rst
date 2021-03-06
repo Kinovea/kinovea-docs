@@ -1,6 +1,6 @@
 
-Observation
-===========
+Observation and comparison
+==========================
 
 .. toctree::
    :maxdepth: 1
@@ -9,6 +9,7 @@ Observation
    playback_ui
    navigation
    working_zone
+   comparison
    image_geometry
    time_display
    capture_framerate
