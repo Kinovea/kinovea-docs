@@ -32,7 +32,7 @@ The following options are available:
 - Web (.html)
 - Gnuplot (.txt)
 
-The underlying mechanism for these options is to **convert** the annotations data into the output format and it does not perform any higher level computations.
+The underlying mechanism for these menus is to **convert** the annotation data into the output format and it does not perform any higher level computations.
 This approach has the following differences with the export from the kinematics dialogs:
 
 - The coordinates do not use filtering. 

@@ -2,9 +2,9 @@
     Kinovea |release| user guide
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Welcome to the official user guide for Kinovea.
+Welcome to the official documentation of Kinovea.
 
-Kinovea is a video annotation tool dedicated to motion analysis.
+Kinovea is a video annotation tool designed for motion analysis.
 It features utilities to capture, slow down, compare, annotate and measure motion in videos.
 
 For a general overview of the features of Kinovea you may consult the following page on the website: https://www.kinovea.org/features.html

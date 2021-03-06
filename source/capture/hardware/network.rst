@@ -23,7 +23,8 @@ Clicking the Test button will try to connect to the camera and report success or
 Smartphones
 -----------
 
-Smartphones can be used as network cameras over the WiFi network by using a dedicated application streaming in MJPEG. For example "IP Webcam" by Pavel Khlebovich can be used for this on Android.
+Smartphones can be used as network cameras over the WiFi network by using a dedicated application, provided it supports streaming in MJPEG.
+For example "IP Webcam" by Pavel Khlebovich can be used on Android devices.
 
 Consult the application to find the URL of the server and the IP address of the smartphone.
 

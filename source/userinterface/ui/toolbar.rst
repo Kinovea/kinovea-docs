@@ -1,5 +1,5 @@
-Toolbar
-=========
+Main toolbar
+============
 
 The main toolbar provides quick access to screen organization functions.
 

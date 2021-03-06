@@ -10,7 +10,7 @@ This can be used to record more than two cameras, play more than two videos at t
     This behavior is controlled by the option under Preferences > General > Instances have their own preferences.
     This option can only be changed from the first instance of Kinovea.
 
-Instance names
+Instance name
 --------------
 Each instance is assigned a number in sequential order of launch and by default this number becomes the name of the instance.
 
