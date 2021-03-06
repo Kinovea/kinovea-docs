@@ -5,10 +5,8 @@ User interface
 .. toctree::
    :maxdepth: 1
 
-   basics
-   instances
+   overview
    workspaces
+   instances
    preferences
-   command_line
-   copydata
 

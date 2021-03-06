@@ -1,12 +1,12 @@
 
-Preferences
-===========
+Preference pages
+================
 
 The Kinovea preferences contain settings to control how Kinovea behaves. 
 
-The various sections are reached by clicking on the buttons at the top of the dialog. Each section may contain multiple tabs.
+The various pages are reached by clicking on the buttons at the top of the dialog. Each page may contain multiple tabs.
 
-The following sections are available:
+The following preference pages are available:
 
 .. toctree::
    :maxdepth: 1
