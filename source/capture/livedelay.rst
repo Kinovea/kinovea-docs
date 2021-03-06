@@ -51,12 +51,12 @@ Time origin
 
 When recording with delay the time origin of the resulting video is set to the real moment the record button was hit or triggered.
 
-For example we are filming a golf swing for a total duration of 3 seconds and a delay of 1 second.
+For example we are filming a golf swing for a total duration of 2.5 seconds and a delay of 1.5 seconds.
 The recording is started via audio trigger when the club hits the ball.
 
-The first image of the video will correspond to what the camera was filming one second in the past relatively to the trigger point.
+The first image of the video will correspond to what the camera was filming 1.5 seconds before the club hits the ball.
 
-The time origin in the metadata file will be set to the culb-ball impact: all the action happening before the impact is timestamped with negative numbers.
+The time origin in the metadata file will be set to the culb-ball impact: all the action happening before the impact will be timestamped with negative numbers.
 
 Pause and browse
 ----------------

@@ -31,7 +31,7 @@ You can create a replay observer from the following places:
 
 The recently opened folder observers are listed under the menu File > Recent.
 
-.. note:: The functions operating on files are opening the observer on the parent folder of that file. 
+.. note:: The menus on files are opening the observer on the parent folder of that file.
     This observer will immediately load the most recent file of the folder which is not necessarily the file used to start it.
 
 Activation and deactivation
