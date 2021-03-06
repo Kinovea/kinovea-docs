@@ -13,7 +13,7 @@ The Kinovea main window comprises the following areas:
    ui/thumbnailspanel
    ui/screenspanel
 
-.. image:: /images/capture/ui.png
+.. image:: /images/ui/mainwindow.png
    
 
 
