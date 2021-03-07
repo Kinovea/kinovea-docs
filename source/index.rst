@@ -33,21 +33,10 @@ Sections
     - KVA file format (saving & loading.)
     - Importing subtitles, openPose.
 
-- Measurement
-    - The coordinate system.
-    - Calibration mechanisms (Line, grid.)
-    - Lens distortion calibration and compensation.
-    - Measuring time. (origin, units, capture framerate)
-    - Measuring distances (units).
-    - Measuring angles.
-    - Measuring linear and angular speed.
-    - Tracking objects or body joints. (trajectory, objects, default params)
-    - Scatter diagram.
-    - Linear kinematics diagram.
-    - Angular kinematics diagram.
-    - Angle-angle diagram.
-    - Coordinates filtering.
-    - Exporting data.
+.. toctree::
+    :titlesonly:
+
+    measurement/index
     
 .. toctree::
     :titlesonly:

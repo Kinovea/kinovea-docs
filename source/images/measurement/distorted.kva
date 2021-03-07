@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<KinoveaVideoAnalysis>
+  <FormatVersion>2.0</FormatVersion>
+  <Producer>Kinovea.0.9.4</Producer>
+  <OriginalFilename>distorted</OriginalFilename>
+  <FullPath>D:\dev\Joan\Multimedia\Video\Kinovea\Help\kinovea-docs\source\images\measurement\distorted.png</FullPath>
+  <ImageSize>751;421</ImageSize>
+  <Mirror>false</Mirror>
+  <AverageTimeStampsPerFrame>1</AverageTimeStampsPerFrame>
+  <CaptureFramerate>25</CaptureFramerate>
+  <UserFramerate>25</UserFramerate>
+  <FirstTimeStamp>0</FirstTimeStamp>
+  <SelectionStart>1</SelectionStart>
+  <TimeOrigin>1</TimeOrigin>
+  <Calibration>
+    <CalibrationLine>
+      <Length>100</Length>
+      <Segment>
+        <A>375;210</A>
+        <B>475;210</B>
+      </Segment>
+      <Origin>0;100</Origin>
+      <Axis>LineHorizontal</Axis>
+    </CalibrationLine>
+    <CalibrationDrawingId>00000000-0000-0000-0000-000000000000</CalibrationDrawingId>
+    <Unit Abbreviation="px">Pixels</Unit>
+    <CameraCalibration>
+      <Fx>337.706168831169</Fx>
+      <Fy>337.706168831169</Fy>
+      <Cx>393.5</Cx>
+      <Cy>198.5</Cy>
+      <K1>-0.228</K1>
+      <K2>0.048</K2>
+      <K3>0</K3>
+      <P1>-0.006</P1>
+      <P2>0.009</P2>
+      <PixelsPerMM>121.915584415584</PixelsPerMM>
+    </CameraCalibration>
+  </Calibration>
+  <CoordinateSystem id="ff37d1aa-8aee-487b-9844-b1a95db03444" name="Coordinate system 1">
+    <Visible>true</Visible>
+    <DrawingStyle>
+      <Color Key="line color">
+        <Value>255;255;255;0</Value>
+      </Color>
+    </DrawingStyle>
+  </CoordinateSystem>
+  <Trackability />
+</KinoveaVideoAnalysis>
