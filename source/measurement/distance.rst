@@ -10,6 +10,8 @@ To display a measurement right click the object and choose an option under "Disp
 
 .. image:: /images/measurement/menu.png
 
+The unit of distance is the unit used during calibration.
+
 Points
 ------
 The marker tool can be used to measure the position of a point in the current coordinate system or its distance to the origin. 

@@ -1,2 +1,2 @@
-Measuring linear and angular speed
-==================================
+Tracking and measuring linear and angular speed
+===============================================
