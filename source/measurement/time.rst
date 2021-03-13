@@ -92,4 +92,4 @@ and in the top part of the dialog, enter the capture frame rate.
 
 .. image:: /images/measurement/timescale.png
 
-.. note:: When capturing videos with Kinovea this option is automatically set based on information found in the KVA file.
+.. note:: When capturing videos with Kinovea this option is automatically set based on information found in the KVA file saved next to the recording.
