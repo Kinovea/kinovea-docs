@@ -3,7 +3,7 @@ Lens distortion calibration and compensation
 
 Introduction
 -------------
-When using cameras with significant distortion is it mandatory to calibrate it in Kinovea before making measurements.
+When using cameras with significant distortion is it important to calibrate it in Kinovea before making measurements.
 The lens distortion calibration rectifies the coordinates before they are passed to the spatial calibration.
 
 .. figure:: /images/measurement/distorted-coordinatesystem.png

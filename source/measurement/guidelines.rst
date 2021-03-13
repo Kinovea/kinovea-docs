@@ -16,8 +16,10 @@ and the calibration from one video frame cannot be used on other frames.
 
 Align the camera plane with the plane of motion
 ****************************************************
-When using calibration by line the camera must be perfectly aligned with the plane of motion.
-This means the camera optical axis must be orthogonal to the plane of motion.
+When using calibration by line the camera must be aligned with the plane of motion, 
+the camera optical axis must be orthogonal to the plane of motion.
+
+TODO: schematics.
 
 .. tip:: If the camera is not in a controlled environment use the calibration by plane.
 
@@ -55,23 +57,24 @@ Scene setup
 
 Use a large reference object
 ******************************
-The scaling object used for calibration should occupy a proportion of the image as large as possible.
+The scaling object used for calibration should occupy as much as possible of the image.
 
 Use a vertical or horizontal reference
 ***************************************
 To align the axes of the coordinate system with the real world use a plumb line or other object of known direction as the calibration object.
+If the real world vertical line is not parallel to the image side you can set the calibration line to define the vertical axis.
 
 Avoid measuring objects outside the plane of motion
 ****************************************************
-The physical objects used to make the measurements must sit on the calibrated plane of motion.
-Coordinates of and measurements using points outside the plane of motion will be inaccurate.
+Everything that is measured must sit on the calibrated plane of motion.
+Coordinates and measurements using points physically outside the plane of motion will be inaccurate.
 
 TODO: demo with angles.
 
 Use small round markers
 ************************
-Use small markers on the object or joints. 
-The markers shape should not vary when rotated.
+Use small markers on the object or joints.
+The markers shape should not vary when rotated, for example a disk or concentric disks should be suitable.
 
 
 
