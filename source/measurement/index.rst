@@ -11,6 +11,7 @@ Measurement
    time
    distance
    angle
-   speed
+   trajectory
    tracking
+   speed
    kinematics

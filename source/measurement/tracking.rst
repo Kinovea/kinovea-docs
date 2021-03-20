@@ -1,6 +1,4 @@
-Tracking objects or body joints
-===============================
+Tracking distances and angles
+=======================================
 
-- Trajectory tool
-- Tracking objects
-- Default tracking parameters
+- How to track multi-point objects.

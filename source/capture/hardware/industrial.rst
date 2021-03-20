@@ -94,8 +94,8 @@ This value is the actual framerate at which the camera will send images, based o
 Basler
 ------
 
-Installation 
-************
+Pylon installation 
+******************
 
 When installing Basler's Pylon runtime software it is necessary to use the "Custom" option in the installer, expand the "pylon Runtime" node and select "pylon C .NET Runtime" option.
 
@@ -103,8 +103,8 @@ When installing Basler's Pylon runtime software it is necessary to use the "Cust
 
 If you have already installed the software you can re-run the installer and choose "Modify the current installation" to access this option.
 
-Other options
-*********************
+Other options for Basler
+*************************
 
 Options that are not supported in Kinovea can be modified in Basler's Pylon viewer.
 
@@ -113,7 +113,7 @@ IDS
 
 .. image:: /images/capture/config-ids.png
 
-Other options
+Other options for IDS
 *********************
 
 In order to use options that are not supported in Kinovea use IDS' uEye Cockpit. 
@@ -129,8 +129,8 @@ Daheng imaging
 
 The stream format options are RGB, Mono or Raw, depending on the camera model.
 
-Other options
-*********************
+Other options for Daheng
+************************
 
 Options not supported in Kinovea can be modified in Daheng Galaxy Viewer.
 

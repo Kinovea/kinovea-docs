@@ -31,7 +31,10 @@ A physical goniometer combines two arms and a protractor.
 One arm is called the stationary arm and the other the movable arm. 
 The protractor part contains multiple graduated rings that allow the physician to pick a reference axis when reading the angle.
 
-.. image:: /images/measurement/goniometer-physical2.png
+.. figure:: /images/measurement/goniometer-physical2.png
+    :align: center
+
+    Typical plastic goniometer
 
 The stationary arm is aligned with the reference segment to materialize the neutral position and the movable arm is aligned with the segment for which we are measuring the range of motion.
 
