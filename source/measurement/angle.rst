@@ -40,7 +40,6 @@ The stationary arm is aligned with the reference segment to materialize the neut
 
 Using a goniometer instead of a simple protractor makes it easier to align the protractor with the body segments
 and helps standardize the way the measurements are made for the range of motion of specific joints.
-An introductory video about goniometers can be found at the following: https://www.youtube.com/watch?v=XfWBKEETjdo
 
 In Kinovea the goniometer tool has three branches. The stationary arm is the thick plain arm.
 The movable arm is the one with the arrow at the end.

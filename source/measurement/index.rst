@@ -13,5 +13,4 @@ Measurement
    angle
    trajectory
    tracking
-   speed
    kinematics

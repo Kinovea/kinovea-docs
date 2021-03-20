@@ -3,7 +3,6 @@ Tracking point trajectories
 
 Introduction
 ------------
-
 To track the trajectory of a single point or body joint visible on the image follow these steps:
 
 * Right click the object to track and choose Track path.
