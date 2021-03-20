@@ -18,19 +18,49 @@ The context menu options let you switch between signed or unsigned angle, change
 
 .. image:: /images/measurement/angleoptions.png
 
+.. note:: Always keep in mind that it is not possible to measure angles in arbitrary space from a 2D image. 
+    Angles can only be measured when the three points lie on a known 2D plane.
+    This is either the image plane or the plane calibrated using plane calibration.
 
 Goniometer
 -----------
 
-The goniometer tool let you measure angles relatively to a reference angle.
-This is generally used to compare extension or flexion of a body segment relatively to a baseline anatomical angle.
-The dashed leg is locked to steps of 45°.
+The goniometer tool lets you measure the extension or flexion of a body segment relatively to a reference anatomical angle or neutral position.
 
-.. image:: /images/measurement/goniometer.png
+A physical goniometer combines two arms and a protractor. 
+One arm is called the stationary arm and the other the movable arm. 
+The protractor part contains multiple graduated rings that allow the physician to pick a reference axis when reading the angle.
 
-Angles relative to axes
------------------------
-The angle-to-horizontal and angle-to-vertical tools let you measure angles relatively to the horizontal or vertical axes.
+.. image:: /images/measurement/goniometer-physical2.png
+
+The stationary arm is aligned with the reference segment to materialize the neutral position and the movable arm is aligned with the segment for which we are measuring the range of motion.
+
+Using a goniometer instead of a simple protractor makes it easier to align the protractor with the body segments
+and helps standardize the way the measurements are made for the range of motion of specific joints.
+An introductory video about goniometers can be found at the following: https://www.youtube.com/watch?v=XfWBKEETjdo
+
+In Kinovea the goniometer tool has three branches. The stationary arm is the thick plain arm.
+The movable arm is the one with the arrow at the end.
+The dashed line is used to define the protractor reference axis in relation to the stationary arm.
+This branch rotates by 45° increments relatively to the stationary arm.
+
+.. figure:: /images/measurement/goniometer-knee.png
+    :align: center
+
+    Knee flexion.
+
+.. figure:: /images/measurement/goniometer-ankle.png
+    :align: center
+
+    Plantar flexion. The reference axis is set perpendicular to the leg.
+
+This tool is conceptually similar to a real goniometer with 8 protractor rings but the reading is simplified by showing only one measurement at a time.
+
+
+Angles relative to image axes
+-----------------------------
+The angle-to-horizontal and angle-to-vertical tools let you measure angles relatively to the horizontal or vertical axes of the image.
+The dashed line represent the reference axis.
 
 .. image:: /images/measurement/axesangles.png
 
