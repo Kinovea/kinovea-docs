@@ -2,16 +2,117 @@
 Playback screen user interface
 ==============================
 
-TODO:
+The playback screen is divided in the following areas:
 
-- An image highlighting the various areas in the player UI.
+.. image:: /images/observation/ui.png
 
-1. High level overview of each area in the player UI. Just a quick mention of what kind of functions we access from each area.
-2. image area and resize handles.
-3. info bar at the top and what it contains. + close button at the top right.
-4. drawings tool bar.
-5. working zone tool bar, working zone timeline, working zone info.
-6. main timeline. Main info and speed control.
-7. playback buttons.
-8. export buttons.
+1. Image viewport
+-----------------
+The image viewport is the main area where the video is played back.
+
+Double clicking the image maximizes it in the viewport area.
+The handles at the four corners of the image can be used to change its size.
+
+
+
+2. Infobar
+----------
+.. image:: /images/observation/infobar.png
+
+The infobar contains the name of the file, the image size and the frame rate.
+
+The file name can be clicked to access a context menu to switch between normal video mode and replay folder observer mode.
+
+.. image:: /images/capture/menuobserver.png
+
+
+3. Drawings toolbar
+-------------------
+The drawings toolbar contains buttons to create new key images, select the active tool and open the color profile.
+
+.. image:: /images/observation/toolbar.png
+
+The toolbar contains more tools than those immediately visible.
+Buttons that host extra tools have a little black triangle in the top-left corner. 
+The extra tools can be accessed by right-clicking or long-clicking the primary button.
+
+.. image:: /images/observation/subtools.png
+
+4. Working zone area
+--------------------
+The working zone defines the segment of the video that the player is working with.
+
+.. image:: /images/observation/workingzone.png
+
+|TimeOrigin| Marks the current time as the time origin. This makes time values relative to this moment.
+
+|WZLock| Locks the working zone start and end point to avoid changing them by mistake.
+
+|WZStart| Sets the starting point of the working zone within the video.
+
+|WZEnd| Sets the ending point of the working zone within the video.
+
+|WZReset| Resets the working zone to the whole video.
+
+.. |TimeOrigin| image:: /images/observation/icons/timeorigin.png
+.. |WZLock| image:: /images/observation/icons/wz_lock.png
+.. |WZStart| image:: /images/observation/icons/wz_left.png
+.. |WZEnd| image:: /images/observation/icons/wz_right.png
+.. |WZReset| image:: /images/observation/icons/wz_reset.png
+
+You can also update the working zone boundaries by directly manipulating the blue end points.
+
+5. Timeline area
+----------------
+The timeline area displays the current position within the video, time markers and the speed control.
+
+.. image:: /images/observation/timeline.png
+
+Time markers
+**************************
+Time markers are the colored rectangles inside the timeline gutter, they provide information about annotations.
+They use the following color coding:
+
+- Red: the time origin.
+- Green: a key image.
+- Blue: a chronometer.
+- Purple: a trajectory.
+
+Speed control
+*************
+
+The speed slider goes from 0 to twice the nominal speed of the video.
+
+The displayed speed value takes into account the slow motion factor configured such that the speed is shown as a percentage of the real world action speed.
+For example if a video is filmed at 240 fps and saved into a file as 24 fps, the video will normally play back at 10% of the real world speed. 
+In this case the speed control will go from 0 to 20% with a mid-point at 10%.
+
+6. Playback controls
+--------------------
+
+.. image:: /images/observation/playbackcontrols.png
+
+From left to right the buttons provides the following functions:
+
+- Returns to the start of the video or working zone.
+- Goes back one frame.
+- Starts playback.
+- Goes forward one frame.
+- Goes to the end of the video or working zone.
+
+
+7. Export controls
+------------------
+The export controls provide ways to export videos and images of the current file.
+
+.. image:: /images/observation/exportcontrols.png
+
+See: Export > Exporting video and images
+
+8. Context menu
+---------------
+The context menu provides quick access to more functions.
+
+.. image:: /images/observation/contextmenu.png
+
 
