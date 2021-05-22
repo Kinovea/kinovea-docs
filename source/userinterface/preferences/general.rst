@@ -14,7 +14,8 @@ The following languages are supported: Arabic, Bulgarian, Catalan, Chinese, Czec
 Italian, Japanese, Korean, Lithuanian, Macedonian, 
 Norwegian, Polish, Portuguese, Romanian, Russian, Serbian Latin, Serbian Cyrillic, Spanish, Swedish, Turkish.
 
-The translations are contributed by the community. If you would like to contribute a translation please get in touch with the project.
+The translations are contributed by the community. 
+If you would like to contribute please check the translation project at [Weblate](https://hosted.weblate.org/engage/kinovea/).
 
 Number of files in history
 **************************

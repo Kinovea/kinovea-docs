@@ -50,7 +50,7 @@ Use the largest possible image resolution to improve the precision of the digiti
 Use the zoom function
 *********************
 Use the zoom function in Kinovea to position the points more precisely. 
-Kinovea use fractional pixel coordinates for calibration and measurements.
+Kinovea uses fractional pixel coordinates for calibration and measurements.
 
 Scene setup
 -----------

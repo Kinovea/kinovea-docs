@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    Kinovea |release| user guide
+    Kinovea documentation
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Welcome to the official documentation of Kinovea.
@@ -48,7 +48,7 @@ Sections
     
     export/index
     
-- Other topics
+- Miscellaneous topics
     - Checking for updates.
     - Logs and reporting bugs.
     - Getting more help + communication channels.

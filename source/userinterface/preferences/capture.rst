@@ -230,10 +230,10 @@ You should see the black line moving laterally as the microphone picks up sounds
 The counter on the right is incremented each time the trigger is reached and reset when the threshold value is changed. 
 You can use this to get immediate feedback while figuring out the appropriate configuration.
 
-Quiet period
+Idle time
 ^^^^^^^^^^^^
 
-The quiet period defines the amount of time after each recording during which the audio trigger is automatically disarmed.
+The idle time defines the amount of time after each recording during which the audio trigger is automatically disarmed.
 
 
 Stop recording by duration
