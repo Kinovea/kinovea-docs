@@ -40,7 +40,8 @@ The extra tools can be accessed by right-clicking or long-clicking the primary b
 
 4. Working zone area
 --------------------
-The working zone defines the segment of the video that the player is working with.
+The working zone defines the segment of the video that the player is working with. 
+The play head loops within the working zone.
 
 .. image:: /images/observation/workingzone.png
 
@@ -61,6 +62,11 @@ The working zone defines the segment of the video that the player is working wit
 .. |WZReset| image:: /images/observation/icons/wz_reset.png
 
 You can also update the working zone boundaries by directly manipulating the blue end points.
+
+.. tip:: If the amount of data fits in the cache memory, the working zone will be loaded in memory.
+
+    This improves playback performances and enables the Video > Overview and Video > Reverse menus.
+    The cache memory can be configured under Options > Preferences > Playback > Memory.
 
 5. Timeline area
 ----------------
@@ -87,6 +93,10 @@ The displayed speed value takes into account the slow motion factor configured s
 For example if a video is filmed at 240 fps and saved into a file as 24 fps, the video will normally play back at 10% of the real world speed. 
 In this case the speed control will go from 0 to 20% with a mid-point at 10%.
 
+.. warning:: If the video cannot be played back at its nominal speed for performance reasons the playback speed value will automatically be lowered down.
+
+    Performance for playing back depends on the displayed image size, the frame rate and the file format.
+
 6. Playback controls
 --------------------
 
@@ -100,7 +110,19 @@ From left to right the buttons provides the following functions:
 - Goes forward one frame.
 - Goes to the end of the video or working zone.
 
+The playback loops to the start when it reaches the end of the video or working zone.
 
+Navigation
+**********
+
+It is also possible to move in the video using the following:
+
+- Scrolling with the mouse wheel to move forward and backward.
+- The arrow keys on the keyboard to move frame by frame.
+- The Page up and Page down keys to jump 10% forward.
+- The home and end keys to jump to the start and end.
+
+ 
 7. Export controls
 ------------------
 The export controls provide ways to export videos and images of the current file.

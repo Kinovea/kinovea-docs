@@ -7,8 +7,6 @@ Observation and comparison
 
    loading
    playback_ui
-   navigation
-   working_zone
    comparison
    image_geometry
    time_display
