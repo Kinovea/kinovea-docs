@@ -1,5 +1,0 @@
-
-Linked speed control
-====================
-
-test

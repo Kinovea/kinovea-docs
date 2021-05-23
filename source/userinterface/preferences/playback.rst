@@ -30,7 +30,7 @@ Link speed sliders when comparing videos
 
 When this option is checked and two videos are compared, changing the playback speed in one player will automatically change the playback speed in the other player to match it.
 
-.. note:: The playback speed is matched according to the real time speed, taking into account differences in video file framerate and :doc:`capture framerate <../../observation/capture_framerate>`.
+.. note:: The playback speed is matched according to the real time speed, taking into account differences in video file framerate and :doc:`capture framerate <../../observation/time_calibration>`.
    If one video is in slow motion and the other is at normal speed, this option should still work as expected as long as the capture framerate of the slow motion video is correctly configured. 
 
 Update image during time cursor movement

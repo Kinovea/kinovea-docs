@@ -1,5 +1,0 @@
-
-Synchronization mechanism
-=========================
-
-test

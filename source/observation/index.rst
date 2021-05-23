@@ -7,10 +7,8 @@ Observation and comparison
 
    loading
    playback_ui
-   comparison
    image_geometry
-   time_display
-   capture_framerate
-   broken_framerate
+   time_calibration
+   comparison
    overview
    reverse

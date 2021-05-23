@@ -13,8 +13,6 @@ The image viewport is the main area where the video is played back.
 Double clicking the image maximizes it in the viewport area.
 The handles at the four corners of the image can be used to change its size.
 
-
-
 2. Infobar
 ----------
 .. image:: /images/observation/infobar.png
