@@ -4,7 +4,11 @@ Annotation
 
 .. toctree::
    :maxdepth: 1
-   :caption: Annotation
 
-   telestration
-   comments
+   time_origin
+   annotation_tools
+   style_and_opacity
+   commentary
+   importing_images
+   annotation_files
+   importing_data

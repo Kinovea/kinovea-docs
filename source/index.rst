@@ -24,14 +24,10 @@ Sections
 
     observation/index
 
-- Annotation
-    - Time origin
-    - Annotation tools (labels, numbers, pencil, arrows, lines, markers, etc. = any tool that can be used to annotate.)
-    - Annotation style and opacity mechanism.
-    - Keyframe comments
-    - Importing images and vector drawings (copy & paste between screens, from explorer)
-    - KVA file format (saving & loading.)
-    - Importing subtitles, openPose.
+.. toctree::
+    :titlesonly:
+
+    annotation/index
 
 .. toctree::
     :titlesonly:
