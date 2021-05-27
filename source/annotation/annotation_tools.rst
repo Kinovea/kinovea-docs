@@ -10,7 +10,7 @@ Some tools can also be used to measure distances or display coordinates.
 Drawings are attached to a specific key image.
 Deleting the key image deletes all the drawings attached to it.
 
-Drawings have a context menu that can be used to access style and visibility configuration, tool-specific options, tracking management, copy and paste functions and deletion.
+Drawings have a context menu that can be used to access style options, visibility configuration, tool-specific functions, tracking management, copy and paste support and deletion.
 
 Right clicking the viewport with a tool active opens the color profile (default style management) at the page of the active tool.
 

@@ -45,8 +45,8 @@ Sections
     export/index
     
 - Miscellaneous topics
-    - Checking for updates.
-    - Logs and reporting bugs.
-    - Getting more help + communication channels.
+    - Program updates.
     - Command line options.
     - Control from other applications.
+    - Getting more help + communication channels.
+    - Submitting bug reports.
