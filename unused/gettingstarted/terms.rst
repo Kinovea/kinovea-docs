@@ -7,7 +7,9 @@ Kinovea is a free and open source software. As a general guideline, you can exec
 
 The project as a whole is released under the `GPL v2 license <https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt>`_.
 
-Most of the internal components also use the GPL v2. The following internal components use an MIT license instead:
+Most of the internal components also use the GPL v2. 
+
+The following internal components use an MIT license instead:
 
 - Kinovea.Video
 - Kinovea.Camera

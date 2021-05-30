@@ -44,9 +44,7 @@ Sections
     
     export/index
     
-- Miscellaneous topics
-    - Program updates.
-    - Command line options.
-    - Control from other applications.
-    - Getting more help + communication channels.
-    - Submitting bug reports.
+.. toctree::
+    :titlesonly:
+
+    misc/index
