@@ -6,6 +6,8 @@ Importing external images
 -------------------------
 In addition to opening image files as if they were videos you may import images and vector drawings into videos to create a picture in picture effect.
 
+TODO: illustration of picture in picture.
+
 To import an image file in the current video use the menu Tools > Observational references > Import image.
 
 To import an image that you have copied in the clipboard in another application, 

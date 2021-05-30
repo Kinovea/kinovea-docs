@@ -1,6 +1,6 @@
 
-Style and visibility
-====================
+Style and visibility of drawings
+================================
 
 Style 
 -----
@@ -19,6 +19,10 @@ This dialog also lets you change the name identifying the drawing.
 
 .. image:: /images/annotation/configuration.png
 
+Certain tools that are presented as separate entries in the tool bar are actually style variants of each other.
+For example the presence of arrows at the end of lines is merely a style option.
+This means it is possible to convert a line into an arrow by changing the arrow style option.
+
 
 Visibility
 ----------
@@ -30,6 +34,8 @@ New drawings start with the default opacity options set in Options > Preferences
 Each drawing can then be configured to use different visibility options.
 
 In general terms drawings have a fade-in ramp, an opaque section and a fade-out ramp.
+The default options make drawings fully visible on their key image and fade in and out in the neighboring frames.
+When drawings are tracked they stay opaque during the section of video where they are tracked.
 
 Always visible
 **************
