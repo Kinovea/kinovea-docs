@@ -1,3 +1,5 @@
+[![Documentation Status](https://readthedocs.org/projects/kinovea/badge/?version=latest)](https://kinovea.readthedocs.io/en/latest/?badge=latest)
+
 # kinovea-docs
 
 This is Kinovea's user-documentation project.
