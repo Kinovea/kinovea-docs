@@ -25,14 +25,14 @@ Hundredth of a minute               542               Hundredths of a minute
 [h:][mm:]ss.xx[x] + Frame number    1:10.48 (1762)    
 ================================    ==============   =========================
 
-.. note:: The configured time unit is used for the time position and duration, the clock and stopwatch tools and when exporting to spreadsheets. 
+.. note:: The configured time unit is used for the time position and duration, the clock and stopwatch tools, and when exporting to spreadsheets. 
     The kinematics dialog always use total milliseconds as the time unit.
 
 Time origin
 -----------
 Times displayed are relative to the time origin defined for the video.
-By default the time origin is the begining of the video but you can change it 
-in order to display times relative to a particular event of the video such as a ball impact,
+By default the time origin is at the begining of the video but you can change it 
+in order to display times relative to a particular event of the video; such as a ball impact,
 a jump take-off, a release point, a race start, etc.
 
 Video positions before the time origin have negative times.
@@ -52,7 +52,7 @@ To annotate the video with the current video time use the Clock tool |Clock|.
 
 .. image:: /images/measurement/toolclock.png
 
-By default a clock object simply displays the current video time, using the global time origin. 
+By default a clock object simply displays the current video time using the global time origin. 
 Each clock tool may also have its own custom time origin independent from the global one. 
 To define a custom time origin Right click the clock tool and choose "Mark current time as time origin for this clock".
 
