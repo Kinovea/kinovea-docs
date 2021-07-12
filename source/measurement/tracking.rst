@@ -39,3 +39,4 @@ This can be used to obtain coordinates of a point relatively to a moving referen
 
 .. note:: Tracking the calibration object and tracking the coordinate system are not compatible with each other. The tracked calibration object redefines the coordinate system.
 
+!
