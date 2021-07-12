@@ -1,5 +1,5 @@
 
-Style and visibility of drawings
+Style and Opacity of drawings
 ================================
 
 Style 
@@ -34,7 +34,7 @@ New drawings start with the default opacity options set in Options > Preferences
 Each drawing can then be configured to use different visibility options.
 
 In general terms drawings have a fade-in ramp, an opaque section and a fade-out ramp.
-The default options make drawings fully visible on their key image and fade in and out in the neighboring frames.
+The default options make drawings fully visible on their key image and fade in and out of the neighboring frames.
 When drawings are tracked they stay opaque during the section of video where they are tracked.
 
 Always visible
@@ -65,6 +65,6 @@ This option controls how long the drawing stays at its maximum opacity level bef
 
 **Fading duration (frames)**
 
-This option controls the duration of the ramps before and after the maximum opacity, until the drawing becomes completely invisible.
+This option controls the duration of the ramps before and after the maximum opacity until the drawing becomes completely invisible.
 
 
