@@ -9,7 +9,7 @@ The unit for angles can be configured in Preferences > Playback > Units. The opt
 
 Angle
 ----------
-To measure an angle add an angle object and position its end points.
+To measure an angle, add an angle object and position it's end points.
 
 .. image:: /images/measurement/angle.png
 
@@ -25,10 +25,10 @@ The context menu options let you switch between signed or unsigned angle, change
 Goniometer
 -----------
 
-The goniometer tool lets you measure the extension or flexion of a body segment relatively to a reference anatomical angle or neutral position.
+The goniometer tool lets you measure the extension or flexion of a body segment relative to a referenced anatomical angle or neutral position.
 
 A physical goniometer combines two arms and a protractor. 
-One arm is called the stationary arm and the other the movable arm. 
+One arm is called the stationary arm and the other is called the movable arm. 
 The protractor part contains multiple graduated rings that allow the physician to pick a reference axis when reading the angle.
 
 .. figure:: /images/measurement/goniometer-physical2.png
@@ -41,7 +41,8 @@ The stationary arm is aligned with the reference segment to materialize the neut
 Using a goniometer instead of a simple protractor makes it easier to align the protractor with the body segments
 and helps standardize the way the measurements are made for the range of motion of specific joints.
 
-In Kinovea the goniometer tool has three branches. The stationary arm is the thick plain arm.
+In Kinovea, the goniometer tool has three branches:
+The stationary arm is the thick plain arm.
 The movable arm is the one with the arrow at the end.
 The dashed line is used to define the protractor reference axis in relation to the stationary arm.
 This branch rotates by 45° increments relatively to the stationary arm.
