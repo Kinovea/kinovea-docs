@@ -12,9 +12,9 @@ Deleting the key image deletes all the drawings attached to it.
 
 Drawings are vector-based: they can be modified after they have been added to the video.
 
-Drawings have a context menu that can be used to access style options, visibility configuration, tool-specific functions, tracking management, copy and paste support and deletion.
+Drawings have a context menu that can be used to access style options, visibility configuration, tool-specific functions, tracking management, copy and paste, support and deletion.
 
-While a tool is active right clicking the viewport opens the color profile at the page of the active tool.
+While a tool is active, right clicking the viewport opens the color profile at the page of the active tool.
 
 Tool bar
 ------------
@@ -51,7 +51,7 @@ To stop using a particular tool and come back to the hand tool use the Escape ke
 
 Adds a new key image.
 
-TODO: illustration of the key image thumbnails panel.
+**TODO: illustration of the key image thumbnails panel.**
 
 |Commentary| **Commentary**
 
