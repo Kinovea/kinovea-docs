@@ -25,13 +25,13 @@ Configuration
 -------------
 
 This section describes the common options for the configuration of machine vision cameras. 
-Settings or installation information specific to each camera vendor are described afterwards.
+Settings or installation information specific to each camera vendor are described after the section **Resulting Framerate**.
 
 .. image:: /images/capture/config-basler.png
 
 Stream format
 *************
-The avalaible stream formats depend on the brand and model of the camera.
+The available stream formats depend on the brand and model of the camera.
 
 Stream formats named *Raw* or containing *Bayer* in the name transmit the raw sensor data and can be used to record raw videos.
 
@@ -60,7 +60,7 @@ The height of the images. This usually impacts the maximum framerate possible as
 Framerate
 ***********************
 The target framerate. Whether this framerate is actually reached or not depends on the image format, size, exposure and the camera hardware.
-If the framerate cannot be sustain the *Resulting framerate* value will be displayed in red.
+If the framerate cannot be sustained, the *Resulting framerate* value will be displayed in red.
 
 If the "Auto" checkbox is checked, the camera will ignore the value and always send the maximum framerate possible based on the rest of the configuration and the camera hardware.
 If the "Auto" checkbox is not checked, the camera will use at most the configured value, if it is possible for the hardware to do so. 
@@ -97,7 +97,7 @@ Basler
 Pylon installation 
 ******************
 
-When installing Basler's Pylon runtime software it is necessary to use the "Custom" option in the installer, expand the "pylon Runtime" node and select "pylon C .NET Runtime" option.
+When installing Basler's Pylon runtime software, it is necessary to use the "Custom" option in the installer, expand the "pylon Runtime" node, and select "pylon C .NET Runtime" option.
 
 .. image:: /images/capture/pylon-install.png
 
@@ -116,7 +116,7 @@ IDS
 Other options for IDS
 *********************
 
-In order to use options that are not supported in Kinovea use IDS' uEye Cockpit. 
+In order to use options that are not supported in Kinovea, use IDS' uEye Cockpit. 
 Modify the camera configuration in uEye Cockpit and do File > Save parameters to file. 
 Then in Kinovea, use the Import parameters button on the camera configuration dialog and point to the file you just saved.
 
