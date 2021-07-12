@@ -21,4 +21,4 @@ This option highlights the area covered by the perspective grid used to calibrat
 Export options
 --------------
 The data can be exported to an image or to tabular data.
-For tabular data the points are sorted by time, the first column is the time in milliseconds, the second and third columns are the X and Y positions.
+For tabular data the points are sorted by time; the first column is the time in milliseconds, the second and third columns are the X and Y positions.
