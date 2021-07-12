@@ -13,7 +13,7 @@ The image itself can be moved around by dragging with the mouse and resized usin
 
 If the image stays black, there might be a problem with the available USB bandwidth or power, or the exposure duration might be too short.
 
-If nothing is visible at all, not even the black image rectangle, the camera did not connect correctly, for example the camera might be in use in another application at the same time. 
+If nothing is visible at all, not even the black image rectangle, the camera did not connect correctly; for example, the camera might be in use in another application at the same time. 
 
 
 2. Infobar
@@ -36,13 +36,13 @@ Signal (fps)
 This is the frequency at which Kinovea is receiving images from the camera. The value is in frames per second.
 
 Many cameras will reduce their frame rate based on various external factors. 
-For example when a camera uses auto-exposure and the exposure duration computed by the device is incompatible with the selected frame rate.
+For example, when a camera uses auto-exposure and the exposure duration computed by the device is incompatible with the selected frame rate.
 
 Throughput (MB/s)
 *****************
 This is the amount of data that passes through Kinovea as it processes the stream. The value is in megabytes per second, with the convention of one megabyte as 1024 kilobytes.
 
-This value is related to the the image size, frame rate and format, possible on-camera image compression, link bandwidth and possible post-processing done at the driver level.
+This value is related to the the image size, frame rate and format, possible on-camera image compression, link bandwidth, and possible post-processing done at the driver level.
 
 You can use this value to estimate the necessary speed for your storage medium to write the uncompressed stream.
 
@@ -70,7 +70,7 @@ If this value is non-zero, some frames are missing from the output video and any
 
 The toolbar contains drawing tools usable on the capture screen. Some tools available in the playback screen are not available in the capture screen.
 
-Some buttons may give access to multiple tools, to access the other tools right click the button or perform a long press on the button.
+Some buttons may give access to multiple tools. To access the other tools, right click the button or perform a long press on the button.
 
 The style profile dialog is not currently accessible in the capture screen, in order to change the default style of a tool you need to open a playback screen and change it from there.
 
@@ -127,7 +127,7 @@ The available options depend on the specific camera brand and model.
 .. |Pause| image:: /images/capture/icons/grab_pause.png
 
 Pauses or restarts the camera stream. This disconnects the camera. 
-When the camera is disconnected it is possible to review the last few seconds of action seen by the camera by adjusting the delay.
+When the camera is disconnected, it is possible to review the last few seconds of action seen by the camera by adjusting the delay.
 
 |Disarm| *Disarm capture trigger*
 
@@ -147,7 +147,7 @@ The saving directory can be configured from Options > Preferences > Capture > Im
 
 .. |Record| image:: /images/capture/icons/control_rec.png
 
-Starts or stops recording the video. The video is recorded based on the compression options, recording mode and naming options found under Options > Preferences > Capture.
+Starts or stops recording the video. The video is recorded based on the compression options, recording mode, and naming options found under Options > Preferences > Capture.
 
 
 6. Delay controls

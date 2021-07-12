@@ -19,6 +19,7 @@ OpenPose
 --------
 
 OpenPose is a software that detects human body poses in images.
+
 To learn more about OpenPose check the project page: https://github.com/CMU-Perceptual-Computing-Lab/openpose
 
 The result of running the OpenPose program on a video is a set of JSON files containing data for one or more human postures. 
