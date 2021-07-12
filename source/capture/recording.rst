@@ -4,7 +4,7 @@ Recording
 Starting and stopping recording
 -------------------------------
 
-Recording can be started manually by using the record button |Record| in the capture controls, or automatically by audio trigger.
+Recording can be started manually by using the record button |Record| in the capture controls, or automatically by configuring an audio trigger.
 
 .. image:: /images/capture/capturecontrols.png
 
@@ -39,32 +39,32 @@ For high speed cameras the framerate set in the metadata of the output video can
 Performances
 ------------
 
-When the recording process is not fast enough to sustain the camera framerate images are skipped and not added to the output video. 
-This is known as frame drops and it can corrupt time measurements made on the output video, as this assumes stable frame rate.
+When the recording process is not fast enough to sustain the camera framerate, images are skipped and not added to the output video. 
+This is known as "frame drops" and it can corrupt time measurements made on the output video, as this assumes stable frame rate.
 
-In order to make the most out of the camera without any frame drops it is important to identify the bottlenecks and configure the camera and Kinovea according to your requirements and the trade offs you are interested in.
+In order to make the most out of the camera without any frame drops, it is important to identify the bottlenecks and configure the camera and Kinovea according to your requirements and the trade offs you are interested in.
 
 Use the infobar to get feedback about performances.
 
 .. image:: /images/capture/infobar2.png
 
-TODO: link to infobar description.
+**TODO: link to infobar description.**
 
 Recording mode
 **************
 The recording mode "Retroactive" should not yield any frame drops but the duration of the output videos is limited by the amount of memory allocated for the delay buffer. 
-Furthermore this mode renders the camera unavailable for a small duration after the recording, while Kinovea performs the actual export.
+Furthermore, this mode renders the camera unavailable for a small duration after the recording, while Kinovea performs the actual export.
 
-The other two modes record on-the-fly and can record for arbitrary long periods (based on storage space) and without post-recording pause, but they require more configuration if the camera does not already produce compressed images.
+The other two modes record on-the-fly and can record for arbitrary long periods (based on storage space) and without post-recording pause. But they require more configuration if the camera does not already produce compressed images.
 
 Compression
 ***********
-For cameras that do not produce an already compressed stream, Kinovea may compresses the images on the fly on the CPU and this process is usually slow compared to the frame rate that the camera can sustain.
+For cameras that do not produce an already compressed stream, Kinovea may compresses the images on the fly on the CPU. This process is usually slow compared to the frame rate that the camera can sustain.
 
 You can disable compression on recordings under Options > Preferences > Capture > General.
 
 When compression is disabled, the amount of data to store on file is between 5 to 10 times larger.
-In this configuration the speed of the storage medium might become the new bottleneck.
+In this configuration, the speed of the storage medium might become the new bottleneck.
 Solid state drives (SSD) are very much recommended instead of hard drives (HDD). NVMe SSD offer even better performances. 
 Ultimately it is also possible to configure a RAM Drive to further increase the storage speed.
 
@@ -74,6 +74,6 @@ Automation scenario
 It is possible to setup Kinovea to record and replay videos multiple times in a row without manual interaction.
 
 Have the recordings start from the audio trigger and stop from the recording duration preset. 
-Add a replay folder observer monitoring the capture folder, it will automatically open and play the last recorded video.
+Add a replay folder observer monitoring the capture folder, this will automatically open and play the last recorded video.
 
 
