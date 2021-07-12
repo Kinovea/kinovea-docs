@@ -65,6 +65,6 @@ This option controls how long the drawing stays at its maximum opacity level bef
 
 **Fading duration (frames)**
 
-This option controls the duration of the ramps before and after the maximum opacity, until the drawing becomes completely invisible.
+This option controls the duration of the ramps before and after the maximum opacity until the drawing becomes completely invisible.
 
 
