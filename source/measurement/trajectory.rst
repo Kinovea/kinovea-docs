@@ -98,4 +98,4 @@ When the section of time covered by the trajectory contains key images they are 
 .. image:: /images/measurement/trajectory-keys.jpg
 
 
-
+! 
