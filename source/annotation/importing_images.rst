@@ -11,14 +11,14 @@ TODO: illustration of picture in picture.
 To import an image file in the current video use the menu Tools > Observational references > Import image.
 
 To import an image that you have copied in the clipboard in another application, 
-right click the video background and use the menu Paste image from clipboard.
+right click the video background and use the menu to Paste the image from clipboard.
 
-To transfer an image from one screen to the other use the menu Copy image to clipboard and then paste it in the other video.
+To transfer an image from one screen to the other, use the menu to Copy image to clipboard and then paste it in the other video.
 
 Built-in vector-based references
 --------------------------------
 
-The menu Tools > Observational references contains a number of entries with built-in vector drawings such as a human skeleton or a protractor.
+The menu Tools > Observational references contain a number of entries with built-in vector drawings such as a human skeleton or a protractor.
 
 .. image:: /images/annotation/builtinsvg.png
 
