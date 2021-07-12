@@ -28,7 +28,7 @@ The following options are available:
 * Centripetal acceleration
 * Resultant acceleration
 
-.. note:: Be mindful that acceleration values are very sensible to noise as they are the second derivative of the digitized position.
+.. note:: Be mindful that acceleration values are very sensitive to noise as they are the second derivative of the digitized position.
 
 Time type
 **********
