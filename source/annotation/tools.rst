@@ -85,7 +85,7 @@ Line tools
 
 .. image:: /images/annotation/line.png
 
-The line tool and the circle tool can also be used to measure segments and circles, see Measurement > Measuring positions and distances.
+The line tool and the circle tool can also be used to measure segments and circles, see **Measurement > Measuring** positions and distances.
 
 Arrow tools
 -------------------
