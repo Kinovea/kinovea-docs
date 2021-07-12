@@ -18,7 +18,7 @@ A label object will be created for each subtitle block with its visibility set u
 OpenPose
 --------
 
-OpenPose is a software that detect human body poses on images.
+OpenPose is a software that detects human body poses on images.
 To learn more about OpenPose check the project page: https://github.com/CMU-Perceptual-Computing-Lab/openpose
 
 The result of running the OpenPose program on a video is a set of JSON files containing data for one or more human posture. 
