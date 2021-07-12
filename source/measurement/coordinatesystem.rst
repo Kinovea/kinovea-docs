@@ -8,7 +8,7 @@ To show or hide the coordinate system use the menu Tools > Coordinate system.
 Line calibration
 ----------------
 The first placed point of the line becomes the default origin of the coordinate system.
-The line direction becomes an axis of the coordinate system, based on the option selected in Coordinate system alignment.
+The line direction becomes an axis of the coordinate system based on the option selected in Coordinate system alignment.
 
 The following alignment options are available:
 
