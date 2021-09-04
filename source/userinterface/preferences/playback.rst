@@ -41,21 +41,21 @@ When this option is not checked the video display will be paused when manually m
 Default aspect ratio
 ********************
 
-This option defines the default image aspect ratio configured any time a video file is opened. It is the same as manually configuring the menu Image > Image format.
+This option defines the default image aspect ratio configured any time a video file is opened. It is the same as manually configuring the menu :menuselection:`Image --> Image format`.
 
 The following options are available:
 
-- Auto detection
-- Force 4:3
-- Force 16:9
+- :guilabel:`Auto detection`
+- :guilabel:`Force 4:3`
+- :guilabel:`Force 16:9`
 
-The *Auto detection* option uses the image size and the pixel aspect ratio found in the video file metadata to calculate the image height. 
+The :guilabel:`Auto detection` option uses the image size and the pixel aspect ratio found in the video file metadata to calculate the image height. 
 The other options will change the height of the video to match a 4:3 or 16:9 aspect ratio.
 
 Always deinterlace when opening a new video
 *******************************************
 
-This option forces the deinterlacing mechanism to be enabled for all opened files. It is the same as manually configuring the menu Image > Deinterlace.
+This option forces the deinterlacing mechanism to be enabled for all opened files. It is the same as manually configuring the menu :menuselection:`Image --> Deinterlace`.
 
 
 Default annotations file
@@ -63,7 +63,7 @@ Default annotations file
 
 This option lets you point to a .KVA file containing video annotations that will be automatically loaded when any video is opened.
 
-Other annotations files can still be loaded on top of the video by using the sidecar file method or through the menu File > Load annotations. They will be merged with each others.
+Other annotations files can still be loaded on top of the video by using the sidecar file method or through the menu :menuselection:`File --> Load annotations`. They will be merged with each others.
 
 See also: Annotation > KVA files.
 
@@ -117,7 +117,7 @@ When using textual timecode if the real time framerate is higher than 100 fps, t
 Speed
 *****
 
-The unit for speed is used in the trajectory tool and in the **Linear kinematics** window when setting the measurement display option to Speed, Horizontal velocity or Vertical velocity.
+The unit for speed is used in the trajectory tool and in the :guilabel:`Linear kinematics` window when setting the measurement display option to :guilabel:`Speed`, :guilabel:`Horizontal velocity` or :guilabel:`Vertical velocity`.
 It is also used in the Angular kinematics window when using Tangential velocity.
 
 The following options are available:
@@ -136,8 +136,8 @@ Miles per hour                      mph
 Acceleration
 ************
 
-The unit for acceleration is used in the trajectory tool and in the **Linear kinematics** window when setting the measurement display option to Acceleration, Horizontal acceleration or Vertical acceleration.
-It is also used in the Angular kinematics window when using Tangential acceleration, Centripetal acceleration or Resultant acceleration. 
+The unit for acceleration is used in the trajectory tool and in the :guilabel:`Linear kinematics` window when setting the measurement display option to :guilabel:`Acceleration`, :guilabel:`Horizontal acceleration` or :guilabel:`Vertical acceleration`.
+It is also used in the :guilabel:`Angular kinematics` window when using :guilabel:`Tangential acceleration`, :guilabel:`Centripetal acceleration` or :guilabel:`Resultant acceleration`.
 
 The following options are available:
 
@@ -153,7 +153,7 @@ Feet per second squared            ft/s²
 Angle
 *****
 
-The unit for angle is used in tools measuring angles and in the **Angular kinematics** window when setting the measurement display option to Angle or Total displacement.
+The unit for angle is used in tools measuring angles and in the :guilabel:`Angular kinematics` window when setting the data source option to :guilabel:`Angle` or :guilabel:`Total displacement`.
 
 The following options are available:
 
@@ -167,7 +167,7 @@ Radians                             rad
 Angular velocity
 ****************
 
-The unit for angular velocity is used in the Angular kinematics window when setting the data source to Angular velocity.
+The unit for angular velocity is used in the :guilabel:`Angular kinematics` window when setting the data source option to :guilabel:`Angular velocity`.
 
 The following options are available:
 
@@ -183,7 +183,7 @@ Revolutions per minute              rpm
 Angular acceleration
 ********************
 
-The unit for angular acceleration is used in the Angular kinematics window when setting the data source to Angular acceleration.
+The unit for angular acceleration is used in the :guilabel:`Angular kinematics` window when setting the data source to :guilabel:`Angular acceleration`.
 
 The following options are available:
 
@@ -198,7 +198,7 @@ Radians per second squared          rad/s²
 Custom length unit
 ******************
 
-This option defines the name and symbol for an additional length unit. 
+This option defines the name and symbol for an additional length unit.
 The built-in length units are: millimeters, centimeters, meters, inches, feet and yards.
 
 This custom length unit will appear at the bottom of the length unit drop down in the spatial calibration dialogs.

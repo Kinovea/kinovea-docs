@@ -12,11 +12,11 @@ In this case the video will play back slower than real time, which is expected,
 but the time-related information and calculations would be erroneous if they were based on the playback framerate.
 
 To work with this type of video it is important to configure (or "calibrate") the time scale.
-This is done by going to Video > Configure video timing and filling the capture frame rate.
+This is done by going to :menuselection:`Video --> Configure video timing` and filling the capture frame rate.
 
 .. image:: /images/observation/captureframerate.png
 
-Changing this option does not change the nominal speed at which the video is played back. 
+Changing this option does not change the nominal speed at which the video is played back.
 In other words setting the speed control at its mid-point will still play back the video at the same slow motion rate as before.
 Instead, this option changes the time coordinates of the images.
 
@@ -26,7 +26,7 @@ In some cases a video is saved with a frame rate which is just plain wrong, or K
 For example a USB camera might claim that it is capturing video at 25 fps but the video stream is actually transfered at 15 fps.
 
 In this case the video will play back at the wrong speed and the time calibration will be wrong.
-If you know the real playback frame rate at which the video is supposed to be played back, you may enter it in Video > Configure video timing.
+If you know the real playback frame rate at which the video is supposed to be played back, you may enter it in :menuselection:`Video --> Configure video timing`.
 
 .. image:: /images/observation/brokenframerate.png
 

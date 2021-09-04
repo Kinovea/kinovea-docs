@@ -8,12 +8,12 @@ When Kinovea is started using a workspace it will reload the screens, reopen vid
 
 Default workspace
 -----------------
-You can save the current arrangement of screens as the default workspace by using the menu Options > Workspace > Save as default workspace.
+You can save the current arrangement of screens as the default workspace by using the menu :menuselection:`Options --> Workspace --> Save as default workspace`.
 The next time Kinovea starts it will read this workspace and reload the videos and cameras accordingly.
 
-To delete the default workspace and make Kinovea starts normally on the thumbnail explorer use the menu Options > Workspace > Forget default workspace.
+To delete the default workspace and make Kinovea starts normally on the thumbnail explorer use the menu :menuselection:`Options --> Workspace --> Forget default workspace`.
 
 Exporting workspaces
 --------------------
-Workspaces can be exported to separate XML files using the menu Options > Workspaces > Export workspace.
+Workspaces can be exported to separate XML files using the menu :menuselection:`Options --> Workspaces --> Export workspace`.
 To start Kinovea using an explicit workspace file it must be passed as an argument to the command line.

@@ -10,16 +10,12 @@ Language
 ********
 This option lets you change the language of Kinovea's user interface.
 
-The following languages are supported: Arabic, Bulgarian, Catalan, Chinese, Czech, Danish, Dutch, English, Farsi, Finnish, French, German, Greek, 
-Italian, Japanese, Korean, Lithuanian, Macedonian, 
-Norwegian, Polish, Portuguese, Romanian, Russian, Serbian Latin, Serbian Cyrillic, Spanish, Swedish, Turkish.
-
 The translations are contributed by the community. 
-If you would like to contribute please check the translation project at [Weblate](https://hosted.weblate.org/engage/kinovea/).
+If you would like to contribute please check the translation project at `Weblate <https://hosted.weblate.org/engage/kinovea/>`__.
 
 Number of files in history
 **************************
-This options controls how many recently opened files and replay folders are remembered and listed under the menu **File > Recent**.
+This options controls how many recently opened files and replay folders are remembered and listed under the menu :menuselection:`File --> Recent`.
 
 Allow multiple instances of Kinovea
 ***********************************

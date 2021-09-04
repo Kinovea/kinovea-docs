@@ -63,8 +63,8 @@ You can also update the working zone boundaries by directly manipulating the blu
 
 .. tip:: If the amount of data fits in the cache memory, the working zone will be loaded in memory.
 
-    This improves playback performances and enables the Video > Overview and Video > Reverse menus.
-    The cache memory can be configured under Options > Preferences > Playback > Memory.
+    This improves playback performances and enables the :menuselection:`Video --> Overview` and :menuselection:`Video --> Reverse` menus.
+    The cache memory can be configured under :menuselection:`Options --> Preferences --> Playback --> Memory`.
 
 5. Timeline area
 ----------------

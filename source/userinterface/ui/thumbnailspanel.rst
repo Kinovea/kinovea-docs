@@ -38,6 +38,6 @@ To configure which metadata is overlaid right click the background of the explor
 
 .. image:: /images/ui/metadataoverlay.png
 
-Enabling the metadata "Kva file" will make it display "kva" on the thumbnail when annotations exist as a sidecar file to the main video.
+Enabling the metadata :guilabel:`Kva file` will make it display "kva" on the thumbnail when annotations exist as a sidecar file to the main video.
 
 

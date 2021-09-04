@@ -36,9 +36,9 @@ This option defines the default image format used when saving snapshots.
 
 The following image formats are available:
 
-- JPG
-- PNG
-- BMP
+- :guilabel:`JPG`
+- :guilabel:`PNG`
+- :guilabel:`BMP`
 
 
 Video format
@@ -47,9 +47,9 @@ This option defines the default video container format used when recording compr
 
 The following container formats are available:
 
-- MP4
-- AVI
-- MKV
+- :guilabel:`MP4`
+- :guilabel:`AVI`
+- :guilabel:`MKV`
 
 Uncompressed video format
 *************************
@@ -57,15 +57,15 @@ This option defines the default video container format used when recording uncom
 
 The following container formats are available:
 
-- MKV
-- AVI
+- :guilabel:`MKV`
+- :guilabel:`AVI`
 
 
 Default annotations file
 ************************
 This option lets you point to a .KVA file containing annotations that will be automatically loaded when any camera stream is opened.
 
-Other annotations files can still be loaded on top of the camera stream by using the menu File > Load annotations. They will be merged with each others.
+Other annotations files can still be loaded on top of the camera stream by using the menu :menuselection:`File --> Load annotations`. They will be merged with each others.
 
 See also: Annotation > KVA files.
 
@@ -150,14 +150,14 @@ Image naming
 
 The options on this page let you configure the automated naming system for image snapshots of the camera stream.
 
-The final path and file name is created by concatenating the Root, Sub directory and File values. 
+The final path and file name is created by concatenating the :guilabel:`Root`, :guilabel:`Sub directory` and :guilabel:`File` values. 
 Each field can contain special macros referring to context variables that are automatically inserted in the final path.
 
 If no context variable are used at all, the file naming system will prepare the next recording by automatically incrementing a counter and appending a number to the file name.
 
 If the computed value result in the same name as an existing file the capture screen will prompt for overwrite confirmation.
 
-To view the list of available context variables click the % button next to the Sub directory or File fields.
+To view the list of available context variables click the :guilabel:`%` button next to the :guilabel:`Sub directory` or :guilabel:`File` fields.
 
 The following context variables are available:
 
@@ -191,7 +191,7 @@ Some examples assuming the current date and time is October 20th, 1968 at 16:00:
     %date-%camalias: 19681020-mycamcorder
     
 
-.. note:: If you want to use a completely static file name and bypass the automated counter increment for consecutive recordings, use the %% macro variable. 
+.. note:: If you want to use a completely static file name and bypass the automated counter increment for consecutive recordings, use the :guilabel:`%%` macro variable. 
     Be aware that this will require you to either enter the filename manually for every recording or overwrite an existing file.
 
 
@@ -225,7 +225,7 @@ Input device
 ^^^^^^^^^^^^
 This option lets you select which microphone is used to trigger recordings. 
 
-.. tip:: Ensure that Kinovea can access your microphone by opening Windows Sound settings, going to "Microphone privacy settings" and turning on "Allow apps to access your microphone".
+.. tip:: Ensure that Kinovea can access your microphone by opening :guilabel:`Windows Sound settings`, going to :guilabel:`Microphone privacy settings` and turning on :guilabel:`Allow apps to access your microphone`.
 
 Trigger threshold
 ^^^^^^^^^^^^^^^^^
@@ -248,7 +248,8 @@ Recordings started manually or by audio trigger will be stopped right after they
 Setting the value to 0 disables the option and requires manually stopping the recording process.
 
 This option is orthogonal to delayed recording. 
-For example if the camera is configured with a 2-second delay and the maximum duration is set to 5 seconds, the created video will last 5 seconds as configured: the first 2 seconds are actions that happened before the recording trigger and the last 3 seconds are actions that happened after the recording trigger.
+For example if the camera is configured with a 2-second delay and the maximum duration is set to 5 seconds, the created video will last 5 seconds as configured: 
+the first 2 seconds are actions that happened before the recording trigger and the last 3 seconds are actions that happened after the recording trigger.
 
 In combination with the audio trigger this option lets you record multiple sequences without manually interacting with the computer.
 

@@ -4,7 +4,7 @@ Explorer panel
 The explorer panel is found on the left hand side of the main Kinovea window.
 It provides access to the file system and connected cameras.
 
-To show or hide the explorer panel use the menu View > Explorer panel, or the shortcut F4.
+To show or hide the explorer panel use the menu :menuselection:`View --> Explorer panel`, or the shortcut :kbd:`F4`.
 
 The explorer panel contains the following tabs:
 
@@ -30,7 +30,7 @@ Shortcut explorer
 -----------------
 The shortcut explorer shows a tree view of folders that were bookmarked as favorites.
 
-To add a shortcut to a folder in this list, right click the selected folder in the file explorer tab or in the shortcut tab and choose "Add to shortcuts".
+To add a shortcut to a folder in this list, right click the selected folder in the file explorer tab or in the shortcut tab and choose :menuselection:`Add to shortcuts`.
 
 You can also use the Shortcut toolbar in the shortcut panel to add and remove shortcuts.
 

@@ -3,7 +3,7 @@ Comparison and synchronization
 
 Comparison
 ----------
-Two videos can be opened side by side using the "Two playback screens" button or the menu "View > Two playback screens".
+Two videos can be opened side by side using the :guilabel:`Two playback screens` button or the menu :menuselection:`View --> Two playback screens`.
 
 The timeline cursor in each playback screen can be moved independently.
 
@@ -15,8 +15,8 @@ Two videos can be synchronized by setting their time origin to a common event vi
 When the videos are synchronized they will pass through their time origin at the same time.
 
 To set the time origin in a video move to that point in the video 
-and click the "Mark current time as time origin" button or right click the background of the video and choose the "Mark current time as time origin" menu.
-Alternatively you can move each video to the correct point independently and use the "Synchronize videos on the current frames" button in the joint controls area.
+and click the :guilabel:`Mark current time as time origin` button or right click the background of the video and choose the :menuselection:`Mark current time as time origin` menu.
+Alternatively you can move each video to the correct point independently and use the :guilabel:`Synchronize videos on the current frames` button in the joint controls area.
 
 .. image:: /images/observation/compare-syncpoint.png
 
@@ -51,10 +51,10 @@ The speed controls are independent of the frame rate of the video files so
 this should apply a similar slow motion factor to both videos and keep the comparison meaningful.
 
 .. tip:: If one of the video was captured with a high speed camera and has a different capture frame rate,
-    this frame rate should be configured for this video via menu Video > Configure video timing.
+    this frame rate should be configured for this video via menu :menuselection:`Video --> Configure video timing`.
     Once this configuration is done both controls will still be coherent with each other.
 
-If you are confident that you do not want the speed sliders to be linked together you may change the option in Options > Preferences > Playback > General > Link speed sliders when comparing videos.
+If you are confident that you do not want the speed sliders to be linked together you may change the option in :menuselection:`Options --> Preferences --> Playback --> General --> Link speed sliders when comparing videos`.
 
 Superposition
 -------------
