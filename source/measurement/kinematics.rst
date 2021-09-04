@@ -13,12 +13,12 @@ To measure linear or angular speed and other kinematics quantities follow these 
   
     * Directly on the object.
     * In a dedicated kinematics diagram.
-* To export the data use the export options in the kinematics diagrams.
+* To export the data, use the export options in the kinematics diagrams.
 
-To display the measurement as a label attached to the object right click the object and choose an option under the Display measure menu.
+To display the measurement as a label attached to the object, right click the object and choose an option under the Display measure menu.
 Each measurable object has specific options based on the quantities it can measure.
 
-.. note:: The data displayed directly on objects use raw coordinates whereas the kinematics diagram use the (optional) filtering mechanism.
+.. note:: The data displayed directly on objects use raw coordinates whereas the kinematics diagram uses the (optional) filtering mechanism.
 
 Kinematics diagrams
 -------------------
@@ -50,7 +50,7 @@ The coordinates are passed through a low pass filter to remove noise.
 The filter does two passes of a second-order Butterworth filter.
 The two passes (one forward, one backward) are used to reset the phase shift [#f1]_.
 
-To initialize the filter the trajectory is extrapolated for 10 data points each side using reflected values around the end points. 
+To initialize the filter, the trajectory is extrapolated for 10 data points on each side using reflected values around the end points. 
 The extrapolated points are then removed from the filtered results [#f2]_.
 
 The filter is tested on the data at various cutoff frequencies between 0.5Hz and the Nyquist frequency.
@@ -61,7 +61,7 @@ The autocorrelation of residuals is estimated using the Durbin-Watson statistic.
 
 Cutoff frequency visualization
 *******************************
-For trajectories the cutoff frequency can be visualized in the about tab of the diagram dialog.
+For trajectories, the cutoff frequency can be visualized in the About tab of the diagram dialog.
 The calculated cutoff frequency depends on the data and is different for each trajectory object.
 
 .. image:: /images/measurement/filtering-cutoff.png

@@ -30,3 +30,4 @@ You may refresh the thumbnails of the cameras by pressing [F5] in the main explo
 You can rename or change the icon for the camera by right-clicking the thumbnail and choosing "Rename".
 
 You can reset the custom camera options by right-clicking the thumbnail and choosing "Forget custom settings".
+
