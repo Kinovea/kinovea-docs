@@ -6,7 +6,7 @@ Introduction
 -----------------------
 To measure positions and distances on video images, it is necessary to first perform :doc:`calibration </measurement/calibration>`.
 
-To display a measurement right click the object and choose an option under "Display measure".
+To display a measurement right click the object and choose an option under :menuselection:`Display measure`.
 
 .. image:: /images/measurement/menu.png
 

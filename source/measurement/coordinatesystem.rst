@@ -3,7 +3,7 @@ Coordinate system
 
 All measurements are based on the coordinate system defined by the current calibration.
 
-To show or hide the coordinate system use the menu Tools > Coordinate system.
+To show or hide the coordinate system use the menu :menuselection:`Tools --> Coordinate system`.
 
 Line calibration
 ----------------
@@ -12,11 +12,11 @@ The line direction becomes an axis of the coordinate system based on the option 
 
 The following alignment options are available:
 
-- The line defines the horizontal axis
-- The line defines the vertical axis
-- Aligned to image axes
+- :guilabel:`The line defines the horizontal axis`
+- :guilabel:`The line defines the vertical axis`
+- :guilabel:`Aligned to image axes`
 
-If "Align to image axes" is selected the orientation of the line is ignored.
+If :guilabel:`Align to image axes` is selected the orientation of the line is ignored.
 
 .. image:: /images/measurement/coordinatesystemline.png
     :align: center

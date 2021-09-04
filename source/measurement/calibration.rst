@@ -19,7 +19,7 @@ To perform line calibration follow these steps:
 
 - Have an object of known length visible in the video.
 - Add a line object and place it on top of the object of known length.
-- Right click the line and select the Calibrate menu.
+- Right click the line and select the :menuselection:`Calibrate` menu.
 - Enter the real-world length of the object.
 
 .. image:: /images/measurement/calibrationline.png
@@ -36,7 +36,7 @@ To perform plane calibration follow these steps:
 
 - Have a rectangle of known dimensions visible in the video.
 - Add a perspective grid object and move its corners to match the rectangle.
-- Right click a corner and select the Calibrate menu.
+- Right click a corner and select the :menuselection:`Calibrate` menu.
 - Enter the real-world width and height of the rectangle.
 
 .. image:: /images/measurement/calibrationplane.png

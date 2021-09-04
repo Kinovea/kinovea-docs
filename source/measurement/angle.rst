@@ -5,7 +5,7 @@ Introduction
 ------------
 To measure angles on planes that are not orthogonal to the camera optical axis it is necessary to first perform :doc:`plane calibration </measurement/calibration>`.
 
-The unit for angles can be configured in Preferences > Playback > Units. The options are Degrees (°) and Radians (rad).
+The unit for angles can be configured in :menuselection:`Preferences --> Playback --> Units`. The options are :guilabel:`Degrees (°)` and :guilabel:`Radians (rad)`.
 
 Angle
 ----------
@@ -20,7 +20,7 @@ The context menu options let you switch between signed or unsigned angle, change
 
 .. note:: Always keep in mind that it is not possible to measure angles in arbitrary space from a 2D image. 
     Angles can only be measured when the three points lie on a known 2D plane.
-    This is either the image plane or the plane calibrated using plane calibration.
+    This must be either the image plane or the plane calibrated using plane calibration.
 
 Goniometer
 -----------

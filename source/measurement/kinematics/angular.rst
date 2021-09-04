@@ -19,14 +19,14 @@ Data type
 The Data type drop down sets the kinematic quantity used in the line chart.
 The following options are available:
 
-* Angle
-* Total displacement
-* Angular velocity
-* Tangential velocity
-* Angular acceleration
-* Tangential acceleration
-* Centripetal acceleration
-* Resultant acceleration
+* :guilabel:`Angle`
+* :guilabel:`Total displacement`
+* :guilabel:`Angular velocity`
+* :guilabel:`Tangential velocity`
+* :guilabel:`Angular acceleration`
+* :guilabel:`Tangential acceleration`
+* :guilabel:`Centripetal acceleration`
+* :guilabel:`Resultant acceleration`
 
 .. note:: Be mindful that acceleration values are very sensitive to noise as they are the second derivative of the digitized position.
 
@@ -35,9 +35,9 @@ Time type
 The Time type drop down sets the time scale used in the line chart.
 The following options are available:
 
-* Absolute: times are in normal video time.
-* Relative: times are expressed relatively to the start of each trajectory.
-* Normalized: times are expressed as a fraction of each trajectory duration.
+* :guilabel:`Absolute`: times are in normal video time.
+* :guilabel:`Relative`: times are expressed relatively to the start of each trajectory.
+* :guilabel:`Normalized`: times are expressed as a fraction of each trajectory duration.
 
 Relative time aligns events to their start, this can be used to compare trajectories that did not occur at the same time in the video.
 

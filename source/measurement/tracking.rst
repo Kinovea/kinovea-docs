@@ -5,14 +5,14 @@ Introduction
 ------------
 To track a drawing object over time follow these steps:
 
-* Right click the object and choose Tracking > Start tracking.
-* Move the video forward using the Next frame button, the mouse wheel or the Play button.
+* Right click the object and choose :menuselection:`Tracking --> Start tracking`.
+* Move the video forward using the :guilabel:`Next frame` button, the mouse wheel or the :guilabel:`Play` button.
 * Adjust the points position as necessary during the path creation.
-* To finish tracking, right click inside the tracking window and choose Stop tracking.
+* To finish tracking, right click inside the tracking window and choose :menuselection:`Stop tracking`.
 
 .. image:: /images/measurement/tracking-start.png
 
-Each tool define exactly which of its points are tracked or not. The following drawing can be tracked:
+Each tool type defines exactly which ones of its points are tracked or not. The following drawing can be tracked:
 
 * Position: Marker.
 * Distance: Line.
@@ -23,9 +23,9 @@ Each tool define exactly which of its points are tracked or not. The following d
 Tracking parameters
 -------------------
 Unlike the trajectory tool the sizes of the search and object windows cannot be directly modified from the object configuration dialog.
-In order to change the default sizes for these windows go to Options > Preferences > Drawings > Tracking.
+In order to change the default sizes for these windows go to :menuselection:`Options --> Preferences --> Drawings --> Tracking`.
 
-.. tip:: Use the trajectory tool configuration dialog to visually figure out the appropriate size of the object and search window, then enter these parameters in the Preferences.
+.. tip:: Use the trajectory tool configuration dialog to visually figure out the appropriate size of the object and search window, then enter these parameters in the preferences.
 
 Tracked coordinate system
 -------------------------------

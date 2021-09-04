@@ -10,7 +10,7 @@ The current time position is visible under the main timeline.
 
 Time unit
 ---------
-The time unit can be changed from the menu Options > Time or from Options > Preferences > Playback > Units > Time.
+The time unit can be changed from the menu :menuselection:`Options --> Time` or from :menuselection:`Options --> Preferences --> Playback --> Units --> Time`.
 The following options are available:
 
 ================================    ==============   =========================
@@ -39,14 +39,14 @@ Video positions before the time origin have negative times.
 
 .. image:: /images/measurement/negativetime.png
 
-The time origin can be changed manually by using the **time origin** button |Timeorigin| or by right clicking the image and selecting "Mark current time as time origin".
+The time origin can be changed manually by using the time origin button |Timeorigin| or by right clicking the image and selecting :menuselection:`Mark current time as time origin`.
 The current video frame becomes the time origin.
 
 .. |Timeorigin| image:: /images/measurement/icons/timeorigin.png
 
 Relative clock
 --------------
-To annotate the video with the current video time use the Clock tool |Clock|.
+To annotate the video with the current video time use the clock tool |Clock|.
 
 .. |Clock| image:: /images/measurement/icons/clock-frame.png
 
@@ -54,11 +54,11 @@ To annotate the video with the current video time use the Clock tool |Clock|.
 
 By default a clock object simply displays the current video time using the global time origin. 
 Each clock tool may also have its own custom time origin independent from the global one. 
-To define a custom time origin Right click the clock tool and choose "Mark current time as time origin for this clock".
+To define a custom time origin Right click the clock tool and choose :menuselection:`Mark current time as time origin for this clock`.
 
 .. image:: /images/measurement/relativeclock.png
 
-The clock object can be identified by name by using the "Show label" menu and changing the object name in its configuration dialog.
+The clock object can be identified by name by using the :menuselection:`Show label` menu and changing the object name in its configuration dialog.
 
 Time intervals
 --------------
@@ -71,8 +71,8 @@ To measure a time interval use the Stopwatch tool |Stopwatch|.
 To measure the time elapsed between two points of the video follow these steps:
 
 * Add a stopwatch object to the video.
-* Move to the start of the interval, right click the stopwatch object and choose "Start the stopwatch".
-* Move to the end of the interval, right click the stopwatch object and choose "Stop the stopwatch".
+* Move to the start of the interval, right click the stopwatch object and choose :menuselection:`Start the stopwatch`.
+* Move to the end of the interval, right click the stopwatch object and choose :menuselection:`Stop the stopwatch`.
 
 .. image:: /images/measurement/stopwatch.png
 
@@ -87,7 +87,7 @@ This makes the final video appear in slow motion even when the speed slider is s
 In this case it is important to tell Kinovea about the original capture frame rate for times to be correct. 
 This impacts time positions and time intervals.
 
-Open the video timing dialog from menu Video > Configure video timing… 
+Open the video timing dialog from menu :menuselection:`Video --> Configure video timing…` 
 and in the top part of the dialog, enter the capture frame rate.
 
 .. image:: /images/measurement/timescale.png

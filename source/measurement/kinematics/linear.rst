@@ -21,17 +21,17 @@ Data type
 The Data type drop down sets the kinematic quantity used in the line chart.
 The following options are available:
 
-* Horizontal position
-* Vertical position
-* Total distance
-* Total horizontal displacement
-* Total vertical displacement
-* Speed
-* Horizontal velocity
-* Vertical velocity
-* Acceleration
-* Horizontal acceleration
-* Vertical acceleration
+* :guilabel:`Horizontal position`
+* :guilabel:`Vertical position`
+* :guilabel:`Total distance`
+* :guilabel:`Total horizontal displacement`
+* :guilabel:`Total vertical displacement`
+* :guilabel:`Speed`
+* :guilabel:`Horizontal velocity`
+* :guilabel:`Vertical velocity`
+* :guilabel:`Acceleration`
+* :guilabel:`Horizontal acceleration`
+* :guilabel:`Vertical acceleration`
 
 Total horizontal displacement and total vertical displacement computes the resultant displacement between the first point and the current point of the trajectory.
 This is similar to the horizontal and vertical position but makes it relative instead of absolute.
@@ -43,9 +43,9 @@ Time type
 The Time type drop down sets the time scale used in the line chart.
 The following options are available:
 
-* Absolute: times are in normal video time.
-* Relative: times are expressed relative to the start of each trajectory.
-* Normalized: times are expressed as a fraction of each trajectory duration.
+* :guilabel:`Absolute`: times are in normal video time.
+* :guilabel:`Relative`: times are expressed relative to the start of each trajectory.
+* :guilabel:`Normalized`: times are expressed as a fraction of each trajectory duration.
 
 Relative time aligns events to their start, this can be used to compare trajectories that did not occur at the same time in the video.
 

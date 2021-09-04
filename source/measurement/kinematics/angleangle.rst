@@ -19,9 +19,9 @@ Data type
 The data type drop down sets the kinematic quantity used for the variable-variable chart.
 The following options are available:
 
-* Angle
-* Angular velocity
-* Tangential velocity
+* :guilabel:`Angle`
+* :guilabel:`Angular velocity`
+* :guilabel:`Tangential velocity`
 
 Export options
 --------------
