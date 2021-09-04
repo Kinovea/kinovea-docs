@@ -9,7 +9,7 @@ The unit for angles can be configured in Preferences > Playback > Units. The opt
 
 Angle
 ----------
-To measure an angle, add an angle object and position it's end points.
+To measure an angle, add an angle object and position its end points.
 
 .. image:: /images/measurement/angle.png
 
