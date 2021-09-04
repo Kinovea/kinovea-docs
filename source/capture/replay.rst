@@ -5,11 +5,11 @@ Feature description
 -------------------
 
 Replay folder observers are special playback screens that constantly monitor a specific folder for new videos. 
-When a new video is created in the monitored folder the playback screen automatically loads it and starts playing it.
-This can be used to automate the capture and replay feedback loop.
+When a new video is created in the monitored folder, the playback screen automatically loads it and starts playing it.
+This can be used to automate the capture and replay the feedback loop.
 
-The replay folder observer works at the file system level and is independent from the source or process creating the video: 
-the videos can be created by the same or another instance of Kinovea, or by an external process.
+The replay folder observer works at the file system level and is independent from the source or process creating the video. 
+The videos can be created by the same or another instance of Kinovea, or by an external process.
 
 Apart from the monitoring mechanism, the video is loaded normally. 
 In particular the annotation file created by the capture screen is loaded and drawings created on the capture side are imported.
@@ -37,7 +37,7 @@ The recently opened folder observers are listed under the menu File > Recent.
 Activation and deactivation
 ---------------------------
 
-When manually loading a video into a replay folder observer the observer is not deactivated and will continue to monitor the folder.
+When manually loading a video into a replay folder observer, the observer is not deactivated and will continue to monitor the folder.
 
 In order to deactivate the monitoring and loading of new videos, you can turn the folder observer into a regular playback screen by clicking the observer icon in the infobar of the screen.
 

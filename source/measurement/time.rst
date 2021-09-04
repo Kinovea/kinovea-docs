@@ -25,8 +25,8 @@ Hundredth of a minute               542               Hundredths of a minute
 [h:][mm:]ss.xx[x] + Frame number    1:10.48 (1762)    
 ================================    ==============   =========================
 
-.. note:: The configured time unit is used for the time position and duration, the clock and stopwatch tools and when exporting to spreadsheets. 
-    The kinematics dialog always use total milliseconds as the time unit.
+.. note:: The configured time unit is used for the time position and duration, the clock and stopwatch tools, and when exporting to spreadsheets. 
+    The kinematics dialog always uses total milliseconds as the time unit.
 
 Time origin
 -----------
@@ -39,7 +39,7 @@ Video positions before the time origin have negative times.
 
 .. image:: /images/measurement/negativetime.png
 
-The time origin can be changed manually by using the time origin button |Timeorigin| or by right clicking the image and selecting "Mark current time as time origin".
+The time origin can be changed manually by using the **time origin** button |Timeorigin| or by right clicking the image and selecting "Mark current time as time origin".
 The current video frame becomes the time origin.
 
 .. |Timeorigin| image:: /images/measurement/icons/timeorigin.png

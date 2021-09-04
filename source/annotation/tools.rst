@@ -85,7 +85,7 @@ Line tools
 
 .. image:: /images/annotation/line.png
 
-The line tool and the circle tool can also be used to measure segments and circles, see Measurement > Measuring positions and distances.
+The line tool and the circle tool can also be used to measure segments and circles, see **Measurement > Measuring** positions and distances.
 
 Arrow tools
 -------------------
@@ -181,7 +181,7 @@ Magnifier
 
 - |Magnifier| **Magnifier**
 
-The magnifier function creates a picture-in-picture effect with an enlarged version of the current image.
+The magnifier function creates a picture-in-picture effect with an enlarged version of the current image displayed within the original image.
 This is a display mode rather than a normal drawing tool, it is not saved in the KVA file.
 
 .. image:: /images/observation/magnifier.png

@@ -1,12 +1,12 @@
 
-Webcams, Mini DV, HDMI capture cards
+Webcams, Mini DV, and HDMI capture cards
 ====================================================
 
 General
 -------
 
 Kinovea supports devices with a DirectShow driver. 
-These devices include USB video class (UVC) webcams, Mini DV camcorders and analog video converters.
+These devices include USB video class (UVC) webcams, Mini DV camcorders, and analog video converters.
 
 Configuration
 -------------
@@ -27,7 +27,7 @@ The typical stream formats include:
 
 Using the MJPEG stream format can lower the bandwidth requirements and improve framerate.
 
-.. note:: Kinovea native storage format for compressed videos is MJPEG and when using this stream format the videos are saved as-is without any extra decompression/compression steps.
+.. note:: Kinovea native storage format for compressed videos is MJPEG. When using this stream format, the videos are saved as-is without any extra decompression/compression steps.
 
 Image size
 **********
@@ -46,7 +46,7 @@ This value is related to the amount of time the sensor is exposed.
 Changing the exposure duration lets you find a tradeoff between motion blur and light requirements.
 Lowering the exposure duration reduces motion blur and increases the amount of light required to capture the scene.
 
-For most cameras brands the unit of this value is not known and it is exposed as an arbitrary number.
+For most cameras brands, the unit of this value is not known and it is exposed as an arbitrary number.
 For some camera brands the value is shown in milliseconds if a special property is exposed by the driver or the values where derived manually.
 
 This value is a limiting factor for the framerate. If this value is too high the framerate is lowered automatically by the camera.
@@ -64,7 +64,7 @@ This drives motorized lenses to adjust focus.
 
 Other options
 *********************
-Options that are not supported in Kinovea can be modified using the Device property pages button.
+Options that are not supported in Kinovea can be modified using the **Device property pages** button.
 
 
 
