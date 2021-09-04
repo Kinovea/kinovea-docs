@@ -9,11 +9,12 @@ The capture screen is divided in the following areas:
 ------------------
 The camera viewport is the main area where the camera image is visible. 
 
-The image itself can be moved around by dragging with the mouse and resized using the manipulators at the corners of the image or using CTRL+Mouse wheel. Drawings on the capture screen can go outside the image area.
+The image itself can be moved around by dragging with the mouse and resized using the manipulators at the corners of the image or by using :kbd:`CTRL` + mouse scroll. 
+Drawings on the capture screen can go outside the image area.
 
 If the image stays black, there might be a problem with the available USB bandwidth or power, or the exposure duration might be too short.
 
-If nothing is visible at all, not even the black image rectangle, the camera did not connect correctly; for example, the camera might be in use in another application at the same time. 
+If nothing is visible at all, not even the black image rectangle, the camera did not connect correctly; for example, the camera might be in use in another application at the same time.
 
 
 2. Infobar
@@ -48,7 +49,7 @@ You can use this value to estimate the necessary speed for your storage medium t
 
 In the case of a non-compressed stream in RGB24 format, the value is calculated as follows:
 
-Throughput = (width × height × 3 × frame rate) / (1024*1024)
+``Throughput = (width × height × 3 × frame rate) / (1024*1024)``
 
 Load (%)
 ********
@@ -134,20 +135,20 @@ When the camera is disconnected, it is possible to review the last few seconds o
 .. |Disarm| image:: /images/capture/icons/speaker.png
 
 Disarms or rearms the audio capture trigger. When the audio trigger is disarmed, audio levels will not be monitored and capture will not be automatically started.
-The microphone and audio level threshold can be configured from Options > Preferences > Capture > Automation.
+The microphone and audio level threshold can be configured from :menuselection:`Options --> Preferences --> Capture --> Automation`.
 
 |SaveImage| *Save image*
 
 .. |SaveImage| image:: /images/capture/icons/camerasingle.png
 
 Saves the image currently displayed to an image file based on the configured file name and saving directory. 
-The saving directory can be configured from Options > Preferences > Capture > Image naming.
+The saving directory can be configured from :menuselection:`Options --> Preferences --> Capture --> Image naming`.
 
 |Record| *Start recording video*
 
 .. |Record| image:: /images/capture/icons/control_rec.png
 
-Starts or stops recording the video. The video is recorded based on the compression options, recording mode, and naming options found under Options > Preferences > Capture.
+Starts or stops recording the video. The video is recorded based on the compression options, recording mode, and naming options found under :menuselection:`Options --> Preferences --> Capture`.
 
 
 6. Delay controls
@@ -157,7 +158,7 @@ Starts or stops recording the video. The video is recorded based on the compress
 
 The delay controls let you adjust the amount of delay, in seconds, of the displayed camera stream with regards to the real time action.
 
-The maximum amount of delay depends on the camera configuration — hardware compression, image format, image size, frame rate — and the memory allocated in the delay cache under Options > Preferences > Capture > Memory.
+The maximum amount of delay depends on the camera configuration — hardware compression, image format, image size, frame rate — and the memory allocated in the delay cache under :menuselection:`Options --> Preferences --> Capture --> Memory`.
 
 
 7. Output file names
@@ -169,6 +170,6 @@ These fields define the names of the next files that will be saved when exportin
 They are automatically updated after each recording but can also be modified manually.
 
 The file names can use macros like the current date or the name of the camera.
-The list of available macros and configuration options can be found under Options > Preferences > Capture > Image naming and Options > Preferences > Capture > Video naming.
+The list of available macros and configuration options can be found under :menuselection:`Options --> Preferences --> Capture --> Image naming and Options --> Preferences --> Capture --> Video naming`.
 
 Clicking on the folder buttons will open the main preferences dialog on the relevant page.

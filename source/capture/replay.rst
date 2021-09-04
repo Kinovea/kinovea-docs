@@ -19,17 +19,17 @@ Creating a replay observer
 
 You can create a replay observer from the following places:
 
-- From the menu File > "Open replay folder observer...". This opens a folder selection dialog.
-- In the files and shortcuts tabs of the explorer panel, right click a folder or a file and choose "Open as replay folder observer".
+- From the menu :menuselection:`File --> Open replay folder observer…`. This opens a folder selection dialog.
+- In the files and shortcuts tabs of the explorer panel, right click a folder or a file and choose :menuselection:`Open as replay folder observer`.
 
 .. image:: /images/capture/menuopenasobserver.png
 
-- In the capture tab, right click a file in the capture history and choose "Open as replay folder observer". 
-- In the playback screen, right click the main video image and choose "Open a replay folder observer...". This opens a folder selection dialog.
-- In the capture screen, in the recently captured files list, right click the thumbnail of a file and choose "Open as replay folder observer".
+- In the capture tab, right click a file in the capture history and choose :menuselection:`Open as replay folder observer`. 
+- In the playback screen, right click the main video image and choose :menuselection:`Open a replay folder observer…`. This opens a folder selection dialog.
+- In the capture screen, in the recently captured files list, right click the thumbnail of a file and choose :menuselection:`Open as replay folder observer`.
 
 
-The recently opened folder observers are listed under the menu File > Recent.
+The recently opened folder observers are listed under the menu :menuselection:`File --> Recent`.
 
 .. note:: The menus on files are opening the observer on the parent folder of that file.
     This observer will immediately load the most recent file of the folder which is not necessarily the file used to start it.

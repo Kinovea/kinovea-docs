@@ -20,9 +20,9 @@ The delay amount is in seconds.
 
 .. image:: /images/capture/delaycontrols.png
 
-The maximum amount of delay depends on the camera configuration — hardware compression, image format, image size, frame rate — and the memory allocated in the delay cache under Options > Preferences > Capture > Memory.
+The maximum amount of delay depends on the camera configuration — hardware compression, image format, image size, frame rate — and the memory allocated in the delay cache under :menuselection:`Options --> Preferences --> Capture --> Memory`.
 
-If you wish to use a delay that is larger than the maximum that can be set using the slider, increase the size of the memory buffer under Options > Preferences > Capture > Memory.
+If you wish to use a delay that is larger than the maximum that can be set using the slider, increase the size of the memory buffer under :menuselection:`Options --> Preferences --> Capture --> Memory`.
 Note however that this buffer is always allocated, even if you do not use the delay function. 
 
 .. note:: When using two capture screens at the same time the memory buffer is shared between the screens.
@@ -58,7 +58,7 @@ The time origin in the metadata file will be set to the club-ball impact. All of
 Pause and browse
 ----------------
 
-Pausing the camera using the pause button **|Pause|** freezes the delay buffer.
+Pausing the camera using the pause button |Pause| freezes the delay buffer.
 
 This enables manually navigating the recent history of the camera stream using the delay slider.
 

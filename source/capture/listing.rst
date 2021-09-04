@@ -20,14 +20,14 @@ You can open a camera by doing any of the following:
 - Double click on the camera name in the camera list,
 - Drag and drop the camera from the camera list to the main explorer view,
 - Drag and drop the camera from the camera list to an already opened capture screen,
-- Right click the camera thumbnail and choose "Open".
+- Right click the camera thumbnail and choose :menuselection:`Open`.
 
 Explorer options
 ----------------
 
-You may refresh the thumbnails of the cameras by pressing [F5] in the main explorer view.
+You may refresh the thumbnails of the cameras by pressing :kbd:`F5` in the main explorer view.
 
-You can rename or change the icon for the camera by right-clicking the thumbnail and choosing "Rename".
+You can rename or change the icon for the camera by right-clicking the thumbnail and choosing :menuselection:`Rename`.
 
-You can reset the custom camera options by right-clicking the thumbnail and choosing "Forget custom settings".
+You can reset the custom camera options by right-clicking the thumbnail and choosing :menuselection:`Forget custom settings`.
 

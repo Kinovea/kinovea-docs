@@ -21,13 +21,13 @@ The avalaible stream formats depend on the brand and model of the camera.
 
 The typical stream formats include:
 
-- RGB, RGB24, RGB32: the images are not compressed.
-- YUV, YCbCr, YUY2, I420: the images are not compressed.
-- MJPEG: the images are compressed on the camera.
+- :guilabel:`RGB`, :guilabel:`RGB24`, :guilabel:`RGB32`: the images are not compressed.
+- :guilabel:`YUV`, :guilabel:`YCbCr`, :guilabel:`YUY2`, :guilabel:`I420`: the images are not compressed.
+- :guilabel:`MJPEG`: the images are compressed on the camera.
 
-Using the MJPEG stream format can lower the bandwidth requirements and improve framerate.
+Using the :guilabel:`MJPEG` stream format can lower the bandwidth requirements and improve framerate.
 
-.. note:: Kinovea native storage format for compressed videos is MJPEG. When using this stream format, the videos are saved as-is without any extra decompression/compression steps.
+.. note:: Kinovea native storage format for compressed videos is MJPEG. When using this stream format, the videos are saved as-is without any extra decompression or compression steps.
 
 Image size
 **********
@@ -64,7 +64,7 @@ This drives motorized lenses to adjust focus.
 
 Other options
 *********************
-Options that are not supported in Kinovea can be modified using the **Device property pages** button.
+Options that are not supported in Kinovea can be modified using the :guilabel:`Device property pages` button.
 
 
 

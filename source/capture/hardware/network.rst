@@ -5,20 +5,20 @@ Network cameras and smartphones
 General
 -------
 
-In order to add a network or IP camera in Kinovea use the **Manual connection** button on the camera tab of the explorer panel.
+In order to add a network or IP camera in Kinovea use the :guilabel:`Manual connection` button on the camera tab of the explorer panel.
 
 .. image:: /images/capture/manualconnection.png
 
-This dialog brings the configuration options described below. The same options are available later by clicking on the **Configure camera** button in the capture screen.
+This dialog brings the configuration options described below. The same options are available later by clicking on the :guilabel:`Configure camera` button in the capture screen.
 
 Configuration
 -------------
 
 .. image:: /images/capture/config-network.png
 
-The values for the options depend on the particular brand of network camera and your own network configuration. The most important setting is the Final URL, this is the URL used by Kinovea to connect to the camera stream.
+The values for the options depend on the particular brand of network camera and your own network configuration. The most important setting is the :guilabel:`Final URL`, this is the URL used by Kinovea to connect to the camera stream.
 
-Clicking the **Test** button will try to connect to the camera and report success or failure.
+Clicking the :guilabel:`Test` button will try to connect to the camera and report success or failure.
 
 Smartphones
 -----------
