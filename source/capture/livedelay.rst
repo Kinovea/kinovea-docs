@@ -43,9 +43,6 @@ Retroactive               Yes
 
 Combining delay and recording can be used to record actions happening before the moment the record button is hit or triggered.
 
-TODO: example diagram.
-
-
 Time origin
 -----------
 

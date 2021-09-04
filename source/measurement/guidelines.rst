@@ -19,7 +19,7 @@ Align the camera plane with the plane of motion
 When using calibration by line the camera must be aligned with the plane of motion, 
 the camera optical axis must be orthogonal to the plane of motion.
 
-TODO: schematics.
+.. image:: /images/measurement/planeofmotion.png
 
 .. tip:: If the camera is not in a controlled environment use the calibration by plane.
 
@@ -27,8 +27,6 @@ Maximize the camera distance to the scene
 ****************************************************
 Place the camera as far as possible from the scene and zoom in, to minimize perspective distortion.
 This will reduce errors due to points moving in and out of the plane of motion.
-
-TODO: demo.
 
 Camera and digitization
 --------------------------------
@@ -68,8 +66,6 @@ Avoid measuring objects outside the plane of motion
 ****************************************************
 Everything that is measured must sit on the calibrated plane of motion.
 Coordinates and measurements using points physically outside the plane of motion will be inaccurate.
-
-TODO: demo with angles.
 
 Use small round markers
 ************************

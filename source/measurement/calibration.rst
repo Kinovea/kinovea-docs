@@ -13,7 +13,7 @@ Line calibration
 ----------------
 Line calibration is possible when the motion is sitting on a 2D plane parallel to the camera plane.
 
-TODO: schematic.
+.. image:: /images/measurement/planeofmotion.png
 
 To perform line calibration follow these steps:
 

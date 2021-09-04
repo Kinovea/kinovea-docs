@@ -51,7 +51,7 @@ To stop using a particular tool and come back to the hand tool use the Escape ke
 
 Adds a new key image.
 
-TODO: illustration of the key image thumbnails panel.
+.. image:: /images/annotation/keyimages.png
 
 |Commentary| **Commentary**
 
