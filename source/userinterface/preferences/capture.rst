@@ -105,18 +105,13 @@ Recording is performed on the fly, the saved frame is always the most recent fra
 
 .. tip:: If you do not require recording of delayed images this option can result in slightly better performances than the Delayed method.
 
-TODO: example diagram.
-
 Delayed
 ^^^^^^^
 When using this recording mode the delay value set in the capture screen is taken into account. 
 
 Recording is performed on the fly, the saved frame is taken from the delay buffer based on the delay value.
 
-This can be used to record actions happening before the moment the record button is hit or triggered. 
-
-TODO: example diagram.
-
+This can be used to record actions happening before the moment the record button is hit or triggered.
 
 Retroactive
 ^^^^^^^^^^^
@@ -184,7 +179,17 @@ Macro           Description
 %%             This is replaced by an empty string.
 ===========   =============
 
-TODO: examples.
+Anything that is not exactly part of a macro is copied verbatim to the output.
+Some examples assuming the current date and time is October 20th, 1968 at 16:00:00 (4 PM):
+
+.. code-block::
+
+    %year-%month-%day: 1968-10-20.
+    %hour-%minute-%second: 16-00-00.
+    %datetime: 19681020-160000
+    %date_text: 19681020_text
+    %date-%camalias: 19681020-mycamcorder
+    
 
 .. note:: If you want to use a completely static file name and bypass the automated counter increment for consecutive recordings, use the %% macro variable. 
     Be aware that this will require you to either enter the filename manually for every recording or overwrite an existing file.

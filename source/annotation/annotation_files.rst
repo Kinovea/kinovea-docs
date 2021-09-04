@@ -4,7 +4,7 @@ Saving and loading annotation files
 
 Annotations are saved in KVA files. These are XML files with a .kva extension.
 
-KVA files store data for key images, comments, drawings, trajectories, chronometers, time origin, tracked values and the coordinate system calibration.
+KVA files store data for key images, comments, drawings, trajectories, chronometers, time origin, tracked values, and the coordinate system calibration.
 
 Saving annotations
 ------------------
@@ -17,9 +17,9 @@ Loading annotations
 -------------------
 To load an annotation file into an opened video use the menu File > Load annotations.
 
-The imported annotations are merged together with the existing annotations you might already have added to the video.
+The imported annotations are merged together with the existing annotations you might have already added to the video.
 
-If the imported annotations were created on a different video a conversion step may take place to adapt the drawings dimensions and time codes to the new image size and frame rate.
+If the imported annotations were created on a different video, a conversion step may take place to adapt the drawings dimensions and time codes to the new image size and frame rate.
 
 Loading external annotations can be used to import calibration settings between videos filmed during the same session without having to perform the calibration for every video. 
 

@@ -7,7 +7,7 @@ To save annotations use the normal "Save" or "Save as…" functions. This saves 
 
 Export measurements from kinematics dialogs
 -------------------------------------------
-To export measurements such as point positions, linear velocities or angular accelerations, use the kinematics dialogs.
+To export measurements such as point positions, linear velocities, or angular accelerations, use the kinematics dialogs.
 The kinematics dialogs are found under the Tools menu: Scatter diagram, Linear kinematics, Angular kinematics, Angle-angle diagram.
 
 To export data use the export options at the bottom right of the dialogs.
@@ -18,7 +18,7 @@ This will export the data in CSV format, either to the clipboard or to a file.
 The first column is the time, either in milliseconds or normalized, and the other columns are the data sources.
 
 The measurements displayed and exported from the kinematics dialog use the filtered coordinates. 
-The filtering process is described in the about box of the Linear kinematics dialog.
+The filtering process is described in the About box of the Linear kinematics dialog.
 You can control filtering from the preferences at Options > Preferences > Drawings > General > Enable coordinates filtering.
 
 Export data to spreadsheet
@@ -40,7 +40,7 @@ This approach has the following differences with the export from the kinematics 
 - Each object is exported independently in its own table.
 - Key images times are exported.
 - Stopwatches are exported.
-- The time column use the configured timecode format and may not be numerical in nature.
+- The time column uses the configured timecode format and may not be numerical in nature.
 
 To use Gnuplot to plot the trajectory data on a 3D graph with time as the third dimensions, you can use the following commands:
 
@@ -57,7 +57,7 @@ To use Gnuplot to plot the trajectory data on a 3D graph with time as the third 
 
 Citation examples
 -----------------
-If you used Kinovea in your research we would appreciate it very much if you include it in your bibliography.
+If you used Kinovea in your research we would very much appreciate it if you included it in your bibliography.
 
 You can find examples of formatted citations in the About dialog under the Citation tab.
 

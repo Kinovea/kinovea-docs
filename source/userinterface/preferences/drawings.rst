@@ -40,7 +40,7 @@ The options on this tab control the default visibility of drawings. Drawings can
 
 In the most general case a drawing's visibility over time follows the following pattern:
 
-TODO: diagram.
+.. image:: /images/preferences/opacity.png
 
 
 Visible for the entire video
