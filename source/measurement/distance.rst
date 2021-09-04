@@ -14,7 +14,7 @@ The unit of distance is the unit used during calibration.
 
 Points
 ------
-The marker tool can be used to measure the position of a point in the current coordinate system or it's distance to the origin. 
+The marker tool can be used to measure the position of a point in the current coordinate system or its distance to the origin. 
 
 .. image:: /images/measurement/marker.png
 
