@@ -8,14 +8,14 @@ KVA files store data for key images, comments, drawings, trajectories, chronomet
 
 Saving annotations
 ------------------
-To save the current annotations use the menu File > Save or the shortcut CTRL+S.
+To save the current annotations use the menu :menuselection:`File --> Save` or the shortcut :kbd:`CTRL` + :kbd:`S`.
 
 .. tip:: Save the annotation file with the same name as the video to have it automatically loaded the next time you open the video in Kinovea.
     This is known as a "sidecar" file, for example: "video.mp4" -> "video.kva". This is the default option when saving.
 
 Loading annotations
 -------------------
-To load an annotation file into an opened video use the menu File > Load annotations.
+To load an annotation file into an opened video use the menu :menuselection:`File --> Load annotations`.
 
 The imported annotations are merged together with the existing annotations you might have already added to the video.
 
@@ -26,5 +26,5 @@ Loading external annotations can be used to import calibration settings between 
 Default annotation file
 -----------------------
 To automatically import a specific annotation file into every video, 
-use Options > Preferences > Playback > General > Default annotation file, and point it to the KVA file you want to be loaded.
+use :menuselection:`Options --> Preferences --> Playback --> General --> Default annotation file…`, and point it to the KVA file you want to be loaded.
 

@@ -43,7 +43,7 @@ General tools
 |Hand| **Hand**
 
 The hand tool is used to manipulate drawings or pan the whole image.
-To stop using a particular tool and come back to the hand tool use the Escape key or click the hand tool button.
+To stop using a particular tool and come back to the hand tool use the :kbd:`Escape` key or click the hand tool button.
 
 .. tip:: You can also use the middle mouse button to directly manipulate drawings without changing back to the hand tool.
 
