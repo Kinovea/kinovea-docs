@@ -12,4 +12,3 @@ Annotation
    importing_images
    annotation_files
    importing_data
-!

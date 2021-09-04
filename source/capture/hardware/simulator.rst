@@ -5,7 +5,7 @@ Camera simulator
 General
 -------
 
-The camera simulator is a special type of test camera that is entirely implemented in Kinovea's software. 
+The camera simulator is a special type of virtual camera in Kinovea. 
 This camera can be used to evaluate the expected performances of real hardware on a particular computer.
 
 In order to add a camera simulator use the "Manual connection" button on the camera tab of the explorer panel.

@@ -9,7 +9,7 @@ Camera setup
 Mount the camera on a tripod and avoid camera motion
 ****************************************************
 The camera must remain stationary for the images to provide a stable frame of reference.
-If the camera is moving relatively to the scene, the plane of motion will change over time
+If the camera is moving relative to the scene, the plane of motion will change over time
 and the calibration from one video frame cannot be used on other frames.
 
 .. tip:: If you do not control the camera and it is moving, you can try to track the calibration object itself.
@@ -19,16 +19,14 @@ Align the camera plane with the plane of motion
 When using calibration by line the camera must be aligned with the plane of motion, 
 the camera optical axis must be orthogonal to the plane of motion.
 
-TODO: schematics.
+.. image:: /images/measurement/planeofmotion.png
 
 .. tip:: If the camera is not in a controlled environment use the calibration by plane.
 
 Maximize the camera distance to the scene
 ****************************************************
-Place the camera as far as possible from the scene and zoom in, to minimize perspective distortion.
+To minimize perspective distortion. place the camera as far as possible from the scene and zoom in.
 This will reduce errors due to points moving in and out of the plane of motion.
-
-TODO: demo.
 
 Camera and digitization
 --------------------------------
@@ -41,7 +39,7 @@ This distortion can be taken into account in Kinovea using the lens calibration 
 
 Use an appropriate exposure time
 ********************************
-To minimize motion blur decrease the exposure time as much as possible (increase shutter speed).
+To minimize motion blur, decrease the exposure time as much as possible (increase shutter speed).
 
 Maximize image size and image quality
 **************************************
@@ -57,7 +55,7 @@ Scene setup
 
 Use a large reference object
 ******************************
-The scaling object used for calibration should occupy as much as possible of the image.
+The scaling object used for calibration should occupy as much of the image as possible.
 
 Use a vertical or horizontal reference
 ***************************************
@@ -68,8 +66,6 @@ Avoid measuring objects outside the plane of motion
 ****************************************************
 Everything that is measured must sit on the calibrated plane of motion.
 Coordinates and measurements using points physically outside the plane of motion will be inaccurate.
-
-TODO: demo with angles.
 
 Use small round markers
 ************************

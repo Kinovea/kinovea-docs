@@ -1,19 +1,19 @@
 Calibration mechanisms
 ======================
 
-In order to use Kinovea to make measurements on the video it is necessary to calibrate the transformation of pixels in the image into real world units.
+In order to use Kinovea to make measurements on the video, it is necessary to calibrate the transformation of pixels in the image into real world units.
 Kinovea supports two calibration mechanisms: calibration by line and calibration by plane.
 
 All measurements in Kinovea must sit on a 2D plane.
-If the motion you want to study is on a plane parallel to the image plane (orthogonal to the camera optical axis) you may use calibration by line.
-Otherwise, for example if you are measuring points on the ground, you should use the calibration by plane.
+If the motion you want to study is on a plane parallel to the image plane (orthogonal to the camera optical axis), you may use calibration by line.
+Otherwise, if you are measuring points on the ground, for example, you should use the calibration by plane.
 If the motion is happening in arbitrary 3D space you cannot measure it in Kinovea.
 
 Line calibration
 ----------------
 Line calibration is possible when the motion is sitting on a 2D plane parallel to the camera plane.
 
-TODO: schematic.
+.. image:: /images/measurement/planeofmotion.png
 
 To perform line calibration follow these steps:
 
