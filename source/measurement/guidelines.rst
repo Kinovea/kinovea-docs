@@ -67,11 +67,6 @@ Avoid measuring objects outside the plane of motion
 Everything that is measured must sit on the calibrated plane of motion.
 Coordinates and measurements using points physically outside the plane of motion will be inaccurate.
 
-<<<<<<< HEAD
-=======
-**TODO: demo with angles.**
-
->>>>>>> origin/master
 Use small round markers
 ************************
 Use small markers on the object or joints.
