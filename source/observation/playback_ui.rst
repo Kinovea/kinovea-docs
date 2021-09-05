@@ -126,7 +126,7 @@ The export controls provide ways to export videos and images of the current file
 
 .. image:: /images/observation/exportcontrols.png
 
-See: Export > Exporting video and images
+See also: :doc:`/export/video`.
 
 8. Context menu
 ---------------
