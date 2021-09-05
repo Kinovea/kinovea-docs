@@ -15,6 +15,6 @@ The playback controls are disabled.
 
 .. image:: /images/observation/overview.png
 
-To control the number of images displayed use the mouse wheel. The display can be set between 2x2 and 10x10 images. 
+To control the number of images displayed use the **mouse wheel**. The display can be set between 2x2 and 10x10 images. 
 
 To quit the Overview mode, use the close button in the top-right corner of the playback screen.

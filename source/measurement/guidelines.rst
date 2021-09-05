@@ -1,5 +1,5 @@
-Guidelines to minimize measurement errors
-=========================================
+Guidelines to minimize errors
+=============================
 
 The following guidelines are designed to minimize the systematic and random errors inherent to measuring spatial motion on 2D images.
 

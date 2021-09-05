@@ -6,7 +6,7 @@ Introduction
 To track a drawing object over time follow these steps:
 
 * Right click the object and choose :menuselection:`Tracking --> Start tracking`.
-* Move the video forward using the :guilabel:`Next frame` button, the mouse wheel or the :guilabel:`Play` button.
+* Move the video forward using the :guilabel:`Next frame` button, the **mouse wheel** or the :guilabel:`Play` button.
 * Adjust the points position as necessary during the path creation.
 * To finish tracking, right click inside the tracking window and choose :menuselection:`Stop tracking`.
 

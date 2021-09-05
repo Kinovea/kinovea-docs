@@ -21,7 +21,7 @@ To mirror the image, that is to flip it along the vertical axis, use the menu Im
 
 Zoom & magnification
 --------------------
-To zoom into the image use :kbd:`CTRL` + mouse wheel or :kbd:`CTRL` + :kbd:`Minus` and :kbd:`CTRL` + :kbd:`Plus`.
+To zoom into the image use :kbd:`CTRL` + **mouse wheel** or :kbd:`CTRL` + :kbd:`Minus` and :kbd:`CTRL` + :kbd:`Plus`.
 
 :kbd:`CTRL` + :kbd:`Numpad0` resets the zoom level.
 

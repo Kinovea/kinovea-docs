@@ -114,7 +114,7 @@ Navigation
 
 It is also possible to move in the video using the following shortcuts:
 
-- Scroll with the mouse wheel to move forward and backward.
+- Use the **mouse wheel** to move forward and backward.
 - Use the :kbd:`←` and :kbd:`→` arrow keys on the keyboard to move frame by frame.
 - Use the :kbd:`↟` (Page up) and :kbd:`↡` (Page down) keys to jump 10% forward.
 - Use the :kbd:`⇱` (Home) and :kbd:`⇲` (End) keys to jump to the start and end.

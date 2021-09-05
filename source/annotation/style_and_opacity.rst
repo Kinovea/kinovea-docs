@@ -1,5 +1,5 @@
 
-Style and Opacity of drawings
+Style and opacity of drawings
 ================================
 
 Style 

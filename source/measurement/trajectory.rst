@@ -6,7 +6,7 @@ Introduction
 To track the trajectory of a single point or body joint visible on the image follow these steps:
 
 * Right click the object to track and choose :menuselection:`Track path`.
-* Move the video forward using the :guilabel:`Next frame` button, the mouse wheel or the :guilabel:`Play` button.
+* Move the video forward using the :guilabel:`Next frame` button, the **mouse wheel** or the :guilabel:`Play` button.
 * Adjust the point position as necessary during the path creation.
 * To finish tracking, right click inside the tracking window and choose :menuselection:`End path edition`.
 

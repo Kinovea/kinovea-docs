@@ -1,5 +1,5 @@
-Supported cameras and configuration options
-===========================================
+Supported cameras and options
+=============================
 
 Kinovea supports various capture hardware as described in the following sections:
 

@@ -9,7 +9,7 @@ The capture screen is divided in the following areas:
 ------------------
 The camera viewport is the main area where the camera image is visible. 
 
-The image itself can be moved around by dragging with the mouse and resized using the manipulators at the corners of the image or by using :kbd:`CTRL` + mouse scroll. 
+The image itself can be moved around by dragging with the mouse and resized using the manipulators at the corners of the image or by using :kbd:`CTRL` + **mouse scroll**. 
 Drawings on the capture screen can go outside the image area.
 
 If the image stays black, there might be a problem with the available USB bandwidth or power, or the exposure duration might be too short.

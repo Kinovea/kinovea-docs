@@ -1,6 +1,6 @@
 
-Getting more help and communication channels
-============================================
+Communication channels
+======================
 
 The project uses the following communication channels and social networks:
 

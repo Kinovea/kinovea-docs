@@ -1,5 +1,5 @@
-Lens distortion calibration and compensation
-============================================
+Lens distortion calibration
+===========================
 
 Introduction
 -------------
