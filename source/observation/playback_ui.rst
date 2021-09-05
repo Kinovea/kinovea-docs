@@ -4,7 +4,7 @@ Playback screen user interface
 
 The playback screen is divided in the following areas:
 
-.. image:: /images/observation/ui.png
+.. image:: /images/observation/ui-playback.png
 
 1. Image viewport
 -----------------
@@ -15,7 +15,6 @@ The handles at the four corners of the image can be used to change its size.
 
 2. Infobar
 ----------
-.. image:: /images/observation/infobar.png
 
 The infobar contains the name of the file, the image size and the frame rate.
 
@@ -113,12 +112,12 @@ The playback loops to the start when it reaches the end of the video or working 
 Navigation
 **********
 
-It is also possible to move in the video using the following:
+It is also possible to move in the video using the following shortcuts:
 
-- Scrolling with the mouse wheel to move forward and backward.
-- The arrow keys on the keyboard to move frame by frame.
-- The Page up and Page down keys to jump 10% forward.
-- The home and end keys to jump to the start and end.
+- Scroll with the mouse wheel to move forward and backward.
+- Use the :kbd:`←` and :kbd:`→` arrow keys on the keyboard to move frame by frame.
+- Use the :kbd:`↟` (Page up) and :kbd:`↡` (Page down) keys to jump 10% forward.
+- Use the :kbd:`⇱` (Home) and :kbd:`⇲` (End) keys to jump to the start and end.
 
  
 7. Export controls

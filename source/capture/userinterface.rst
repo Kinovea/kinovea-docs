@@ -3,7 +3,7 @@ Capture screen user interface
 
 The capture screen is divided in the following areas:
 
-.. image:: /images/capture/ui.png
+.. image:: /images/capture/ui-capture.png
 
 1. Camera viewport
 ------------------
@@ -166,10 +166,10 @@ The maximum amount of delay depends on the camera configuration — hardware com
 
 .. image:: /images/capture/filenames.png
 
-These fields define the names of the next files that will be saved when exporting an image export or capturing a video.
+These fields define the names of the next files that will be saved when exporting an image or capturing a video.
 They are automatically updated after each recording but can also be modified manually.
 
 The file names can use macros like the current date or the name of the camera.
-The list of available macros and configuration options can be found under :menuselection:`Options --> Preferences --> Capture --> Image naming and Options --> Preferences --> Capture --> Video naming`.
+The list of available macros and configuration options can be found under :menuselection:`Options --> Preferences --> Capture --> Image naming` and :menuselection:`Options --> Preferences --> Capture --> Video naming`.
 
 Clicking on the folder buttons will open the main preferences dialog on the relevant page.
