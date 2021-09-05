@@ -26,6 +26,8 @@ It is possible to customize the name of instances by passing the new name in the
 
 .. image:: /images/ui/instancenamecustom.png
 
+See also: :doc:`/misc/command_line`.
+
 .. tip:: Command line arguments can also be specified by creating a Windows shortcut on Kinovea.exe and editing the :guilabel:`Target` field in the shortcut properties.
 
 
