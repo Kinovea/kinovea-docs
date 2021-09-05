@@ -12,7 +12,8 @@ No, Kinovea is only supported on Windows.
 
 2. Can I use Kinovea in my school? my university? my bike fit or shoe fit business? my physiotherapy or podiatry practice?
 ---------------------------------------------------------------------------------------------------------------------------
-Yes, you can use Kinovea for *any* purposes, including but not limited to personal, professional, commercial, academic and research purposes.
+Yes, you can use Kinovea for *any* purposes, 
+including but not limited to personal, professional, commercial, academic and research.
 
 3. What is the price of Kinovea?
 ---------------------------------
@@ -40,7 +41,8 @@ You may also check the built-in citations examples in the About dialog.
 
 6. Which camera should I buy?
 ------------------------------
-It is not the place of Kinovea to suggest one camera brand over another. It is best for the project to stay neutral.
+It is not the place of Kinovea or its authors to suggest one camera brand over another. 
+It is best for the project to stay neutral.
 Besides, there are too many parameters specific to each use-case that it is not possible to answer this question with anything else than "it depends".
 Please register on the forum and ask the question there, providing as many details and context as possible, this way other users can share their experience directly.
 

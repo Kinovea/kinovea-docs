@@ -17,7 +17,7 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 project = 'Kinovea'
-copyright = '2021, Kinovea documentation authors (CC-BY 3.0)'
+copyright = '2021, Kinovea documentation authors (CC0 1.0)'
 author = 'Kinovea documentation authors'
 
 # The full version, including alpha/beta/rc tags

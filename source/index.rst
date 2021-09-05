@@ -1,8 +1,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    Kinovea documentation
+    Kinovea reference manual
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Welcome to the reference documentation for `Kinovea <https://www.kinovea.org>`__.
+Welcome to the manual for `Kinovea <https://www.kinovea.org>`__.
 
 Kinovea is a video annotation tool designed for motion analysis.
 It features utilities to capture, slow down, compare, annotate and measure motion in videos.
