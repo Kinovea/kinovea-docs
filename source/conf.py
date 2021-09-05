@@ -46,7 +46,6 @@ exclude_patterns = []
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
 
-
 # -- Options for HTML output -------------------------------------------------
 html_theme = "sphinx_rtd_theme"
 html_static_path = ['_static']
@@ -62,6 +61,10 @@ html_theme_options = {
     'style_nav_header_background': "#404040",
     # Collapse navigation (False makes it tree-like)
     #'collapse_navigation': False,
+}
+
+html_context = {
+  'display_github': False,
 }
 
 pdf_documents = [('index', u'kinoveadoc', u'Kinovea documentation', u'Kinovea community'),]
