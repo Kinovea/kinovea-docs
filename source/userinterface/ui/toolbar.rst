@@ -6,7 +6,7 @@ The main toolbar provides quick access to screen organization functions.
 ================================================    ========================
 |Open| Open                                         Opens a video in a playback screen.
 |Save| Save                                         Saves annotations to the current KVA file.
-|Explorer| Thumbnail explorer                       Closes screens and displays the thumbnail explorer
+|Explorer| Thumbnail explorer                       Closes screens and displays the thumbnails panel
 |Playback| Playback screen                          Opens one playback screen.
 |DualPlayback| Dual playback screen                 Opens two playback screens.
 |Capture| Capture screen                            Opens one capture screen.

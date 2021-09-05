@@ -65,7 +65,7 @@ This option lets you point to a .KVA file containing video annotations that will
 
 Other annotations files can still be loaded on top of the video by using the sidecar file method or through the menu :menuselection:`File --> Load annotations`. They will be merged with each others.
 
-See also: Annotation > KVA files.
+See also: :doc:`/annotation/annotation_files`.
 
 
 Memory

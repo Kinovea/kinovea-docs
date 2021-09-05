@@ -14,5 +14,5 @@ for example, a golf ball impact, a pitcher's release point, a long jumper's take
 
 .. image:: /images/measurement/relativeclock.png
 
-See also: **Measurement > Measuring time**.
+See also: :doc:`/measurement/time`.
 

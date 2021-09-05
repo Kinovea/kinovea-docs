@@ -62,7 +62,9 @@ Opens the commentary dialog to attach a paragraph of text to the key image using
 |ColorProfile| **Color profile**
 
 Opens the color profile dialog to change the default style of drawings.
-See also: Annotation > Style and opacity
 
 .. image:: /images/annotation/colorprofile.png
+
+See also: :doc:`/annotation/style_and_opacity`.
+
 

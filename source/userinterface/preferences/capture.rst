@@ -67,7 +67,7 @@ This option lets you point to a .KVA file containing annotations that will be au
 
 Other annotations files can still be loaded on top of the camera stream by using the menu :menuselection:`File --> Load annotations`. They will be merged with each others.
 
-See also: Annotation > KVA files.
+See also: :doc:`/annotation/annotation_files`.
 
 Memory
 ------

@@ -22,6 +22,8 @@ Allow multiple instances of Kinovea
 When this checkbox is checked it is possible to run multiple Kinovea at the same time. This can be used to record more than two cameras or play more than two videos at the same time. 
 Each instance is identified by a name or a number. 
 
+See also: :doc:`../instances`.
+
 .. note:: Synchronization options do not work across different instances.
 
 
@@ -30,4 +32,3 @@ Instances have their own preferences
 When this checkbox is checked each instance of Kinovea will maintain its own preferences, independently of all other instances. 
 This option is only available in the first instance started.
 
-.. seealso:: :doc:`../instances`

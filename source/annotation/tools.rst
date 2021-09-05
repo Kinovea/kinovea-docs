@@ -118,7 +118,8 @@ Marker tool
 - |Marker| **Marker tool**
 
 The marker tool is used to highlight the location of a single object or joint.
-See also: Measurement > Measuring positions and distances
+
+See also: :doc:`/measurement/distance`.
 
 Angle tools
 -------------------
@@ -134,7 +135,8 @@ Angle tools
 - |AngleToVertical| **Angle to vertical**
 
 Angle tools are used to measure angles on a particular plane.
-See also: Measurement > Measuring angles.
+
+See also: :doc:`/measurement/angle`.
 
 .. image:: /images/measurement/axesangles.png
 
@@ -148,7 +150,8 @@ Stopwatch tools
 - |Clock| **Clock**
 
 Stopwatch tools are used to measure time positions and intervals.
-See also: Measurement > Measuring time.
+
+See also: :doc:`/measurement/time`.
 
 Grid tools
 -------------------

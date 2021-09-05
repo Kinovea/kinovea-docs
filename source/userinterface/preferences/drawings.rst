@@ -29,7 +29,7 @@ Enable custom tools debug mode
 When this checkbox is ticked custom tools will display extra information about the name and relations of points, handles and segments. 
 This option can be used by tool authors to facilitate design.
 
-See also: custom tools.
+See also: :doc:`/annotation/tools`.
 
 
 Opacity
