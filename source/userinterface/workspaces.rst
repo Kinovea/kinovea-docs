@@ -16,4 +16,6 @@ To delete the default workspace and make Kinovea starts normally on the thumbnai
 Exporting workspaces
 --------------------
 Workspaces can be exported to separate XML files using the menu :menuselection:`Options --> Workspaces --> Export workspace`.
-To start Kinovea using an explicit workspace file it must be passed as an argument to the command line.
+To start Kinovea using an explicit workspace file it must be passed as an argument to the command line. 
+
+See also: :doc:`/misc/command_line`.
