@@ -9,12 +9,73 @@ It features utilities to capture, slow down, compare, annotate and measure motio
 
 For a single-page overview of the features of Kinovea you may consult the `Features <https://www.kinovea.org/features.html>`__ page on the website.
 
-The table of contents below and in the sidebar should let you access the documentation for your topic of interest. 
+The sections below and the table of content in the sidebar should let you access the documentation for your topic of interest. 
 You can also use the search function in the top left corner.
+
+    .. container:: tocdescr
+
+        .. container:: descr
+
+            .. figure:: /images/home/userinterface.jpg
+                :target: userinterface/index.html
+
+            :doc:`/userinterface/index`
+                Description of the main window, workspaces and the preference pages.
+
+        .. container:: descr
+
+            .. figure:: /images/home/observation.jpg
+                :target: observation/index.html
+
+            :doc:`/observation/index` 
+                Functions to control video time, image aspect, and synchronize two videos.
+
+        .. container:: descr
+
+            .. figure:: /images/home/annotation.png
+                :target: annotation/index.html
+
+            :doc:`/annotation/index`
+                Tools to annotate videos with drawings, text, highlight key moments and use posture references.
+
+        .. container:: descr
+
+            .. figure:: /images/home/measurement.png
+                :target: measurement/index.html
+
+            :doc:`/measurement/index`
+                Functions to calibrate space and time, measure intervals, positions, distances, angles, and track kinematics.
+
+        .. container:: descr
+
+            .. figure:: /images/home/capture.jpg
+                :target: capture/index.html
+
+            :doc:`/capture/index`
+                Subsystem to capture, delay, and record live cameras.
+
+        .. container:: descr
+
+            .. figure:: /images/home/export.png
+                :target: export/index.html
+
+            :doc:`/export/index`
+                Functions to save videos and measurements for other applications.
+
+        .. container:: descr
+
+            :doc:`/misc/index`
+                Various topics related to programmatically controlling Kinovea and general information about the project.
+
+
+This manual is maintained by volunteers.
+If you find something that is confusing, wrong, or otherwise needs to be edited,
+`let us know <https://github.com/Kinovea/kinovea-docs/issues>`__.
 
 
 .. toctree::
     :titlesonly:
+    :hidden:
     :caption: User interface
 
     userinterface/overview
@@ -24,6 +85,7 @@ You can also use the search function in the top left corner.
 
 .. toctree::
     :titlesonly:
+    :hidden:
     :caption: Observation and comparison
 
     observation/loading
@@ -36,6 +98,7 @@ You can also use the search function in the top left corner.
 
 .. toctree::
     :titlesonly:
+    :hidden:
     :caption: Annotation
 
     annotation/general
@@ -48,6 +111,7 @@ You can also use the search function in the top left corner.
 
 .. toctree::
     :titlesonly:
+    :hidden:
     :caption: Measurement
 
     measurement/calibration
@@ -63,6 +127,7 @@ You can also use the search function in the top left corner.
     
 .. toctree::
     :titlesonly:
+    :hidden:
     :caption: Capture
 
     capture/listing
@@ -74,6 +139,7 @@ You can also use the search function in the top left corner.
 
 .. toctree::
     :titlesonly:
+    :hidden:
     :caption: Export
     
     export/video
@@ -81,6 +147,7 @@ You can also use the search function in the top left corner.
     
 .. toctree::
     :titlesonly:
+    :hidden:
     :caption: Miscellaneous topics
 
     misc/faq
@@ -88,3 +155,4 @@ You can also use the search function in the top left corner.
     misc/command_line
     misc/copydata
     misc/comms
+

@@ -52,7 +52,9 @@ html_theme = "sphinx_rtd_theme"
 html_static_path = ['_static']
 html_css_files = ['css/kinovea.css']
 html_logo = 'images/logo/kinovea.svg'
-
+html_copy_source = False
+html_show_sourcelink = False
+html_show_sphinx = False
 html_theme_options = {
     'logo_only': True,
     'display_version': False,

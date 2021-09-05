@@ -1,5 +1,5 @@
-Program updates
-====================
+Software update
+===============
 
 New versions are published on the project website: 
 
