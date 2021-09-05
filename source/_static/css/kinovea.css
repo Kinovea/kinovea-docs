@@ -1,31 +1,45 @@
 /* Kinovea overwrite styles for readthedocs theme */
    
-   /* keyboard shortcuts */
-   .document code.kbd, kbd.kbd {
-     border: 1px solid gray;
-     font-size: 0.9em;
-     box-shadow: 1px 0 0.5px 0 #eee, 0 1.5px 0 1.5px #ccc, 0 1.5px 0 2.5px #444;
-     -webkit-border-radius: 3px;
-     -moz-border-radius: 3px;
-     border-radius: 3px;
-     margin: 2px 3px;
-     padding: 1px 5px;
-     color: #404040;
-     vertical-align: 0.1em;
-   }
-   
-   /* Menu click paths */
-   span.menuselection {
-     font-weight: bold;
-   }
-   
-   /* Labels in the user interface */
-   .rst-content span.guilabel {
-     border: none;
-     background: rgb(240, 240, 240);
-     font-size: 100%;
-     margin: 0;
-     font-weight: normal;
-   }
+  /* Side menu*/
+
+  .wy-menu-vertical header, .wy-menu-vertical p.caption {
+    color: #71C837;
+    letter-spacing: 0.75px;
+  }
+
+  .wy-side-nav-search input[type="text"] {
+    /*width: 100%;
+    border-radius: 50px;
+    padding: 6px 12px;*/
+    border-color: #404040;
+  }
+
+  /* keyboard shortcuts */
+  .document code.kbd, kbd.kbd {
+    border: 1px solid gray;
+    font-size: 0.9em;
+    box-shadow: 1px 0 0.5px 0 #eee, 0 1.5px 0 1.5px #ccc, 0 1.5px 0 2.5px #444;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin: 2px 3px;
+    padding: 1px 5px;
+    color: #404040;
+    vertical-align: 0.1em;
+  }
+  
+  /* Menu click paths */
+  span.menuselection {
+    font-weight: bold;
+  }
+  
+  /* Labels in the user interface */
+  .rst-content span.guilabel {
+    border: none;
+    background: rgb(240, 240, 240);
+    font-size: 100%;
+    margin: 0;
+    font-weight: normal;
+  }
    
    

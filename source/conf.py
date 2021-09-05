@@ -17,8 +17,8 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 project = 'Kinovea'
-copyright = '2021, Kinovea Documentation Authors'
-author = 'Kinovea Documentation Authors'
+copyright = '2021, Kinovea documentation authors (CC-BY 3.0)'
+author = 'Kinovea documentation authors'
 
 # The full version, including alpha/beta/rc tags
 release = '0.9.4'
@@ -48,22 +48,18 @@ pygments_style = 'sphinx'
 
 
 # -- Options for HTML output -------------------------------------------------
-
-# The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
-# https://rtd-sphinx-theme-sample-project.readthedocs.io/en/latest/
-#html_theme = "nature"
 html_theme = "sphinx_rtd_theme"
-
-# Add any paths that contain custom static files (such as style sheets) here,
-# relative to this directory. They are copied after the builtin static files,
-# so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 html_css_files = ['css/kinovea.css']
 html_logo = 'images/logo/kinovea.svg'
+
 html_theme_options = {
     'logo_only': True,
     'display_version': False,
+    'style_external_links': True,
+    'style_nav_header_background': "#404040",
+    # Collapse navigation (False makes it tree-like)
+    #'collapse_navigation': False,
 }
 
 pdf_documents = [('index', u'kinoveadoc', u'Kinovea documentation', u'Kinovea community'),]
