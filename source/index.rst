@@ -9,6 +9,9 @@ It features utilities to capture, slow down, compare, annotate and measure motio
 
 For a single-page overview of the features of Kinovea you may consult the `Features <https://www.kinovea.org/features.html>`__ page on the website.
 
+.. tip:: 
+    This manual can be used offline: `download the manual (zipped web pages) <Kinovea-Manual-0.9.5.zip>`__.
+
 The sections below and the table of content in the sidebar should let you access the documentation for your topic of interest. 
 You can also use the search function in the top left corner.
 

@@ -21,7 +21,7 @@ copyright = '2021, Kinovea documentation authors (CC0 1.0)'
 author = 'Kinovea documentation authors'
 
 # The full version, including alpha/beta/rc tags
-release = '0.9.4'
+release = '0.9.5'
 
 
 # -- General configuration ---------------------------------------------------
@@ -74,21 +74,28 @@ pdf_documents = [('index', u'kinoveadoc', u'Kinovea documentation', u'Kinovea co
 
 # EPUB Output
 epub_theme = "sphinx_rtd_theme"
+#epub_theme = 'epub'
 
 # Bibliographic Dublin Core info.
+
+epub_description = "Kinovea reference manual"
+epub_publisher = "Kinovea"
 epub_title = project
 epub_author = author
-epub_publisher = author
 epub_copyright = copyright
 
-# The unique identifier of the text. This can be a ISBN number
-# or the project homepage.
-#
-# epub_identifier = ''
-
-# A unique identification for the text.
-#
-# epub_uid = ''
+# The cover page information. This is a tuple containing the filenames of
+# the cover image and the html template.
+#epub_cover = ('_static/cover.png', 'epub-cover.html')
+epub_css_files = ['css/kinovea.css']
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
+
+# The depth of the table of contents in the file toc.ncx.
+epub_tocdepth = 2
+
+# Control whether to display URL addresses.
+epub_show_urls = 'no'
+
+

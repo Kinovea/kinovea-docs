@@ -11,7 +11,7 @@ Saving annotations
 To save the current annotations use the menu :menuselection:`File --> Save` or the shortcut :kbd:`CTRL` + :kbd:`S`.
 
 .. tip:: Save the annotation file with the same name as the video to have it automatically loaded the next time you open the video in Kinovea.
-    This is known as a "sidecar" file, for example: "video.mp4" -> "video.kva". This is the default option when saving.
+    This is known as a "sidecar" file, for example :file:`video.mp4` and :file:`video.kva`. This is the default option when saving.
 
 Loading annotations
 -------------------
