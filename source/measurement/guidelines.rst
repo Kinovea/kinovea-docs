@@ -37,6 +37,8 @@ Use a lens with as little distortion as possible to minimize the curvature of th
 
 This distortion can be taken into account in Kinovea using the lens calibration dialog.
 
+See also: :doc:`lensdistortion`.
+
 Use an appropriate exposure time
 ********************************
 To minimize motion blur, decrease the exposure time as much as possible (increase shutter speed).

@@ -24,7 +24,7 @@ Each instance is identified by a name or a number.
 
 See also: :doc:`../instances`.
 
-.. note:: Synchronization options do not work across different instances.
+.. note:: Video synchronization does not work across different instances.
 
 
 Instances have their own preferences
