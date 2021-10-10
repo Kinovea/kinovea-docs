@@ -22,7 +22,7 @@ It is possible to customize the name of instances by passing the new name in the
 
 .. code-block:: console
 
-    >kinovea.exe -name "MyInstance"
+    kinovea.exe -name "MyInstance"
 
 .. image:: /images/ui/instancenamecustom.png
 
