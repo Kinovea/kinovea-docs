@@ -28,10 +28,10 @@ The following kinematics diagrams are available:
 .. toctree::
     :maxdepth: 1
     
-    kinematics/scatter
-    kinematics/linear
-    kinematics/angular
-    kinematics/angleangle
+    scatter
+    linear
+    angular
+    angle_angle
 
 Data filtering
 --------------
