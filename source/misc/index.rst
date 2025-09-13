@@ -7,6 +7,4 @@ Miscellaneous topics
 
    faq
    update
-   command_line
-   copydata
    comms

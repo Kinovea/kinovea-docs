@@ -1,4 +1,4 @@
-Exporting data and measurements
+Exporting spreadsheet documents
 ===============================
 
 Save annotations

@@ -1,5 +1,5 @@
 
-Overview mode
+Kinograms
 =============
 The overview mode is a special video mode used to display multiple images of the video at the same time.
 This type of display is also called a "kinogram".

@@ -6,7 +6,6 @@ User interface
    :maxdepth: 1
 
    overview
-   workspaces
-   instances
+   concepts
    preferences
 

@@ -1,5 +1,5 @@
 
-Control from other applications
+Control from other programs
 ===============================
 
 While Kinovea is running it is possible to send it commands from a third party application or script.

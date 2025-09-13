@@ -1,5 +1,5 @@
-Replay folder observers
-=======================
+Instant replay mechanism
+========================
 
 Feature description
 -------------------

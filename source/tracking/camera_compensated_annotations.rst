@@ -1,0 +1,2 @@
+Camera compensated annotations
+===============================

@@ -1,5 +1,5 @@
 
-Observation and comparison
+Observation
 ==========================
 
 .. toctree::
@@ -8,7 +8,5 @@ Observation and comparison
    loading
    playback_ui
    image_geometry
-   time_calibration
-   comparison
-   overview
-   reverse
+   stabilization
+   kinogram

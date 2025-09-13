@@ -1,5 +1,5 @@
-Recording 
-=========
+Recording options
+==================
 
 Starting and stopping recording
 -------------------------------

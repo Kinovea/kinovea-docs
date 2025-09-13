@@ -1,5 +1,5 @@
 
-Webcams, Mini DV, and HDMI capture cards
+DirectShow compatible cameras
 ====================================================
 
 General

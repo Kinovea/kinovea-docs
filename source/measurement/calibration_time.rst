@@ -2,6 +2,23 @@
 Time calibration
 ================
 
+
+Time origin
+-----------
+Time information in Kinovea is relative to a specific point in the video.
+By default, this is the start of the video or working zone.
+
+To set the time origin to an arbitrary point in the video navigate to this point and use the :menuselection:`Mark current time as time origin` button or context menu.
+All displayed times will be relative to this origin, using negative time before the event and positive time after it. 
+
+.. image:: /images/measurement/negativetime.png
+
+Setting the time origin to another point of the video can be useful to quickly get timing information in relation to a specific event, 
+for example, a golf ball impact, a pitcher's release point, a long jumper's take-off, a starting gun trigger.
+
+.. image:: /images/measurement/relativeclock.png
+
+
 Capture frame rate
 ------------------
 When a video is captured with a high speed camera (or using the high speed or slow motion function of a smartphone),
@@ -19,6 +36,8 @@ This is done by going to :menuselection:`Video --> Configure video timing` and f
 Changing this option does not change the nominal speed at which the video is played back.
 In other words setting the speed control at its mid-point will still play back the video at the same slow motion rate as before.
 Instead, this option changes the time coordinates of the images.
+
+
 
 Broken playback frame rate
 --------------------------

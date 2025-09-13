@@ -1,4 +1,4 @@
-Exporting video and images
+Exporting videos
 ==========================
 
 The video and image export options can be accessed from the export toolbar in the playback screen.

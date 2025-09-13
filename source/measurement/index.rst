@@ -4,13 +4,12 @@ Measurement
 .. toctree::
    :maxdepth: 1
 
-   calibration
+   calibration_space
+   calibration_lens
+   calibration_time
    guidelines
-   coordinatesystem
-   lensdistortion
-   time
-   distance
-   angle
-   trajectory
-   tracking
-   kinematics
+   coordinate_system
+   measuring_times
+   measuring_cadences
+   measuring_distances
+   measuring_angles

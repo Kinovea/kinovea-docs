@@ -4,6 +4,12 @@ Command line options
 
 Kinovea can be started from the command line.
 
+There are essentially two modalities of operation:
+
+- Starting Kinovea with a specific video file with optional playback speed and stretch mode.
+- Starting a specific window or group of windows which can contain their own content and settings.
+
+
 Usage
 -----
 

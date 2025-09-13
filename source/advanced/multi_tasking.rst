@@ -1,5 +1,5 @@
 
-Running multiple instances of Kinovea
+Multi-window system
 =====================================
 
 It is possible to run multiple Kinovea at the same time on the same computer. 

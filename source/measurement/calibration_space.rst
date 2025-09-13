@@ -1,4 +1,4 @@
-Calibration mechanisms
+Spatial calibration
 ======================
 
 In order to use Kinovea to make measurements on the video, it is necessary to calibrate the transformation of pixels in the image into real world units.
