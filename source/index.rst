@@ -211,6 +211,7 @@ If you find something that is confusing, wrong, or otherwise needs to be edited,
     :hidden:
     :caption: Kinematics
     
+    kinematics/kinematics
     kinematics/scatter
     kinematics/linear
     kinematics/angular

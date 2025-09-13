@@ -1,7 +1,9 @@
 Post-recording commands 
 =========================
 
-Post-recording commands let you execute external programs right after a recording is finalized, using the created file as an argument to these programs. This can be used to automatically copy the file to a different location, perform compression or apply post-processing.
+Post-recording commands let you execute external programs right after a recording is finalized. 
+The created file can be passed as an argument to the external program. 
+This can be used to automatically copy the file to a different location, perform compression or apply post-processing.
 
 Command editor
 ----------------

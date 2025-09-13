@@ -8,7 +8,7 @@ Multiple instances of Kinovea can run at the same time without interfering with 
 
 You can assign names to windows to associate them with specific tasks.
 
-.. note:: We use the terms "Window" and "Instance" interchangeably in this documentation.
+.. note:: We use the terms "window" and "instance" interchangeably in this documentation. Each instance of Kinovea has only one main window.
 
 This system supports the following use cases:
 

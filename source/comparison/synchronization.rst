@@ -1,7 +1,18 @@
 Synchronization
 ==============================
 
-Synchronization mechanism
+
+The synchronization system supports both synchronized playback and synchronized frame by frame navigation of two videos.
+
+The videos can be heterogenous:
+
+- different frame rates
+- different durations
+- different image sizes
+- different capture frame rates (one video is slow motion and not the other)
+
+
+Synchronization point
 -------------------------
 Two videos can be synchronized by setting their time origin to a common event visible on both videos.
 When the videos are synchronized they will pass through their time origin at the same time.
@@ -12,7 +23,7 @@ Alternatively you can move each video to the correct point independently and use
 
 .. image:: /images/observation/compare-syncpoint.png
 
-During joint-playback, the synchronization mechanism means one video may start and/or end playing before the other.
+During joint-playback, one video may start and/or end playing before the other. They will then join up at the end of their respective loop and restart the cycle.
 
 To perform joint frame-by-frame navigation, move the cursor in the joint timeline or use the joint controls buttons.
 
@@ -48,3 +59,11 @@ this should apply a similar slow motion factor to both videos and keep the compa
 
 If you are confident that you do not want the speed sliders to be linked together you may change the option in :menuselection:`Options --> Preferences --> Playback --> General --> Link speed sliders when comparing videos`.
 
+
+
+Dual replay
+-------------
+
+Normally in the capture-replay workflow the captured video is replayed as soon as possible by the replay screen after it is created.
+
+In the case of a dual replay scenario where both player screens are replay folder observers monitoring the capture folder of their respective capture screen, the synchronization engine waits for both videos to be available before starting the playback.
