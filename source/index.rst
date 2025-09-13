@@ -170,7 +170,9 @@ If you find something that is confusing, wrong, or otherwise needs to be edited,
     :caption: Annotation
 
     annotation/general
-    annotation/tools
+    annotation/key_image_management
+    annotation/general_tools
+    annotation/posture_tools
     annotation/style_and_opacity
     annotation/importing_images
     annotation/annotation_files

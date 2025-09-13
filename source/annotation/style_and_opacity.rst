@@ -1,32 +1,45 @@
 
-Style and opacity of drawings
+Drawings properties
 ================================
 
-Style 
------
-Drawings have styling properties like color, size of text or type of line. The exact set of properties depends on the tool.
+Drawings typically have the following properties
 
-New drawings use the default style configured for this type of drawing.
-The default style can be changed in two ways:
+- Name
+- Visual style (color, size, line type, etc.)
+- Options (tool-specific toggles)
+- Measure label (for tools that are used to measure times, distances or angles)
+- Visibility settings (opacity and fading profile)
 
-- Open the color profile by clicking the color profile button or right clicking the viewport while the corresponding tool is active.
-- Right click an existing drawing and use the menu :menuselection:`Set style as default`.
+Name and style 
+---------------
 
-.. image:: /images/annotation/colorprofile.png
+To change the name and style of a drawing use the properties tab in the side panel. Click on the drawing to select it and its properties will be shown in the side panel.
 
-To change the style of a drawing after it is created right click it and select the :menuselection:`Configuration` menu.
-This dialog also lets you change the name identifying the drawing.
+When the style of a drawing is changed it becomes the default style for new drawings of the same type.
+
+.. image:: /images/annotation/style.jpg
+
+
+You can also right click the drawing and select :menuselection:`Configuration…` to open the configuration dialog.
 
 .. image:: /images/annotation/configuration.png
+    
 
-Certain tools that are presented as separate entries in the tool bar are actually style variants of each other.
-For example the presence of arrows at the end of lines is merely a style option.
-This means it is possible to convert a line into an arrow by changing the arrow style option.
+Options and measure labels
+-------------------------------
+
+Currently the options and measure labels are not avaiable in the side panel and can only be accessed through the context menu.
+
+.. image:: /images/annotation/menu-options.png
+    
+
+.. image:: /images/annotation/menu-label.png
 
 
-Visibility
-----------
-Drawings have visibility properties that controls their opacity throughout the video.
+Visibility profile
+-------------------
+
+Drawings have a visibility profile that controls their opacity throughout the video.
 
 .. image:: /images/annotation/visibilitymenu.png
 
@@ -43,7 +56,7 @@ Always visible
 **************
 With this option the drawing is visible for the entirety of the video. The opaque duration and fading duration options are ignored.
 
-.. warning:: The drawing is still attached to the key image it was added to and will be deleted if that key image is deleted.
+.. warning:: The drawing is still attached to the key image it was added to. It will be deleted if the parent key image is deleted.
 
 Default fading
 **************

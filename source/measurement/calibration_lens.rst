@@ -1,6 +1,15 @@
 Lens distortion calibration
 ===========================
 
+Revamped:
+
+https://www.kinovea.org/en/forum/viewtopic.php?id=1977
+
+
+
+
+
+
 Introduction
 -------------
 When using cameras with significant distortion is it important to calibrate it in Kinovea before making measurements.

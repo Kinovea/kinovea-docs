@@ -2,17 +2,9 @@
 Importing external data
 =======================
 
-In addition to importing annotations created in Kinovea you may import annotations created in other software.
+In addition to loading annotations created in Kinovea you may import annotations created in other software.
 
-Two external formats are supported: SRT subtitles and OpenPose body poses.
-
-SRT SubRip Text subtitles
--------------------------
-SRT is a simple subtitle file format containing a series of subtitles and the corresponding start and end timestamps.
-
-To load an SRT subtitle on top of a video in Kinovea, use the menu :menuselection:`File --> Load annotations…` and point to the SRT file.
-
-A label object will be created for each subtitle block with its visibility set up according to the timestamps for the subtitle.
+Two external formats are supported: OpenPose body poses and SRT subtitles.
 
 
 OpenPose
@@ -45,3 +37,10 @@ Each detected human pose will be converted to a human model drawing using a dedi
 
 
 
+SRT SubRip Text subtitles
+-------------------------
+SRT is a simple subtitle file format containing a series of subtitles and the corresponding start and end timestamps.
+
+To load an SRT subtitle on top of a video in Kinovea, use the menu :menuselection:`File --> Load annotations…` and point to the SRT file.
+
+A label object will be created for each subtitle block with its visibility set up according to the timestamps for the subtitle.
