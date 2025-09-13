@@ -255,20 +255,6 @@ In combination with the audio trigger this option lets you record multiple seque
 
 .. note:: This value is a lower bound, the final video might be slightly longer than configured due to internal processing and alignment with frame boundaries.
 
-Post recording command
-**********************
-This option lets you set up a program that will be run at the end of every recording. This can be used to automatically copy the file to a different location, perform compression or apply post-processing.
-
-The command line can contain special macros referring to context variables that are automatically inserted in the final command.
-
-The following context variables are available:
-
-===========   ============= 
-Macro           Description
-===========   =============
-%directory     The directory where the recording was saved.
-%filename      The name of the recorded file.
-===========   =============
 
 Ignore file overwrite warning
 *****************************

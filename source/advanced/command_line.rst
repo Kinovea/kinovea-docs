@@ -2,13 +2,10 @@
 Command line options
 ====================
 
-Kinovea can be started from the command line.
+Kinovea can be started from the command line. There are essentially two modalities of operation:
 
-There are essentially two modalities of operation:
-
-- Starting Kinovea with a specific video file with optional playback speed and stretch mode.
-- Starting a specific window or group of windows which can contain their own content and settings.
-
+* Starting Kinovea with a specific video file, with some extra options.
+* Starting a specific Kinovea window or group of windows, which can contain their own content and settings.
 
 Usage
 -----
@@ -16,26 +13,35 @@ Usage
 .. code-block::
 
     > kinovea.exe 
-        [-name <string>] [-hideExplorer] [-workspace <path>] 
-        [-video <path>] [-speed <0..200>] [-stretch]
+        [-video <path>] [-speed <0..200>] [-stretch] [-hideExplorer]
+        [-name <string>]
+        [-id <string>]
 
 
 Options
 -------
 
-``-name`` ``<string>``
-    Name of this instance of Kinovea. Used in the window title and to select a preference file.
-``-hideExplorer``
-    The explorer panel will not be visible. Default: ``false``.
-``-workspace`` ``<path>``
-    Path to a Kinovea workspace XML file. This overrides other video options. 
-    To create a workspace file use the menu :menuselection:`Option --> Workspace --> Export workspace`.
 ``-video`` ``<path>``
-    Path to a video to load.
+    Path to the video or image to load.
+
 ``-speed`` ``<0..200>``
-    Playback speed to play the video, as a percentage of its original framerate. Default: ``100``.
+    Playback speed to play the video, as a percentage of its original playback framerate. 
+    
+    Default: ``100``.
+
 ``-stretch``
     The video will be expanded to fit the viewport. Default: ``false``.
+
+``-hideExplorer``
+    The navigation pane on the left of the main area will be closed. Default: ``false``.
+
+``-name`` ``<string>``
+    Name of the Kinovea window to load. 
+    
+    The name of a window is set from the window properties dialog: :menuselection:`Window --> Window properties…`.
+
+``-id`` ``<string>``
+    Id of a Kinovea window to load. This option is meant to be used internally between instances of Kinovea.
 
 Examples
 --------
@@ -44,5 +50,5 @@ Examples
 
     > kinovea.exe -video test.mp4 -stretch
     > kinovea.exe -video test.mp4 -speed 50
-    > kinovea.exe -name Replay -workspace myReplayWorkspace.xml
+    > kinovea.exe -name Replay
 
