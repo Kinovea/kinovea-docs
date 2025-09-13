@@ -45,8 +45,8 @@ Height
 ******
 The height of the images.
 
-Framerate
+Frame rate
 *********
-The target framerate of the stream.
+The target frame rate of the stream.
 
 

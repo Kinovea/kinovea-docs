@@ -7,8 +7,7 @@ Capture & Cameras
 
    introduction
    user_interface
-   listing
    hardware_directshow
    hardware_machine_vision
-   hardware_ipcameras
+   hardware_network
    hardware_simulated

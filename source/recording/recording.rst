@@ -48,7 +48,7 @@ Use the infobar to get feedback about performances.
 
 .. image:: /images/capture/infobar2.png
 
-See also: :doc:`userinterface`.
+See also: :doc:`/capture/user_interface`.
 
 Recording mode
 **************

@@ -235,10 +235,9 @@ If you find something that is confusing, wrong, or otherwise needs to be edited,
 
     capture/introduction
     capture/user_interface
-    capture/listing
     capture/hardware_directshow
     capture/hardware_machine_vision
-    capture/hardware_ipcameras
+    capture/hardware_network
     capture/hardware_simulated
     
     

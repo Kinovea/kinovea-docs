@@ -1,53 +1,77 @@
 
-Machine vision and industrial cameras
+Machine vision cameras
 =====================================
-
-General
---------------
-
-The following camera brands are supported:
-
-- Basler: https://www.baslerweb.com
-- IDS: https://en.ids-imaging.com/
-- Daheng imaging: https://www.dahengimaging.com/
-- Baumer: https://www.baumer.com
 
 Installation
 ------------
 
-The machine vision cameras are supported via plugins that are distributed separately from Kinovea. 
-Each plugin must be installed under the application data folder, inside the :file:`Plugins\\Camera` sub-folder.
+Machine vision cameras are supported via a plugin distributed separately from the main Kinovea download.
 
-The runtime for the specific camera brand, provided by the manufacturer, must also be installed separately. 
-Consult the section for each brand below to check if any extra customization is needed during the installation of the vendor's runtime to make it work with Kinovea.
+
+- Download :file:`Kinovea.GenICam-<version>.zip`.
+- Unzip the archive somewhere and copy the :file:`GenICam` folder into Kinovea application data folder under the :file:`Plugins\\Camera` sub-folder. You can find the application data folder via Kinovea menu :menuselection:`Help --> Open application data folder…`.
+- You must still install the drivers and software from your camera vendor separately. If the installer for the vendor runtime or SDK has various options make sure to check the options mentioning "GenICam" or "GenTL".
+- Restart Kinovea.
+
+
+
+Supported devices
+-------------------
+
+Cameras from the following vendors are reported to work:
+
+- Allied Vision
+- Basler
+- Baumer
+- Daheng imaging
+- IDS
+- Teledyne FLIR
+- Vision Datum
+
+Known issues:
+
+- With IDS cameras, reducing the image resolution may result in a black image.
+- Daheng cameras using GigE interface may not work (USB 3 cameras do work).
+- When using two Teledyne FLIR cameras of the same model at the same time it can crash. One camera should work.
+
+
 
 Configuration
 -------------
 
-This section describes the common options for the configuration of machine vision cameras. 
-Settings or installation information specific to each camera vendor are described after the section **Resulting Framerate**.
+.. image:: /images/capture/config-genicam.png
 
-.. image:: /images/capture/config-basler.png
 
 Stream format
 *************
 The available stream formats depend on the brand and model of the camera.
 
-Stream formats named :guilabel:`Raw` or containing :guilabel:`Bayer` in the name transmit the raw sensor data and can be used to record raw videos.
+The suggested workflow for color cameras is to use a raw stream format (for example :guilabel:`BayerRG8`) and enable software demosaicing to reconstruct color images on the fly.
 
-Bayer format conversion 
-***********************
-When the selected stream format is a raw Bayer format, this option defines which reconstruction method, if any, is applied to the raw sensor data. The following options are available:
+.. tip:: Do not use higher bit depth formats (for example :guilabel:`Mono12` or :guilabel:`BayerRG16`) as Kinovea doesn't use the extra information. They get converted down to 8 bit and will just consume bandwidth for no additional benefit.
 
-- :guilabel:`Raw`: No reconstruction is performed. Kinovea receives the images as-is.
-- :guilabel:`Mono`: Monochromatic images are rebuilt by the camera vendor runtime before passing the images to Kinovea.
-- :guilabel:`Color`: Color images are rebuilt by the camera vendor runtime before passing the images to Kinovea.
 
-.. note::
+Enable hardware compression
+****************************
 
-    When using a raw stream format and the video is recorded without compression, the raw sensor data is saved to the video file. 
-    It is then possible to rebuild the color at playback time by choosing the appropriate option under the menu :menuselection:`Image --> Demosaicing`. 
-    This approach can be interesting to limit the bandwidth required to transfer the camera stream and save it to storage.
+This option is available if the camera supports hardware compression.
+
+
+Enable software demosaicing
+****************************
+
+This option can be used when the stream format is a raw format (for example :guilabel:`BayerRG8`) to reconstruct a color image on the fly.
+
+.. note:: When using a non raw stream format the camera is performing the demosaicing itself on the camera hardware. 
+        This is not necessarily faster than doing in on the computer and it requires 3 times the bandwidth to transfer the color images. 
+        The top frame rate advertised by the vendor is usually for a raw stream format.
+
+It is also possible to not enable this option, save the raw stream format to disk, and only reconstruct the color information later when loading the video in the player. 
+
+To enable this workflow go to :menuselection:`Options --> Preferences... --> Capture --> General`, and check :guilabel:`Record uncompressed video`.
+When reading the video back choose the appropriate option under the menu :menuselection:`Image --> Demosaicing`.
+This option creates enormous files.
+
 
 Width
 ***********************
@@ -55,18 +79,18 @@ The width of the images. This usually has no effect on the maximum framerate pos
 
 Height
 ***********************
-The height of the images. This usually impacts the maximum framerate possible as only the required rows are read from the sensor.
+The height of the images. This usually does impact the maximum framerate possible as only the required rows are read from the sensor.
 
-Framerate
+Frame rate
 ***********************
-The target framerate. Whether this framerate is actually reached or not depends on the image format, size, exposure and the camera hardware.
-If the framerate cannot be sustained, the :guilabel:`Resulting framerate` value will be displayed in red.
+The target frame rate. Whether this frame rate is actually reached or not depends on the stream format, image size, exposure time and the camera hardware.
+If the frame rate cannot be sustained, the :guilabel:`Resulting frame rate` value will be displayed in red.
 
-If the :guilabel:`Auto` checkbox is checked, the camera will ignore the value and always send the maximum framerate possible based on the rest of the configuration and the camera hardware.
+If the :guilabel:`Auto` checkbox is checked, the camera will ignore the value and always send the maximum frame rate possible based on the rest of the configuration and the camera hardware.
 If the :guilabel:`Auto` checkbox is not checked, the camera will use at most the configured value, if it is possible for the hardware to do so. 
-The manual configuration can be interesting if you want to use a specific framerate that is less than the maximum possible.
+The manual configuration can be interesting if you want to use a specific frame rate that is less than the maximum possible.
 
-.. note:: After changing the image size or stream format you must click on :guilabel:`Reconnect` for the maximum framerate information to be updated.
+.. note:: After changing the image size or stream format you must click on :guilabel:`Reconnect` for the maximum frame rate information to be updated.
 
 Exposure (µs)
 ***********************
@@ -85,52 +109,9 @@ Increasing this value increases the apparent brightness but can introduce noise 
 This value has no impact on the framerate.
 
 
-Resulting framerate
+Resulting frame rate
 ***********************
 
-This value is the actual framerate at which the camera will send images, based on the other values and the camera hardware capabilities.
+This value is the actual frame rate at which the camera will send images, based on the other values and the camera hardware capabilities.
 
-
-Basler
-------
-
-Pylon installation 
-******************
-
-When installing Basler's Pylon runtime software, it is necessary to use the :guilabel:`Custom` option in the installer, expand the :guilabel:`pylon Runtime` node, and select :guilabel:`pylon C .NET Runtime` option.
-
-.. image:: /images/capture/pylon-install.png
-
-If you have already installed the software you can re-run the installer and choose :guilabel:`Modify the current installation` to access this option.
-
-Other options for Basler
-*************************
-
-Options that are not supported in Kinovea can be modified in Basler's Pylon viewer.
-
-IDS
----
-
-.. image:: /images/capture/config-ids.png
-
-Other options for IDS
-*********************
-
-In order to use options that are not supported in Kinovea, use IDS' uEye Cockpit. 
-Modify the camera configuration in uEye Cockpit and do :menuselection:`File --> Save parameters to file`. 
-Then in Kinovea, use the :guilabel:`Import parameters` button on the camera configuration dialog and point to the file you just saved.
-
-In order to unlink the configuration file with Kinovea, right click on the camera thumbnail in the main explorer view and use the menu :menuselection:`Forget custom settings`.
-
-Daheng imaging
---------------
-
-.. image:: /images/capture/config-daheng.png
-
-The stream format options are :guilabel:`RGB`, :guilabel:`Mono` or :guilabel:`Raw`, depending on the camera model.
-
-Other options for Daheng
-************************
-
-Options not supported in Kinovea can be modified in Daheng Galaxy Viewer.
 

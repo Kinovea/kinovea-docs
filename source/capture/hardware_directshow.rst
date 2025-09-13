@@ -1,12 +1,12 @@
 
-DirectShow compatible cameras
-====================================================
+DirectShow compatible devices
+==============================
 
 General
 -------
 
 Kinovea supports devices with a DirectShow driver. 
-These devices include USB video class (UVC) webcams, Mini DV camcorders, and analog video converters.
+These devices include USB video class (UVC) webcams, HDMI to USB converters, Mini DV camcorders, and analog video converters.
 
 Configuration
 -------------
@@ -27,11 +27,11 @@ The typical stream formats include:
 
 Using the :guilabel:`MJPEG` stream format can lower the bandwidth requirements and improve framerate.
 
-.. note:: Kinovea native storage format for compressed videos is MJPEG. When using this stream format, the videos are saved as-is without any extra decompression or compression steps.
+.. tip:: Kinovea native storage format for compressed videos is MJPEG. When using this stream format, the videos are saved as-is without any extra decompression or compression steps.
 
 Image size
 **********
-This defines the image size of the stream and impacts the available options in the framerate dropdown.
+This defines the image size of the stream and impacts the available options in the framerate dropdown. Devices in this category only support a predefined set of image sizes.
 
 Framerate
 *********
