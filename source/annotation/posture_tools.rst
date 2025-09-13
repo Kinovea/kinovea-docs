@@ -24,7 +24,7 @@ Body models
 .. image:: /images/annotation/humanmodel2.png
 
 
-.. image:: /images/annotation/canis.png
+.. image:: /images/annotation/canis.jpg
     
     
 
@@ -43,7 +43,7 @@ Anatomy
 Cycling
 -------------
 .. |BikeFit| image:: /images/annotation/icons/cycling-16.png
-- |BikeFit| **Bike fit**    
+- |BikeFit| **Bike fit**
 
 .. image:: /images/annotation/bikefit2.jpg
 
@@ -51,7 +51,7 @@ Cycling
 Archery
 ----------
 .. |Archery| image:: /images/annotation/icons/archery-16.png
-- |Archery| **Archery**    
+- |Archery| **Archery**
 
 .. image:: /images/annotation/archery-tool.png
 

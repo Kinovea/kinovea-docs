@@ -207,7 +207,7 @@ The grid tools are used to materialize a plane of motion or are used for calibra
 
 See also: :doc:`/measurement/calibration_space`.
 
-.. image:: /images/annotation/grid.jpg
+.. image:: /images/annotation/grid600.jpg
 
 
 

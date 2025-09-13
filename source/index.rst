@@ -185,9 +185,9 @@ If you find something that is confusing, wrong, or otherwise needs to be edited,
 
     measurement/calibration_space
     measurement/calibration_lens
-    observation/calibration_time
+    measurement/calibration_time
     measurement/guidelines
-    measurement/coordinatesystem
+    measurement/coordinate_system
     measurement/measuring_times
     measurement/measuring_cadences
     measurement/measuring_distances
