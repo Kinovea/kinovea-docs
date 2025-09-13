@@ -4,14 +4,14 @@
 
 This is Kinovea's user-documentation project.
 
-Introduction
-------------
-Kinovea is an open source video player and camera capture software with features tailored to sports applications such as comparison, annotation and measurement. It is a relatively mature project, it has been in development since 2004, has been downloaded more than a million times and is cited in many scientific papers in the field of sports science. 
+This project is to create the user manual. Please post issues about the program in the main repository and use this one for issues about the documentation itself.
 
-**Main website**: https://www.kinovea.org/
+
 
 Links
 ---------
+Main website: https://www.kinovea.org/
+
 The current live documentation can be found here: https://www.kinovea.org/help/index.htm
 
 The manual in this repository is automatically rebuilt at readthedocs here: https://kinovea.readthedocs.io/en/latest/
@@ -44,8 +44,10 @@ List of successive release posts since version 0.8.15, containing descriptions o
 | [0.8.16](https://www.kinovea.org/en/forum/viewtopic.php?id=483) | 2011-08 |
 | [0.8.15](https://www.kinovea.org/en/forum/viewtopic.php?id=409) | 2011-05 |
 
-Compiling the documentation
+Manually compiling the documentation
 ---------------------------
+
+You do **not** need to do this to contribute to the documentation. You can also fork the repository, make some changes and create a pull request.
 
 The documentation uses Sphinx. Sphinx is essentially a static website generator that takes a collection of reStructuredText text files and compiles them into static HTML pages. This website is then manually copied to the server under https://www.kinovea.org/help/en/
 
