@@ -65,7 +65,7 @@ You can also use the search function in the top left corner.
                 :target: tracking/tracking.html
 
             :doc:`Tracking </tracking/tracking>`
-                Tracking joints and objects, and compensating for camera motion.
+                Tracking points and objects, and compensating for camera motion.
 
 
         .. container:: descr
@@ -199,10 +199,11 @@ If you find something that is confusing, wrong, or otherwise needs to be edited,
     :caption: Tracking
 
     tracking/tracking
-    tracking/tracking_algorithms
     tracking/trajectory
+    tracking/tracking_algorithms
     tracking/trackable_drawings
     tracking/markerless_tracking
+    tracking/tracked_coordinates
     tracking/camera_motion_estimation
     tracking/camera_compensated_annotations
     

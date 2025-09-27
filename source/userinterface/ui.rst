@@ -4,6 +4,7 @@ User interface
 
 
 The following screenshot shows the main elements of the Kinovea user interface.
+These elements are then described in more detail in the sections below.
 
 .. image:: /images/ui/mainwindow3.jpg
 

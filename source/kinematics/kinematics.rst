@@ -6,16 +6,20 @@ Introduction
 
 To measure linear or angular speed and other kinematics quantities follow these steps:
 
-* Establish a line or plane calibration.
-* Compensate for lens distortion.
-* Track a point trajectory or track an object containing an angle.
+* Establish a :doc:`line or plane calibration </measurement/calibration_space>`.
+* Optionally compensate for :doc:`lens distortion </measurement/calibration_lens>`.
+* For high speed videos make sure :doc:`time is calibrated </measurement/calibration_time>` correctly as well.
+* :doc:`Track a point trajectory </tracking/trajectory>` or :doc:`track an object </tracking/trackable_drawings>` containing an angle.
 * The measured data can be displayed in two ways:
   
-    * Directly on the object.
+    * As a small label on the object in the viewport.
     * In a dedicated kinematics diagram.
 * To export the data, use the export options in the kinematics diagrams.
 
-To display the measurement as a label attached to the object, right click the object and choose an option under the :menuselection:`Display measure` menu.
+Measurement labels
+---------------------
+
+To display the value as a label attached to the object, right click the object and choose an option under the :menuselection:`Display measure` menu.
 Each measurable object has specific options based on the quantities it can measure.
 
 Kinematics diagrams

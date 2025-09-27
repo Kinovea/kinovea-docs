@@ -98,7 +98,7 @@ To stabilize the image by a previously tracked object, use the menu :menuselecti
 
 The tracked object will be kept at the same position in the image, stabilizing the video around it.
 
-This is a simple 2D stabilization suitable for small camera movements. 
+This is a simple 2D stabilization suitable for small camera shake or to "lock in" on an object or body part.
 If the camera is undergoing a rotation or zoom, consider using the :doc:`/tracking/camera_motion_estimation` function.
 
 .. _zoom:
