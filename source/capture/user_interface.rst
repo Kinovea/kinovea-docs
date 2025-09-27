@@ -256,7 +256,9 @@ The maximum amount of delay depends on the camera configuration — hardware com
 
 The duration numerical field let you set a maximum duration for the recording. This is the total duration of the resulting file. 
 
-.. note:: For example if delay is set to 2 seconds and maximum duration is set to 3 seconds, the resulting file will be 3 seconds and contain 2 seconds of action before the recording button was pressed or triggered, and 1 second of action after the recording button was pressed or triggered.
+.. note:: If delay is set to 2 seconds and maximum duration is set to 3 seconds, 
+    the resulting file will be 3 seconds long and contain 2 seconds of action *before* the recording button was pressed or triggered, 
+    and 1 second of action *after* the recording button was pressed or triggered.
 
 
 

@@ -13,12 +13,13 @@ Drawings typically have the following properties
 Name and style 
 ---------------
 
-To change the name and style of a drawing use the properties tab in the side panel. Click on the drawing to select it and its properties will be shown in the side panel.
+To change the name and style of a drawing use the properties tab in the annotation pane. 
+Click on the drawing to load it in the property editor.
 
-When the style of a drawing is changed it becomes the default style for new drawings of the same type.
 
 .. image:: /images/annotation/style.jpg
 
+.. Note:: When the style of a drawing is changed it becomes the default style for new drawings of the same type.
 
 You can also right click the drawing and select :menuselection:`Configuration…` to open the configuration dialog.
 
@@ -28,7 +29,7 @@ You can also right click the drawing and select :menuselection:`Configuration…
 Options and measure labels
 -------------------------------
 
-Currently the options and measure labels are not avaiable in the side panel and can only be accessed through the context menu.
+Currently the options and measure labels are not avaiable in the annotation pane and are accessed through the context menu.
 
 .. image:: /images/annotation/menu-options.png
     

@@ -4,11 +4,12 @@ Saving and loading annotation files
 
 Annotations are saved in KVA files. These are XML files with a .kva extension.
 
-The term annotation in Kinovea has a broad meaning and encompasses anything that is not readily available in the video file. The KVA file stores the following:
+The term annotation in Kinovea has a broad meaning and encompasses anything that is not directly available in the video file itself. 
+The KVA file stores the following data:
 
 - key images timeline positions, names, color and comments
 - drawings attached to key images and their properties
-- trajectories, stopwatches and clocks
+- trajectories, stopwatches, clocks and counters.
 - timelines of tracked objects
 - image-level overrides such as aspect ratio, rotation or mirroring
 - stabilization settings

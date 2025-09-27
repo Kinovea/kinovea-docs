@@ -169,7 +169,7 @@ If you find something that is confusing, wrong, or otherwise needs to be edited,
     :hidden:
     :caption: Annotation
 
-    annotation/general
+    annotation/annotations
     annotation/key_image_management
     annotation/general_tools
     annotation/posture_tools

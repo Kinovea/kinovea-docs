@@ -1,8 +1,8 @@
 
-Importing images and vector drawings
+Inserting images and vector drawings
 ====================================
 
-Importing external images
+Inserting external images
 -------------------------
 You can insert images and SVG vector drawings into videos to create a picture in picture effect.
 

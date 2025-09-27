@@ -2,31 +2,50 @@
 Interface description
 =======================
 
-After starting Kinovea the main window should look similar to the screenshot below.
 
-.. image:: /images/ui/mainwindow.png
+The following screenshot shows the main elements of the Kinovea user interface.
 
-The Kinovea interface is made of the following areas:
+.. image:: /images/ui/mainwindow3.jpg
 
-- The main menu bar at the top of the window.
-- The toolbar just below the menu bar.
-- The navigation pane on the left side of the window.
-- The main area in the center of the window.
-- The status bar at the bottom of the window.
+The following pages describe these elements in more detail:
 
+- The :doc:`main menu <ui/main_menu>`
+- The :doc:`main toolbar <ui/main_toolbar>`
+- The :doc:`navigation pane <ui/navigation_pane>`
+- The :doc:`status bar <ui/status_bar>`
 
-.. toctree::
-   :maxdepth: 1
+For the main area, Kinovea has a few modes of operations described in the following sections. 
+Click on the images to get more information about each mode.
 
-   ui/menu
-   ui/toolbar
-   ui/explorerpanel
-   ui/thumbnailspanel
-   ui/screenspanel
-
-
-For a description of the individual screen types see :doc:`/observation/playback_ui` and :doc:`/capture/userinterface`
-   
+Browser view
+----------------
+When using Kinovea without any video opened or camera connected, it functions as a file browser.
 
 
 
+Video player 
+----------------
+When opening a video file, Kinovea functions as a video player with annotation capabilities.
+
+.. image:: /images/observation/ui-playback.png
+   :target: /observation/playback_ui.html
+
+.. image:: /images/annotation/annotations-ui.jpg
+   :target: /annotation/annotations.html
+
+
+Video capture
+----------------
+When connecting to a camera or video capture device, Kinovea functions as a video capture tool.
+
+.. image:: /images/capture/capture-screen-ui3.jpg
+   :target: /capture/user_interface.html
+
+
+
+Dual mode
+----------------
+It is also possible to have two playback screens, two capture screens, or one of each side by side.
+
+.. image:: /images/observation/compare-desync.png
+   :target: /comparison/comparison.html

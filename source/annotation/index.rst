@@ -5,7 +5,7 @@ Annotation
 .. toctree::
    :maxdepth: 1
 
-   general
+   annotations
    key_image_management
    general_tools
    posture_tools
