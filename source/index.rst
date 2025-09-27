@@ -11,7 +11,7 @@ For a single-page overview of the features of Kinovea check the `Features <https
 .. tip:: 
     This manual can be used offline: `download the manual (zipped web pages) <Kinovea-Manual-0.9.5.zip>`__.
 
-The sections below and the table of content in the sidebar let you access the documentation for your topic of interest.
+The sections below and the table of content on the left side let you access the documentation for your topic of interest.
 You can also use the search function in the top left corner.
 
     .. container:: tocdescr
@@ -19,44 +19,42 @@ You can also use the search function in the top left corner.
         .. container:: descr
 
             .. figure:: /images/home/userinterface.jpg
-                :target: userinterface/index.html
+                :target: userinterface/ui.html
 
-            :doc:`/userinterface/index`
+            :doc:`User interface </userinterface/ui>`
                 The main window, basic concepts and the preference pages.
                 
-                
-
         .. container:: descr
 
             .. figure:: /images/home/observation3.jpg
-                :target: observation/index.html
+                :target: observation/introduction.html
 
-            :doc:`/observation/index` 
-                Visual inspection, image adjustment, stabilization and creating kinograms.
+            :doc:`Observation </observation/introduction>`
+                Visual inspection, image adjustment, stabilization and kinograms.
                 
         .. container:: descr
 
             .. figure:: /images/home/comparison.jpg
-                :target: comparison/index.html
+                :target: comparison/comparison.html
 
-            :doc:`/comparison/index` 
+            :doc:`Comparison </comparison/comparison>` 
                 Comparing and synchronizing two videos side by side.
                 
 
         .. container:: descr
 
             .. figure:: /images/home/annotation.png
-                :target: annotation/index.html
+                :target: annotation/annotations.html
 
-            :doc:`/annotation/index`
+            :doc:`Annotation </annotation/annotations>`
                 Tools to annotate videos, mark key moments and study posture.
 
         .. container:: descr
 
             .. figure:: /images/home/measurement.jpg
-                :target: measurement/index.html
+                :target: measurement/measurement.html
 
-            :doc:`/measurement/index`
+            :doc:`Measurement </measurement/measurement>`
                 Calibration and measuring times, cadence, distances and angles.
 
 
@@ -64,70 +62,68 @@ You can also use the search function in the top left corner.
         .. container:: descr
 
             .. figure:: /images/home/tracking2.jpg
-                :target: tracking/index.html
+                :target: tracking/tracking.html
 
-            :doc:`/tracking/index`
+            :doc:`Tracking </tracking/tracking>`
                 Tracking joints and objects, and compensating for camera motion.
 
 
         .. container:: descr
 
             .. figure:: /images/home/kinematics.png
-                :target: kinematics/index.html
+                :target: kinematics/kinematics.html
 
-            :doc:`/kinematics/index`
+            :doc:`Kinematics </kinematics/kinematics>`
                 Plotting and exporting kinematics diagrams.
 
 
         .. container:: descr
 
             .. figure:: /images/home/export.png
-                :target: export/index.html
+                :target: export/videos.html
 
-            :doc:`/export/index`
+            :doc:`Export </export/videos>`
                 Exporting videos, images, reports and spreadsheets.
 
 
         .. container:: descr
 
             .. figure:: /images/home/cameras2.jpg
-                :target: capture/index.html
+                :target: capture/capture.html
 
-            :doc:`/capture/index`
+            :doc:`Capture </capture/capture>`
                 Capture system, camera management and supported camera types.
 
 
         .. container:: descr
 
             .. figure:: /images/home/capture.jpg
-                :target: recording/index.html
+                :target: recording/recording.html
 
-            :doc:`/recording/index`
+            :doc:`Recording </recording/recording>`
                 Recording options, capture folders, triggers and context variables.
                 
                 
         .. container:: descr
 
             .. figure:: /images/home/delay-replay.jpg
-                :target: delay/index.html
+                :target: delay/live_delay.html
 
-            :doc:`/delay/index`
+            :doc:`Delay & Replay </delay/live_delay>`
                 Live delay and instant replay mechanism.
-
-
 
         .. container:: descr
 
             .. figure:: /images/home/advanced.jpg
-                :target: advanced/index.html
+                :target: advanced/multi_tasking.html
 
-            :doc:`/advanced/index`
+            :doc:`Advanced </advanced/multi_tasking>`
                 Multi-tasking, automation, command line interface, programmatic control.
 
 
         .. container:: descr
 
-            :doc:`/misc/index`
+            :doc:`Misc </misc/faq>`
                 FAQ, updating and general information about the project.
 
 
@@ -184,9 +180,11 @@ If you find something that is confusing, wrong, or otherwise needs to be edited,
     :hidden:
     :caption: Measurement
 
+    measurement/measurement
     measurement/calibration_space
     measurement/calibration_lens
     measurement/calibration_time
+    measurement/calibration_validation
     measurement/guidelines
     measurement/coordinate_system
     measurement/measuring_times
@@ -200,9 +198,11 @@ If you find something that is confusing, wrong, or otherwise needs to be edited,
     :hidden:
     :caption: Tracking
 
-    tracking/object_tracking
+    tracking/tracking
     tracking/tracking_algorithms
     tracking/trajectory
+    tracking/trackable_drawings
+    tracking/markerless_tracking
     tracking/camera_motion_estimation
     tracking/camera_compensated_annotations
     
@@ -223,6 +223,7 @@ If you find something that is confusing, wrong, or otherwise needs to be edited,
     :hidden:
     :caption: Export
     
+    export/export
     export/videos
     export/images
     export/documents
@@ -234,7 +235,7 @@ If you find something that is confusing, wrong, or otherwise needs to be edited,
     :hidden:
     :caption: Capture
 
-    capture/introduction
+    capture/capture
     capture/user_interface
     capture/hardware_directshow
     capture/hardware_machine_vision

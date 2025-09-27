@@ -1,2 +1,0 @@
-Tracking joints and objects
-===========================

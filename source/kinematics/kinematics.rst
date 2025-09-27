@@ -1,5 +1,5 @@
-Linear and angular kinematics
-==============================
+Kinematics
+=============
 
 Introduction
 ------------
@@ -18,20 +18,16 @@ To measure linear or angular speed and other kinematics quantities follow these 
 To display the measurement as a label attached to the object, right click the object and choose an option under the :menuselection:`Display measure` menu.
 Each measurable object has specific options based on the quantities it can measure.
 
-.. note:: The data displayed directly on objects use raw coordinates whereas the kinematics diagram uses the (optional) filtering mechanism.
-
 Kinematics diagrams
 -------------------
 
 The following kinematics diagrams are available:
 
-.. toctree::
-    :maxdepth: 1
-    
-    scatter
-    linear
-    angular
-    angle_angle
+- :doc:`scatter`
+- :doc:`linear`
+- :doc:`angular`
+- :doc:`angle_angle`
+
 
 Data filtering
 --------------

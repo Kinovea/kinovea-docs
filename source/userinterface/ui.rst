@@ -1,5 +1,5 @@
 
-Interface description
+User interface
 =======================
 
 
@@ -10,14 +10,13 @@ The following screenshot shows the main elements of the Kinovea user interface.
 - The :ref:`main menu <main_menu>`
 - The :ref:`main toolbar <main_toolbar>`
 - The :ref:`navigation pane <navigation_pane>`
-- The :ref:`status bar <status_bar>`
-
 - The main area:
     
     - :ref:`video player <video_player>`
     - :ref:`video capture <video_capture>`
     - :ref:`dual mode <dual_mode>` 
     - :ref:`browser view <browser_view>`
+- The :ref:`status bar <status_bar>`
     
 
 
@@ -112,11 +111,30 @@ Video player
 ----------------
 When opening a video file, Kinovea functions as a video player with annotation capabilities.
 
+The following screenshots link directly to the corresponding documentation topic.
+
+Playback, frame by frame and kinograms
+****************************************
+
 .. image:: /images/observation/ui-playback.png
    :target: /observation/playback_ui.html
 
+Annotations
+*************
+
 .. image:: /images/annotation/annotations-ui.jpg
    :target: /annotation/annotations.html
+
+Measurement
+*************
+
+Tracking
+**********
+
+.. image:: /images/tracking/tracking-ui.jpg
+   :target: /tracking/tracking.html
+   
+   
 
 .. _video_capture:
 
