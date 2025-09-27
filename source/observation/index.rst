@@ -5,8 +5,7 @@ Observation
 .. toctree::
    :maxdepth: 1
 
-   loading
+   introduction
    playback_ui
-   image_geometry
-   stabilization
+   image_transformation
    kinogram

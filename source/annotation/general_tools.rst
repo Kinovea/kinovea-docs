@@ -170,7 +170,7 @@ Stopwatch family
 
 The stopwatch is used to measure one or more time intervals, can associate a label and a tag with each time segment.
 
-The clock tool shows the video time relatively to a point and can be used as a simple count down.
+The clock tool shows the video time relatively to a specific frame and can be used as a simple count down.
 
 See also: :doc:`/measurement/measuring_times`.
 
@@ -231,7 +231,7 @@ Magnifier
 
 - |Magnifier| **Magnifier**
 
-The magnifier function creates a picture-in-picture effect with an enlarged version of the current image displayed within the original image.
+The magnifier creates a picture-in-picture effect with an enlarged version of the current image displayed within the original image.
 This is a display mode rather than a normal drawing tool, it is not saved in the KVA file.
 
 .. image:: /images/observation/magnifier.png

@@ -1,7 +1,7 @@
-Thumbnails panel
+Browser view
 ================
 
-The thumbnails panel is displayed when there are no playback or capture screens loaded. 
+The browser view is displayed when there are no playback or capture screens loaded. 
 It shows thumbnails corresponding to the active tab of the explorer panel.
 
 .. image:: /images/ui/thumbnails.png
@@ -16,12 +16,12 @@ Size buttons
 
 The size buttons change the size of the thumbnails.
 
-Explorer buttons
---------------------
+Navigation pane buttons
+-------------------------
 
 .. image:: /images/ui/explorerbuttons.png
 
-The explorer buttons change the active tab in the explorer panel.
+These buttons change the active tab in the navigation pane.
 The rightmost button enable or disable full screen mode.
 
 Content preview
@@ -31,7 +31,7 @@ The extra frames can be viewed using the sections at the bottom of the thumbnail
 
 .. image:: /images/ui/thumbnailpreview.png
 
-Metadata overlay
+Properties overlay
 --------------------
 Some metadata can be overlaid on the thumbnails of videos or images. 
 To configure which metadata is overlaid right click the background of the explorer to bring up the context menu.

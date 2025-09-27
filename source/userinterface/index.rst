@@ -6,6 +6,8 @@ User interface
    :maxdepth: 1
 
    ui
-   concepts
+   main_menu
+   browser_view
    preferences
+   glossary
 

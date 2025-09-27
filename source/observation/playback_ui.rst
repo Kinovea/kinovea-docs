@@ -6,14 +6,35 @@ The playback screen is divided in the following areas:
 
 .. image:: /images/observation/ui-playback.png
 
-1. Image viewport
+
+- :ref:`videoviewport`
+- :ref:`infobar`
+- :ref:`annotation_toolbar`
+- :ref:`working_zone`
+- :ref:`timeline`
+- :ref:`playback_controls`
+- :ref:`export_controls`
+
+Some functions are not directly visible in the screenshot
+
+- :ref:`keyboard`
+- :ref:`mouse`
+- :ref:`context_menu`
+
+
+
+.. _videoviewport:
+
+Video viewport
 -----------------
 The image viewport is the main area where the video is played back.
 
 Double clicking the image maximizes it in the viewport area.
 The handles at the four corners of the image can be used to change its size.
 
-2. Infobar
+.. _infobar:
+
+Infobar
 ----------
 
 The infobar contains the name of the file, the image size and the frame rate.
@@ -22,10 +43,11 @@ The file name can be clicked to access a context menu to switch between normal v
 
 .. image:: /images/capture/menuobserver.png
 
+.. _annotation_toolbar:
 
-3. Drawings toolbar
+Annotation toolbar
 -------------------
-The drawings toolbar contains buttons to create new key images, select the active tool and open the color profile.
+The annotation toolbar contains buttons to create new key images, select the active tool and open the color profile.
 
 .. image:: /images/observation/toolbar.png
 
@@ -35,7 +57,9 @@ The extra tools can be accessed by right-clicking or long-clicking the primary b
 
 .. image:: /images/observation/subtools.png
 
-4. Working zone area
+.. _working_zone:
+
+Working zone area
 --------------------
 The working zone defines the segment of the video that the player is working with. 
 The play head loops within the working zone.
@@ -65,7 +89,9 @@ You can also update the working zone boundaries by directly manipulating the blu
     This improves playback performances and enables the :menuselection:`Video --> Overview` and :menuselection:`Video --> Reverse` menus.
     The cache memory can be configured under :menuselection:`Options --> Preferences --> Playback --> Memory`.
 
-5. Timeline area
+.. _timeline:
+
+Timeline area
 ----------------
 The timeline area displays the current position within the video, time markers and the speed control.
 
@@ -73,28 +99,17 @@ The timeline area displays the current position within the video, time markers a
 
 Time markers
 **************************
+
 Time markers are the colored rectangles inside the timeline gutter, they provide information about annotations.
-They use the following color coding:
 
-- Red: the time origin.
-- Green: a key image.
-- Blue: a chronometer.
-- Purple: a trajectory.
+The red marker is the time origin.
 
-Speed control
-*************
+The other markers are key images, chronometers or trajectories. Their color corresponds to the color of the drawing.
 
-The speed slider goes from 0 to twice the nominal speed of the video.
 
-The displayed speed value takes into account the slow motion factor configured such that the speed is shown as a percentage of the real world action speed.
-For example if a video is filmed at 240 fps and saved into a file as 24 fps, the video will normally play back at 10% of the real world speed. 
-In this case the speed control will go from 0 to 20% with a mid-point at 10%.
+.. _playback_controls:
 
-.. warning:: If the video cannot be played back at its nominal speed for performance reasons the playback speed value will automatically be lowered down.
-
-    Performance for playing back depends on the displayed image size, the frame rate and the file format.
-
-6. Playback controls
+Playback controls
 --------------------
 
 .. image:: /images/observation/playbackcontrols.png
@@ -109,26 +124,67 @@ From left to right the buttons provides the following functions:
 
 The playback loops to the start when it reaches the end of the video or working zone.
 
-Navigation
-**********
+Speed slider
+*************
 
-It is also possible to move in the video using the following shortcuts:
+The speed slider goes from 0 to twice the nominal speed of the video.
 
-- Use the **mouse wheel** to move forward and backward.
-- Use the :kbd:`←` and :kbd:`→` arrow keys on the keyboard to move frame by frame.
-- Use the :kbd:`↟` (Page up) and :kbd:`↡` (Page down) keys to jump 10% forward.
-- Use the :kbd:`⇱` (Home) and :kbd:`⇲` (End) keys to jump to the start and end.
+The displayed speed value takes into account the slow motion factor configured such that the speed is shown as a percentage of the real world action speed.
+For example if a video is filmed at 240 fps and saved into a file as 24 fps, the video will normally play back at 10% of the real world speed. 
+In this case the speed control will go from 0 to 20% with a mid-point at 10%.
 
- 
-7. Export controls
+.. warning:: If the video cannot be played back at its nominal speed for performance reasons the playback speed value will automatically be lowered down.
+
+    Performance for playing back depends on the displayed image size, the frame rate and the file format.
+
+.. _export_controls:
+
+
+Export controls
 ------------------
 The export controls provide ways to export videos and images of the current file.
 
 .. image:: /images/observation/exportcontrols.png
 
-See also: :doc:`/export/video`.
+See also: :doc:`/export/videos`.
 
-8. Context menu
+
+.. _keyboard:
+
+Keyboard navigation
+-------------------------
+
+The following keyboard shortcuts are defined by default:
+
+===========================================         =============================================================
+:kbd:`←` Left arrow                                 Step backward one frame
+:kbd:`→` Right arrow                                Step forward one frame
+:kbd:`↟` Page up                                    Big jump backward
+:kbd:`↡` Page down                                  Big jump forward
+:kbd:`SHIFT` + :kbd:`↟` Page up                     Small jump backward
+:kbd:`SHIFT` + :kbd:`↡` Page down                   Small jump forward
+:kbd:`⇱` Home                                       Jump to the start
+:kbd:`⇲` End                                        Jump to the end
+:kbd:`SHIFT` + :kbd:`←` Left arrow                  At the start, will force jump back to the end
+===========================================         =============================================================
+
+- The big jump is 10% of the video length
+- The small jump is 1% of the video length
+
+
+.. _mouse:
+
+Mouse navigation
+----------------------
+
+There are two modalities to use the mouse to navigate in time:
+
+- Use the **mouse wheel** to move forward and backward.
+- Hold the :kbd:`ALT` key and drag the image left or right to move backward or forward.
+
+.. _context_menu:
+
+Context menu
 ---------------
 The context menu provides quick access to more functions.
 

@@ -142,18 +142,19 @@ If you find something that is confusing, wrong, or otherwise needs to be edited,
     :caption: User interface
 
     userinterface/ui
-    userinterface/concepts
+    userinterface/main_menu
+    userinterface/browser_view
     userinterface/preferences
+    userinterface/glossary
 
 .. toctree::
     :titlesonly:
     :hidden:
     :caption: Observation
 
-    observation/loading
+    observation/introduction
     observation/playback_ui
-    observation/image_geometry
-    observation/stabilization
+    observation/image_transformation
     observation/kinogram
 
 .. toctree::
