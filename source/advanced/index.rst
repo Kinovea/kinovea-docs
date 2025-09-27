@@ -6,6 +6,7 @@ Advanced topics
    :maxdepth: 1
 
    multi_tasking
+   workspaces
    post_recording_command
    command_line
    remote_control

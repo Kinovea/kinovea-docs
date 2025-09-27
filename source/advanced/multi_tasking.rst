@@ -10,13 +10,16 @@ You can assign names to windows to associate them with specific tasks.
 
 .. note:: We use the terms "window" and "instance" interchangeably in this documentation. Each instance of Kinovea has only one main window.
 
-This system supports the following use cases:
 
-- Associating windows with specific tasks or projects, for example one window is associated with a long term research project and another is used for quick review.
+This system supports many use cases, for example:
 
-- Keeping track of a set of windows that are meant to work together at the same time, for example two windows for capture and one window for dual replay. Multiple such collections of windows can be stored in the system and reopened as needed. Individually these small groups of windows are known as workspaces.
+- Having a "go-to" reference video that can quickly be opened in separate window while working on other videos.
 
+- Associating one window with a long term research project and using a separate one for quick reviews.
 
+- Keeping a group of windows working together in a capture-and-replay workflow, and restarting them all at the same time.
+
+.. tip:: It is possible to create a shortcut on the desktop to automatically open one or more specific windows, see :doc:`/advanced/workspaces`.
 
 
 Starting new windows

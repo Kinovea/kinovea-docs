@@ -267,6 +267,7 @@ If you find something that is confusing, wrong, or otherwise needs to be edited,
     :caption: Advanced
 
     advanced/multi_tasking
+    advanced/workspaces
     advanced/post_recording_command
     advanced/command_line
     advanced/remote_control
